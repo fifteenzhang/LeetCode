@@ -49,6 +49,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 //leetcode submit region begin(Prohibit modification and deletion)
+
+/**
+ * 有效的括号
+ */
 class top100_20 {
     public static void main(String[] args) {
         boolean result = isValid("([)");

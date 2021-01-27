@@ -42,6 +42,10 @@ package com.neil.javaleetcode;
 import org.springframework.boot.SpringApplication;
 
 //leetcode submit region begin(Prohibit modification and deletion)
+
+/**
+ * 合并两个有序链表
+ */
 public class top100_21 {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1, new ListNode(3));

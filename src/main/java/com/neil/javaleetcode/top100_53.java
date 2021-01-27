@@ -24,7 +24,8 @@ package com.neil.javaleetcode;
 // 👍 2828 👎 0
 
 /**
- * @author 张璘
+ * 最大子序和
+ *
  * @date 2021/1/27 18:07
  */
 public class top100_53 {
@@ -59,6 +60,7 @@ public class top100_53 {
     /**
      * 动态规划
      * 确认初始状态dp[0] = nums[0]，状态转移方程dp[i] = Math.max(dp[i - 1], 0) + nums[i];
+     *
      * @param nums
      * @return
      */
@@ -72,6 +74,64 @@ public class top100_53 {
                 dp[i] = Math.max(dp[i - 1], 0) + nums[i];
                 result = Math.max(dp[i], result);
             }
+        }
+        return result;
+    }
+
+    /**
+     * 动态规划 - 优化
+     * 确认初始状态dp[0] = nums[0]，状态转移方程dp[i] = Math.max(dp[i - 1], 0) + nums[i];
+     * 只用到了上一个状态值，直接用变量保存就好，不需要定义dp数组
+     *
+     * @param nums
+     * @return
+     */
+    public static int maxSubArrayDynamicBetter(int[] nums) {
+        int result = 0;
+        if (nums != null && nums.length > 0) {
+            result = nums[0];
+            int prev = nums[0];
+            for (int i = 1; i < nums.length; i++) {
+                prev = Math.max(prev, 0) + nums[i];
+                result = Math.max(prev, result);
+            }
+        }
+        return result;
+    }
+
+    /**
+     * 分治算法
+     * todo
+     *
+     * @param nums
+     * @return
+     */
+    public static int maxSubArrayDivide(int[] nums) {
+        int result = 0;
+        if (nums != null && nums.length > 0) {
+            result = getMaxSum(nums, 0, nums.length - 1);
+        }
+        return result;
+    }
+
+    /**
+     * @param nums
+     * @param left
+     * @param right
+     * @return
+     */
+    private static int getMaxSum(int[] nums, int left, int right) {
+        int result = 0;
+        if (nums != null && nums.length > 0) {
+            if (left == right) {
+                result = nums[left];
+            } else {
+                result = nums[left];
+                int midIndex = (right + left) / 2;
+                int leftMax = getMaxSum(nums, 0, midIndex);
+                int rightMax = getMaxSum(nums, midIndex + 1, right);
+            }
+
         }
         return result;
     }
