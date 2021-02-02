@@ -49,20 +49,28 @@ package com.neil.javaleetcode;
 public class top100_121 {
     public static void main(String[] args) {
 
-        int result = maxProfit(new int[]{1, 6, 5, 7});
+        int result = maxProfit(new int[]{4, 6, 1, 7});
     }
 
+    /**
+     * 递归 当前-买入时间如果<0，则以当天为买入时间
+     *
+     * @param prices
+     * @return
+     */
     public static int maxProfit(int[] prices) {
         int result = 0;
         if (prices != null && prices.length > 1) {
-            int tempProfit = prices[1] - prices[0];
-            temp
-            for (int i = 2; i < prices.length; i++) {
-                temp = prices[i] - temp;
-                if (temp < 0) {
-                    temp = prices[i];
+            int startNum = prices[0];
+            int tempMax = 0;
+            for (int i = 1; i < prices.length; i++) {
+                tempMax = prices[i] - startNum;
+                if (tempMax < 0) {
+                    startNum = prices[i];
                 }
+                result = Math.max(tempMax, result);
             }
         }
+        return result;
     }
 }
