@@ -45,7 +45,7 @@ import sun.reflect.generics.tree.Tree;
  *
  * @date 2021/1/28 18:53
  */
-public class top100_101 {
+public class question_101_isSymmetric {
     public static void main(String[] args) {
 
         boolean result = isSymmetric(new TreeNode(1, new TreeNode(2, null, new TreeNode(3)),

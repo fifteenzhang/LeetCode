@@ -46,7 +46,7 @@ import java.util.stream.Collectors;
  *
  * @date 2021/2/5 17:14
  */
-public class top100_56 {
+public class question_56_merge {
     public static void main(String[] args) {
 
         int[][] result = merge2(new int[][]{{4, 6}, {1, 2}, {1, 3}});

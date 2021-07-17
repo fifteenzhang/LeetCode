@@ -48,7 +48,7 @@ import org.springframework.boot.SpringApplication;
  *
  * @date 2021/2/4 18:41
  */
-public class top100_55 {
+public class question_55_canJump {
     public static void main(String[] args) {
         boolean result = canJump(new int[]{2, 0, 0});
         SpringApplication.run(JavaleetcodeApplication.class, args);

@@ -35,7 +35,7 @@ import java.util.Map;
  *
  * @date 2021/2/3 18:52
  */
-public class top100_136 {
+public class question_136_singleNumber {
     public static void main(String[] args) {
 
         int result = singleNumber(new int[]{4, 6, 4, 7, 7});

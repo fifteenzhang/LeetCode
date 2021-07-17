@@ -91,7 +91,7 @@ import java.util.Map;
 //
 // Related Topics 哈希表 数学 字符串
 // 👍 1420 👎 0
-class qustion_13_romanToInt {
+class question_13_romanToInt {
 
     public static void main(String[] args) {
         int result = romanToInt("III");

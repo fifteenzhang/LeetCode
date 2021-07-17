@@ -33,7 +33,7 @@ package com.neil.javaleetcode;
  *
  * @date 2021/1/29 18:00
  */
-public class top100_104 {
+public class question_104_maxDepth {
     public static void main(String[] args) {
 
         int result = maxDepth(new TreeNode(1, new TreeNode(2, null, new TreeNode(3)),

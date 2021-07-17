@@ -46,7 +46,7 @@ package com.neil.javaleetcode;
  * @author 买卖股票的最佳时机
  * @date 2021/1/29 18:19
  */
-public class top100_121 {
+public class question_121_maxProfit {
     public static void main(String[] args) {
 
         int result = maxProfit(new int[]{4, 6, 1, 7});
