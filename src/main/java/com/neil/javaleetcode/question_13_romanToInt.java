@@ -97,6 +97,13 @@ class question_13_romanToInt {
         int result = romanToInt("III");
     }
 
+    /**
+     * 双指针
+     * 根据第二个判断是否为特殊值，是的话两个字母作为一个数字，index+1跳过
+     *
+     * @param s
+     * @return
+     */
     public static int romanToInt(String s) {
         Map<Character, Integer> charIntegerMap = new HashMap<Character, Integer>() {{
             put('I', 1);
