@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0900_0999.q0967_numbers_with_same_consecutive_differences;
+
+
+import java.util.*;
+
+
+
 class numbers_with_same_consecutive_differences {
     public int[] numsSameConsecDiff(int n, int k) {
         List<Integer> res = new ArrayList<>();

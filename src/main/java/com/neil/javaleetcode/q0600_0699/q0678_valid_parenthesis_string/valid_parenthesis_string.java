@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0678_valid_parenthesis_string;
 class valid_parenthesis_string {
     public boolean checkValidString(String s) {
         int n = s.length();

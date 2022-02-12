@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0605_can_place_flowers;
 class can_place_flowers {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int len = flowerbed.length;

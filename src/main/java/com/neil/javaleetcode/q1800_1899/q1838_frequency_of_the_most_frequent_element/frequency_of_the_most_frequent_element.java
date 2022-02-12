@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1800_1899.q1838_frequency_of_the_most_frequent_element;
+
+
+import java.util.*;
+
+
 class frequency_of_the_most_frequent_element {
     public int maxFrequency(int[] nums, int k) {
         Arrays.sort(nums);

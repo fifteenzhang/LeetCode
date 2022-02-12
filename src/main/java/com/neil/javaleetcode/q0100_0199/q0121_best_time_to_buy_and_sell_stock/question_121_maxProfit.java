@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0121_best_time_to_buy_and_sell_stock;
 /*
  * Copyright 2021 tuhu.cn All right reserved. This software is the
  * confidential and proprietary information of tuhu.cn ("Confidential
@@ -5,7 +6,6 @@
  * use it only in accordance with the terms of the license agreement you entered
  * into with Tuhu.cn
  */
-package com.neil.javaleetcode;
 //给定一个数组 prices ，它的第 i 个元素 prices[i] 表示一支给定股票第 i 天的价格。
 //
 // 你只能选择 某一天 买入这只股票，并选择在 未来的某一个不同的日子 卖出该股票。设计一个算法来计算你所能获取的最大利润。

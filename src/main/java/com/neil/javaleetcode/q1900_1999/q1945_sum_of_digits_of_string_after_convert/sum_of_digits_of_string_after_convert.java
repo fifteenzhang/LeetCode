@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1945_sum_of_digits_of_string_after_convert;
 class sum_of_digits_of_string_after_convert {
     public int getLucky(String s, int k) {
         StringBuilder sb = new StringBuilder();

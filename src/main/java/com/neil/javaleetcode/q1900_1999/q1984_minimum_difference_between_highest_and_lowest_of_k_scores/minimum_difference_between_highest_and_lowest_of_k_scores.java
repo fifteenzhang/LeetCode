@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1900_1999.q1984_minimum_difference_between_highest_and_lowest_of_k_scores;
+
+
+import java.util.*;
+
+
 class minimum_difference_between_highest_and_lowest_of_k_scores {
     public int minimumDifference(int[] nums, int k) {
         if (k == 1) {

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1200_1299.q1208_get_equal_substrings_within_budget;
 class get_equal_substrings_within_budget {
     public int equalSubstring(String s, String t, int maxCost) {
         int n = s.length();

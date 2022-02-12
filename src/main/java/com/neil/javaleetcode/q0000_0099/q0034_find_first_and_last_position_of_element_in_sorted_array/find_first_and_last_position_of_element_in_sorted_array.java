@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0034_find_first_and_last_position_of_element_in_sorted_array;
 class find_first_and_last_position_of_element_in_sorted_array {
     public int[] searchRange(int[] nums, int target) {
         if (nums.length == 0) {

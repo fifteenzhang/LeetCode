@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0500_0599.q0516_longest_palindromic_subsequence;
 class longest_palindromic_subsequence {
     public int longestPalindromeSubseq(String s) {
         int n = s.length();

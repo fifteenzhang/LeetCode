@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0400_0499.q0448_find_all_numbers_disappeared_in_an_array;
+
+
+
+import java.util.*;
+
+
 class find_all_numbers_disappeared_in_an_array {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         int n = nums.length;

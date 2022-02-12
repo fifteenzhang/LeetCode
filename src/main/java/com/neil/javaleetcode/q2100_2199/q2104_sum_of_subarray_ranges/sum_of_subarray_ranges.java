@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2100_2199.q2104_sum_of_subarray_ranges;
 class sum_of_subarray_ranges {
     public long subArrayRanges(int[] nums) {
         long ans = 0;

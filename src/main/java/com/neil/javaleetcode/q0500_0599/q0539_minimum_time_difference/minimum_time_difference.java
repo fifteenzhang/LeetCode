@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0500_0599.q0539_minimum_time_difference;
+
+
+import java.util.*;
+
+
+
 class minimum_time_difference {
     public int findMinDifference(List<String> timePoints) {
         if (timePoints.size() > 24 * 60) {

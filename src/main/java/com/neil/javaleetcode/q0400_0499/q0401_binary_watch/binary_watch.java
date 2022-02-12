@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0400_0499.q0401_binary_watch;
+
+import java.util.*;
+
+
+
 class binary_watch {
     public List<String> readBinaryWatch(int num) {
         List<String> res = new ArrayList<>();

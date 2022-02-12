@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0700_0799.q0784_letter_case_permutation;
+
+import java.util.*;
+
+
+
+
 class letter_case_permutation {
     public List<String> letterCasePermutation(String S) {
         char[] cs = S.toCharArray();

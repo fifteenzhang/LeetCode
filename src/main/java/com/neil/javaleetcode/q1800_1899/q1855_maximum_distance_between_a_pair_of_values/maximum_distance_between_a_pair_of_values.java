@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1855_maximum_distance_between_a_pair_of_values;
 class maximum_distance_between_a_pair_of_values {
     public int maxDistance(int[] nums1, int[] nums2) {
         int res = 0;

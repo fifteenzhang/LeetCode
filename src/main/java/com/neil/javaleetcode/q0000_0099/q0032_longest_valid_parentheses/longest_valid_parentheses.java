@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0032_longest_valid_parentheses;
 class longest_valid_parentheses {
     public int longestValidParentheses(String s) {
         if (s == null || s.length() < 2) {

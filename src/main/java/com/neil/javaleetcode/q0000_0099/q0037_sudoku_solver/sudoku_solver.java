@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0037_sudoku_solver;
 class sudoku_solver {
     private char[][] board;
     private boolean[][] rows;

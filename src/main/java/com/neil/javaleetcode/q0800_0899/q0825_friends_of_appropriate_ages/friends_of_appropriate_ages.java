@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0825_friends_of_appropriate_ages;
 class friends_of_appropriate_ages {
     public int numFriendRequests(int[] ages) {
         int[] counter = new int[121];

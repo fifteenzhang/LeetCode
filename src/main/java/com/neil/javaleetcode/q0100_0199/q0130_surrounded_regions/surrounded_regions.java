@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0130_surrounded_regions;
 class surrounded_regions {
     private int[] p;
     private int[][] dirs = new int[][]{{0, -1}, {0, 1}, {1, 0}, {-1, 0}};

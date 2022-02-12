@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0065_valid_number;
 class valid_number {
     public boolean isNumber(String s) {
         if(null==s || 0==s.length()) return false;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0365_water_and_jug_problem;
 class water_and_jug_problem {
     public boolean canMeasureWater(int jug1Capacity, int jug2Capacity, int targetCapacity) {
         if (jug1Capacity + jug2Capacity < targetCapacity) {

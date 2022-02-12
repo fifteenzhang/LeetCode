@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0076_minimum_window_substring;
 class minimum_window_substring {
     public String minWindow(String s, String t) {
         int[] count = new int['z' - 'A' + 1];

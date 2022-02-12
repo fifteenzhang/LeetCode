@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1000_1099.q1044_longest_duplicate_substring;
+
+
+import java.util.*;
+
+
+
 class longest_duplicate_substring {
     private long[] p;
     private long[] h;

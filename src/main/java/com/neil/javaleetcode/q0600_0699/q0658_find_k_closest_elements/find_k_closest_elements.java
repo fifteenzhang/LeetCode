@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0600_0699.q0658_find_k_closest_elements;
+
+
+import java.util.*;
+
+
+
 class find_k_closest_elements {
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
         List<Integer> res = new ArrayList<>();

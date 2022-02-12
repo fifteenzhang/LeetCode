@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0800_0899.q0802_find_eventual_safe_states;
+
+import java.util.*;
+
+
+
+
 class find_eventual_safe_states {
     public List<Integer> eventualSafeNodes(int[][] graph) {
         int n = graph.length;

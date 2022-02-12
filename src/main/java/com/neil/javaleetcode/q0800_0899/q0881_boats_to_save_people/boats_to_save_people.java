@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0800_0899.q0881_boats_to_save_people;
+
+
+import java.util.*;
+
+
 class boats_to_save_people {
     public int numRescueBoats(int[] people, int limit) {
         Arrays.sort(people);

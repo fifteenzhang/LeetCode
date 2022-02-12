@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1900_1999.q1913_maximum_product_difference_between_two_pairs;
+
+
+import java.util.*;
+
+
 class maximum_product_difference_between_two_pairs {
     public int maxProductDifference(int[] nums) {
         Arrays.sort(nums);

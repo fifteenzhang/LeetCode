@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0900_0999.q0970_powerful_integers;
+
+
+import java.util.*;
+
+
+
 class powerful_integers {
     public List<Integer> powerfulIntegers(int x, int y, int bound) {
         Set<Integer> s = new HashSet<>();

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1900_1999.q1940_longest_common_subsequence_between_sorted_arrays;
+
+
+import java.util.*;
+
+
+
 class longest_common_subsequence_between_sorted_arrays {
     public List<Integer> longestCommomSubsequence(int[][] arrays) {
         Map<Integer, Integer> counter = new HashMap<>();

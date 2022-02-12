@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2007_find_original_array_from_doubled_array;
 class find_original_array_from_doubled_array {
     public int[] findOriginalArray(int[] changed) {
         if (changed.length % 2 != 0) {

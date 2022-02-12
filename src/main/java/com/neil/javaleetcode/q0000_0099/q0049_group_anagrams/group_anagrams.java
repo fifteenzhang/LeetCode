@@ -1,3 +1,7 @@
+package com.neil.javaleetcode.q0000_0099.q0049_group_anagrams;
+
+import java.util.*;
+
 class group_anagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> chars = new HashMap<>();

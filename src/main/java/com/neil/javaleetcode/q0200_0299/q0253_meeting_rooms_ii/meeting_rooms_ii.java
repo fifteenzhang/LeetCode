@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0253_meeting_rooms_ii;
 class meeting_rooms_ii {
     public int minMeetingRooms(int[][] intervals) {
         int n = 1000010;

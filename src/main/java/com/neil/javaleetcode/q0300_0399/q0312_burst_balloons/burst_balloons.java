@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0312_burst_balloons;
 class burst_balloons {
     public int maxCoins(int[] nums) {
         int[] vals = new int[nums.length + 2];

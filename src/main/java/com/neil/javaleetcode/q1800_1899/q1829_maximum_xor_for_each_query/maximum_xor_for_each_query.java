@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1829_maximum_xor_for_each_query;
 class maximum_xor_for_each_query {
     public int[] getMaximumXor(int[] nums, int maximumBit) {
         int n = nums.length;

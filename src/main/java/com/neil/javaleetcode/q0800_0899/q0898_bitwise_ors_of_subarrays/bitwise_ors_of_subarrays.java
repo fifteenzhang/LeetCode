@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0800_0899.q0898_bitwise_ors_of_subarrays;
+
+
+import java.util.*;
+
+
 class bitwise_ors_of_subarrays {
     public int subarrayBitwiseORs(int[] A) {
         int maxVal = Arrays.stream(A).max().getAsInt();

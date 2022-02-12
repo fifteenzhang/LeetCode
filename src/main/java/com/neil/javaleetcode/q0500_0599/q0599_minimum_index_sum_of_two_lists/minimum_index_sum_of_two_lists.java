@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0500_0599.q0599_minimum_index_sum_of_two_lists;
+
+
+import java.util.*;
+
+
+
 class minimum_index_sum_of_two_lists {
     public String[] findRestaurant(String[] list1, String[] list2) {
         Map<String, Integer> mp = new HashMap<>();

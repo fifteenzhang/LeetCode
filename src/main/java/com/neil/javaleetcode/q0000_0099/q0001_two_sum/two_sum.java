@@ -1,3 +1,8 @@
+package com.neil.javaleetcode.q0000_0099.q0001_two_sum;
+
+import java.util.HashMap;
+import java.util.Map;
+
 class two_sum {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();

@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0300_0399.q0300_longest_increasing_subsequence;
+
+
+import java.util.*;
+
+
 class longest_increasing_subsequence {
     public int lengthOfLIS(int[] nums) {
         int n = nums.length;

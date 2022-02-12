@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2043_simple_bank_system;
 class Bank {
     private long[] balance;
     private int n;

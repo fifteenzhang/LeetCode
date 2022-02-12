@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0718_maximum_length_of_repeated_subarray;
 class maximum_length_of_repeated_subarray {
     public int findLength(int[] A, int[] B) {
         int ans = 0;

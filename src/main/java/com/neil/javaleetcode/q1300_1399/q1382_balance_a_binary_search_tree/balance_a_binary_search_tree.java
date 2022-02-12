@@ -1,3 +1,8 @@
+package com.neil.javaleetcode.q1300_1399.q1382_balance_a_binary_search_tree;
+
+import java.util.*;
+
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -14,6 +19,23 @@
  * }
  */
 class balance_a_binary_search_tree {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
+
+
     private List<Integer> vals;
 
     public TreeNode balanceBST(TreeNode root) {

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1021_remove_outermost_parentheses;
 class remove_outermost_parentheses {
     public String removeOuterParentheses(String S) {
         StringBuilder res = new StringBuilder();

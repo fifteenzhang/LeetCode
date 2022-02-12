@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0075_sort_colors;
 class sort_colors {
     public void sortColors(int[] nums) {
         int i = -1, j = nums.length;

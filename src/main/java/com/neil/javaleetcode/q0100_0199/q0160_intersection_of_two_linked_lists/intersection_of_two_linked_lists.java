@@ -1,15 +1,17 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
-public class Solution {
+package com.neil.javaleetcode.q0100_0199.q0160_intersection_of_two_linked_lists;
+
+public class intersection_of_two_linked_lists {
+
+    class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode cur1 = headA, cur2 = headB;
         while (cur1 != cur2) {

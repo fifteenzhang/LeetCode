@@ -1,13 +1,27 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
+package com.neil.javaleetcode.q0400_0499.q0404_sum_of_left_leaves;
+
+import java.util.*;
+
+
+
+
 class sum_of_left_leaves {
+
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
     public int sumOfLeftLeaves(TreeNode root) {
         if (root == null) {
             return 0;

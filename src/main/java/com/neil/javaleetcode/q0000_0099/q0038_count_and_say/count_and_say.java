@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0038_count_and_say;
 class count_and_say {
     public String countAndSay(int n) {
         String s = "1";

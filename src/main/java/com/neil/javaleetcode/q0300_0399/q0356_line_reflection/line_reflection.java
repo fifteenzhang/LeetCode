@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0300_0399.q0356_line_reflection;
+
+
+import java.util.*;
+
+
+
 class line_reflection {
     public boolean isReflected(int[][] points) {
         int minX = Integer.MAX_VALUE, maxX = Integer.MIN_VALUE;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2100_2199.q2149_rearrange_array_elements_by_sign;
 class rearrange_array_elements_by_sign {
     public int[] rearrangeArray(int[] nums) {
         int[] ans = new int[nums.length];

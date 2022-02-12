@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0079_word_search;
 class word_search {
     private boolean[][] visited;
 

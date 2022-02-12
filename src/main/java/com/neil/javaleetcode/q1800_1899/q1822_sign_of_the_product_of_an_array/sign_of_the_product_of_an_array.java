@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1822_sign_of_the_product_of_an_array;
 class sign_of_the_product_of_an_array {
     public int arraySign(int[] nums) {
         int res = 1;

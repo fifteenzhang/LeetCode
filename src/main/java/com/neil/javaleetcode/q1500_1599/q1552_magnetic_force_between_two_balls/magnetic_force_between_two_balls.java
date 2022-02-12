@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1500_1599.q1552_magnetic_force_between_two_balls;
+
+
+import java.util.*;
+
+
 class magnetic_force_between_two_balls {
     public int maxDistance(int[] position, int m) {
         Arrays.sort(position);

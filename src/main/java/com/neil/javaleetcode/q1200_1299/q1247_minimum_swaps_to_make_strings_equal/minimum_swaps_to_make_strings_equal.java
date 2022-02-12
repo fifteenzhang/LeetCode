@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1200_1299.q1247_minimum_swaps_to_make_strings_equal;
 class minimum_swaps_to_make_strings_equal {
     public int minimumSwap(String s1, String s2) {
         int xy = 0, yx = 0;

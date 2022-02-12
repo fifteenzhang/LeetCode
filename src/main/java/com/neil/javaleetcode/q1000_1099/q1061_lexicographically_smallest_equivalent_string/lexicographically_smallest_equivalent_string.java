@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1061_lexicographically_smallest_equivalent_string;
 class lexicographically_smallest_equivalent_string {
     private int[] p;
 

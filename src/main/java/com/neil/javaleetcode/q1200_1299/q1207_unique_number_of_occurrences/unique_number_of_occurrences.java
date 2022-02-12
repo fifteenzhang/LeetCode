@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1200_1299.q1207_unique_number_of_occurrences;
+
+
+import java.util.*;
+
+
 class unique_number_of_occurrences {
     public boolean uniqueOccurrences(int[] arr) {
         Map<Integer, Integer> counter = new HashMap<>();

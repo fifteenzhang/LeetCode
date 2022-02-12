@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0200_0299.q0202_happy_number;
+
+
+import java.util.*;
+
+
 class happy_number {
     public boolean isHappy(int n) {
         Set<Integer> visited = new HashSet<>();

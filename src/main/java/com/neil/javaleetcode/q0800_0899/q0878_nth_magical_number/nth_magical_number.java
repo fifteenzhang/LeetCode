@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0878_nth_magical_number;
 class nth_magical_number {
     public int nthMagicalNumber(int N, int A, int B) {
         long l = 1, r = Long.MAX_VALUE;

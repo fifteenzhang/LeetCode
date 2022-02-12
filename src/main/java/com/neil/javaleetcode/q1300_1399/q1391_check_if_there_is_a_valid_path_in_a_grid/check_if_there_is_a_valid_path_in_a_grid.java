@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1300_1399.q1391_check_if_there_is_a_valid_path_in_a_grid;
 class check_if_there_is_a_valid_path_in_a_grid {
     private int[] p;
     private int[][] grid;

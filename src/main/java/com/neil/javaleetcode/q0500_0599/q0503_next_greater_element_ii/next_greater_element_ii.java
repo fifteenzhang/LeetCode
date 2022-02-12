@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0500_0599.q0503_next_greater_element_ii;
+
+
+import java.util.*;
+
+
+
 class next_greater_element_ii {
     public int[] nextGreaterElements(int[] nums) {
         int n = nums.length;

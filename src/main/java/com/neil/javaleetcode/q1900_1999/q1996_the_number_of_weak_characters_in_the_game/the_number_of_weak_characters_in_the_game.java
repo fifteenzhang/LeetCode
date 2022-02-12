@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1900_1999.q1996_the_number_of_weak_characters_in_the_game;
+
+
+import java.util.*;
+
+
+
 class the_number_of_weak_characters_in_the_game {
     public int numberOfWeakCharacters(int[][] properties) {
         Arrays.sort(properties, (a, b) -> {

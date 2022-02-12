@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1500_1599.q1567_maximum_length_of_subarray_with_positive_product;
 class maximum_length_of_subarray_with_positive_product {
     public int getMaxLen(int[] nums) {
         int f1 = nums[0] > 0 ? 1 : 0;

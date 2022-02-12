@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1800_1899.q1877_minimize_maximum_pair_sum_in_array;
+
+
+import java.util.*;
+
+
 class minimize_maximum_pair_sum_in_array {
     public int minPairSum(int[] nums) {
         Arrays.sort(nums);

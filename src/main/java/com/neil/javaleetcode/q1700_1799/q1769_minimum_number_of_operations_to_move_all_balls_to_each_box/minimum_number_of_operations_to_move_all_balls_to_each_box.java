@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1700_1799.q1769_minimum_number_of_operations_to_move_all_balls_to_each_box;
 class minimum_number_of_operations_to_move_all_balls_to_each_box {
     public int[] minOperations(String boxes) {
         int n = boxes.length();

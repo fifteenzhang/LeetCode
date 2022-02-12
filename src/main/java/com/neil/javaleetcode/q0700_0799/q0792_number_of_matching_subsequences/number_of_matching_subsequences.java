@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0700_0799.q0792_number_of_matching_subsequences;
+
+
+import java.util.*;
+
+
 class number_of_matching_subsequences {
     public int numMatchingSubseq(String s, String[] words) {
         List<String>[] buckets = new List[26];

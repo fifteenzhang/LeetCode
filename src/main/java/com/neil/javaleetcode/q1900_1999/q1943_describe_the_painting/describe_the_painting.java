@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1900_1999.q1943_describe_the_painting;
+
+
+import java.util.*;
+
+
+
 class describe_the_painting {
     public List<List<Long>> splitPainting(int[][] segments) {
         TreeMap<Integer, Long> d = new TreeMap<>();

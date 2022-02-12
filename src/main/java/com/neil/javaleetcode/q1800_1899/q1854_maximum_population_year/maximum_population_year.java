@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1854_maximum_population_year;
 class maximum_population_year {
     public int maximumPopulation(int[][] logs) {
         int[] delta = new int[2055];

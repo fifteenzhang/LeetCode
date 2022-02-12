@@ -1,8 +1,14 @@
-class SparseVector {
+package com.neil.javaleetcode.q1500_1599.q1570_dot_product_of_two_sparse_vectors;
+
+import java.util.*;
+
+
+
+class dot_product_of_two_sparse_vectors {
 
     private Map<Integer, Integer> v;
-    
-    SparseVector(int[] nums) {
+
+    dot_product_of_two_sparse_vectors(int[] nums) {
         v = new HashMap<>();
         for (int i = 0; i < nums.length; ++i) {
             if (nums[i] != 0) {
@@ -12,7 +18,7 @@ class SparseVector {
     }
     
 	// Return the dotProduct of two sparse vectors
-    public int dotProduct(SparseVector vec) {
+    public int dotProduct(dot_product_of_two_sparse_vectors vec) {
         int res = 0;
         if (v.size() > vec.v.size()) {
             Map<Integer, Integer> t = v;

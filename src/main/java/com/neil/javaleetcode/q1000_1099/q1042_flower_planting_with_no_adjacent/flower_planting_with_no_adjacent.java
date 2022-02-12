@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1000_1099.q1042_flower_planting_with_no_adjacent;
+
+
+import java.util.*;
+
+
+
 class flower_planting_with_no_adjacent {
     public int[] gardenNoAdj(int n, int[][] paths) {
         List<Integer>[] g = new List[n];

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0926_flip_string_to_monotone_increasing;
 class flip_string_to_monotone_increasing {
     public int minFlipsMonoIncr(String s) {
         int n = s.length();

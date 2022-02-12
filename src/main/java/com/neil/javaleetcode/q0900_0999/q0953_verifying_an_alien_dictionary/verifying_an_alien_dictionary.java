@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0953_verifying_an_alien_dictionary;
 class verifying_an_alien_dictionary {
     public boolean isAlienSorted(String[] words, String order) {
         int[] index = new int[26];

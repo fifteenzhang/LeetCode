@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0655_print_binary_tree;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +14,29 @@
  *     }
  * }
  */
+
+
+import java.util.*;
+
+
+
 class print_binary_tree {
+
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
     public List<List<String>> printTree(TreeNode root) {
         int h = height(root);
         int m = h + 1, n = (1 << (h + 1)) - 1;

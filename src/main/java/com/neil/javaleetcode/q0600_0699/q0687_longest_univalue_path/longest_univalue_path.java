@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0687_longest_univalue_path;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -14,6 +15,22 @@
  * }
  */
 class longest_univalue_path {
+
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
     private int ans;
 
     public int longestUnivaluePath(TreeNode root) {

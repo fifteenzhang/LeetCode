@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1800_1899.q1813_sentence_similarity_iii;
+
+
+import java.util.*;
+
+
+
 class sentence_similarity_iii {
     public boolean areSentencesSimilar(String sentence1, String sentence2) {
         if (Objects.equals(sentence1, sentence2)) {

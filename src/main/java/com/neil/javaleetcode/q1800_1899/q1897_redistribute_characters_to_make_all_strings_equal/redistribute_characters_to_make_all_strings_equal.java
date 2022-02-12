@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1897_redistribute_characters_to_make_all_strings_equal;
 class redistribute_characters_to_make_all_strings_equal {
     public boolean makeEqual(String[] words) {
         int[] counter = new int[26];

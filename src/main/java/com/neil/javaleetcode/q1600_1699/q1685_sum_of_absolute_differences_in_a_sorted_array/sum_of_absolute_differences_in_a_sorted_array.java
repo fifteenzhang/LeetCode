@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1600_1699.q1685_sum_of_absolute_differences_in_a_sorted_array;
 class sum_of_absolute_differences_in_a_sorted_array {
     public int[] getSumAbsoluteDifferences(int[] nums) {
         int n = nums.length;

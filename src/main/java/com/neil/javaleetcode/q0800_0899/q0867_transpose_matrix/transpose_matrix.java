@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0867_transpose_matrix;
 class transpose_matrix {
     public int[][] transpose(int[][] matrix) {
         int m = matrix.length, n = matrix[0].length;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1700_1799.q1700_number_of_students_unable_to_eat_lunch;
 class number_of_students_unable_to_eat_lunch {
     public int countStudents(int[] students, int[] sandwiches) {
         int[] counter = new int[2];

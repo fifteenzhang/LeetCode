@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0099_recover_binary_search_tree;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -14,6 +15,20 @@
  * }
  */
 class recover_binary_search_tree {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
     private TreeNode prev;
     private TreeNode first;
     private TreeNode second;

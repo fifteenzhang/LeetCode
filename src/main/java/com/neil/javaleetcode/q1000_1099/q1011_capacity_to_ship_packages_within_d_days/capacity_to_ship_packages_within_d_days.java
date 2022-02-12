@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1011_capacity_to_ship_packages_within_d_days;
 class capacity_to_ship_packages_within_d_days {
     public int shipWithinDays(int[] weights, int days) {
         int left = 1, right = Integer.MAX_VALUE;

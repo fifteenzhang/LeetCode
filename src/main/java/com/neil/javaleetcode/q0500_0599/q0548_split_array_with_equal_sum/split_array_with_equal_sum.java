@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0500_0599.q0548_split_array_with_equal_sum;
+
+
+import java.util.*;
+
+
+
 class split_array_with_equal_sum {
     public boolean splitArray(int[] nums) {
         int n = nums.length;

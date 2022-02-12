@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1946_largest_number_after_mutating_substring;
 class largest_number_after_mutating_substring {
     public String maximumNumber(String num, int[] change) {
         boolean find = false;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1200_1299.q1254_number_of_closed_islands;
 class number_of_closed_islands {
     private int[] p;
 

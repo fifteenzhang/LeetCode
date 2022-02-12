@@ -1,4 +1,5 @@
-public class Solution {
+package com.neil.javaleetcode.q0700_0799.q0740_delete_and_earn;
+public class delete_and_earn {
     public int deleteAndEarn(int[] nums) {
         if (nums.length == 0) {
             return 0;

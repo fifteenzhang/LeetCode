@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0101_symmetric_tree;
 /*
  * Copyright 2021 tuhu.cn All right reserved. This software is the
  * confidential and proprietary information of tuhu.cn ("Confidential
@@ -5,7 +6,6 @@
  * use it only in accordance with the terms of the license agreement you entered
  * into with Tuhu.cn
  */
-package com.neil.javaleetcode;
 //给定一个二叉树，检查它是否是镜像对称的。
 //
 //
@@ -38,7 +38,6 @@ package com.neil.javaleetcode;
 // Related Topics 树 深度优先搜索 广度优先搜索
 // 👍 1215 👎 0
 
-import sun.reflect.generics.tree.Tree;
 
 /**
  * 对称二叉树

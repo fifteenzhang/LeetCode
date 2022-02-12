@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1300_1399.q1332_remove_palindromic_subsequences;
 class remove_palindromic_subsequences {
     public int removePalindromeSub(String s) {
         if (s.length() == 0) {

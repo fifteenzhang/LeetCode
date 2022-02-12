@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1300_1399.q1325_delete_leaves_with_a_given_value;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -14,6 +15,21 @@
  * }
  */
 class delete_leaves_with_a_given_value {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
     public TreeNode removeLeafNodes(TreeNode root, int target) {
         TreeNode p = new TreeNode(0, root, null);
         dfs(root, p, target);

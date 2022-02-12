@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q2100_2199.q2120_execution_of_all_suffix_instructions_staying_in_a_grid;
+
+
+
+import java.util.*;
+
+
 class execution_of_all_suffix_instructions_staying_in_a_grid {
     public int[] executeInstructions(int n, int[] startPos, String s) {
         int m = s.length();

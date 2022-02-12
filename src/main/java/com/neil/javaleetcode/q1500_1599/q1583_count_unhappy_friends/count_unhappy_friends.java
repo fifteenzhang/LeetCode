@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1500_1599.q1583_count_unhappy_friends;
+
+import java.util.*;
+
+
+
 class count_unhappy_friends {
     public int unhappyFriends(int n, int[][] preferences, int[][] pairs) {
         Map<Integer, Set<Integer>> map = new HashMap<>();

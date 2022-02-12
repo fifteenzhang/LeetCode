@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1600_1699.q1640_check_array_formation_through_concatenation;
+
+
+import java.util.*;
+
+
+
 class check_array_formation_through_concatenation {
     public boolean canFormArray(int[] arr, int[][] pieces) {
         Map<Integer, int[]> map = new HashMap<>();

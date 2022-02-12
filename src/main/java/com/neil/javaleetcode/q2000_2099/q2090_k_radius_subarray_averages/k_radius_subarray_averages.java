@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2090_k_radius_subarray_averages;
 class k_radius_subarray_averages {
     public int[] getAverages(int[] nums, int k) {
         int n = nums.length;

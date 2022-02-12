@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0490_the_maze;
 class the_maze {
     private boolean[][] visited;
 

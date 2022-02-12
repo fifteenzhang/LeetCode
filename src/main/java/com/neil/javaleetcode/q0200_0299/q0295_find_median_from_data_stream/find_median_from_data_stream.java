@@ -1,9 +1,15 @@
-class MedianFinder {
+package com.neil.javaleetcode.q0200_0299.q0295_find_median_from_data_stream;
+
+import java.util.*;
+
+
+
+class find_median_from_data_stream {
     private PriorityQueue<Integer> minHeap;
     private PriorityQueue<Integer> maxHeap;
 
     /** initialize your data structure here. */
-    public MedianFinder() {
+    public find_median_from_data_stream() {
         minHeap = new PriorityQueue<>();
         maxHeap = new PriorityQueue<>(Collections.reverseOrder());
     }

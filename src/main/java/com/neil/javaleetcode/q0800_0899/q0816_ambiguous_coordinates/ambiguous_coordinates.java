@@ -1,3 +1,11 @@
+package com.neil.javaleetcode.q0800_0899.q0816_ambiguous_coordinates;
+
+
+import java.util.*;
+
+
+
+
 class ambiguous_coordinates {
     public List<String> ambiguousCoordinates(String s) {
         int n = s.length();

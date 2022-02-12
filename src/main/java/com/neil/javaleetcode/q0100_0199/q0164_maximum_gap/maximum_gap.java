@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0100_0199.q0164_maximum_gap;
+
+
+import java.util.*;
+
+
 class maximum_gap {
     public int maximumGap(int[] nums) {
         int length = nums.length;

@@ -1,11 +1,8 @@
-/**
- * // This is the BinaryMatrix's API interface.
- * // You should not implement it, or speculate about its implementation
- * interface BinaryMatrix {
- *     public int get(int row, int col) {}
- *     public List<Integer> dimensions {}
- * };
- */
+package com.neil.javaleetcode.q1400_1499.q1428_leftmost_column_with_at_least_a_one;
+
+import java.util.*;
+
+
 
 class leftmost_column_with_at_least_a_one {
     public int leftMostColumnWithOne(BinaryMatrix binaryMatrix) {

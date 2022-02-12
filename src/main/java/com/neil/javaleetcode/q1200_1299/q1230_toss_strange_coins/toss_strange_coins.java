@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1200_1299.q1230_toss_strange_coins;
 class toss_strange_coins {
     public double probabilityOfHeads(double[] prob, int target) {
         double[] dp = new double[target + 1];

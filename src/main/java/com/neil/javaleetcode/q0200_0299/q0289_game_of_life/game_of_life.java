@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0289_game_of_life;
 class game_of_life {
     public void gameOfLife(int[][] board) {
         int m = board.length, n = board[0].length;

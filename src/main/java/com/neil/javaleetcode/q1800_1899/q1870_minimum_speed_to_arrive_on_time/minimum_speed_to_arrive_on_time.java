@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1870_minimum_speed_to_arrive_on_time;
 class minimum_speed_to_arrive_on_time {
     public int minSpeedOnTime(int[] dist, double hour) {
         int left = 1, right = (int) 1e7;

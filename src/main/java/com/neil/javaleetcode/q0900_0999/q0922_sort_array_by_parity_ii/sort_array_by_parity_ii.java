@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0922_sort_array_by_parity_ii;
 class sort_array_by_parity_ii {
     public int[] sortArrayByParityII(int[] nums) {
         for (int i = 0, j = 1; i < nums.length; i += 2) {

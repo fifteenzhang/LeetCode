@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1500_1599.q1537_get_the_maximum_score;
+
+
+import java.util.*;
+import java.util.stream.Collectors;
+
+
 class get_the_maximum_score {
 
     final int MOD = (int) (1e9 + 7);

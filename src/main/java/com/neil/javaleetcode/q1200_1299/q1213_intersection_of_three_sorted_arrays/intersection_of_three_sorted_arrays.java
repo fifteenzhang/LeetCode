@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1200_1299.q1213_intersection_of_three_sorted_arrays;
+
+
+import java.util.*;
+
+
+
 class intersection_of_three_sorted_arrays {
     public List<Integer> arraysIntersection(int[] arr1, int[] arr2, int[] arr3) {
         List<Integer> res = new ArrayList<>();

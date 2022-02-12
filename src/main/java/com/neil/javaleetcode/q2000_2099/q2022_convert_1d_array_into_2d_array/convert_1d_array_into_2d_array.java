@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2022_convert_1d_array_into_2d_array;
 class convert_1d_array_into_2d_array {
     public int[][] construct2DArray(int[] original, int m, int n) {
         if (m * n != original.length) {

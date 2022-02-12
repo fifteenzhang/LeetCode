@@ -1,4 +1,5 @@
-public class Solution {
+package com.neil.javaleetcode.q0300_0399.q0329_longest_increasing_path_in_a_matrix;
+public class longest_increasing_path_in_a_matrix {
     
     public static final int[][] dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
     

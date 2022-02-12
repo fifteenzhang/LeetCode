@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0000_0099.q0062_unique_paths;
+
+
+import java.util.*;
+
+
+
 class unique_paths {
     public int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];

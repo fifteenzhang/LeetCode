@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1953_maximum_number_of_weeks_for_which_you_can_work;
 class maximum_number_of_weeks_for_which_you_can_work {
     public long numberOfWeeks(int[] milestones) {
         int mx = 0;

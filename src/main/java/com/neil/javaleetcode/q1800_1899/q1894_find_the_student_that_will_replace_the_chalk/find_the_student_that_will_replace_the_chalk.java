@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1894_find_the_student_that_will_replace_the_chalk;
 class find_the_student_that_will_replace_the_chalk {
     public int chalkReplacer(int[] chalk, int k) {
         int n = chalk.length;

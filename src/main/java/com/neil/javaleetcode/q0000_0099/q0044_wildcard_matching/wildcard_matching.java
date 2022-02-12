@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0044_wildcard_matching;
 class wildcard_matching {
     public boolean isMatch(String s, String p) {
         int i = 0, j = 0, is = -1, ip = -1;

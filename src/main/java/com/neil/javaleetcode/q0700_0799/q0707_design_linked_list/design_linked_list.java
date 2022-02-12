@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0707_design_linked_list;
 class MyLinkedList {
 
     private class ListNode {

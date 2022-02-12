@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1895_largest_magic_square;
 class largest_magic_square {
     private int[][] rowsum;
     private int[][] colsum;

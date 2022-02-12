@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1700_1799.q1701_average_waiting_time;
 class average_waiting_time {
     public double averageWaitingTime(int[][] customers) {
         int f = 0;

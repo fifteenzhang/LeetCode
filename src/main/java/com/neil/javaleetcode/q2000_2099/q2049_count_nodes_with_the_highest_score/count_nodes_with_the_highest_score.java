@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q2000_2099.q2049_count_nodes_with_the_highest_score;
+
+
+import java.util.*;
+
+
+
 class count_nodes_with_the_highest_score {
 
     private int n;

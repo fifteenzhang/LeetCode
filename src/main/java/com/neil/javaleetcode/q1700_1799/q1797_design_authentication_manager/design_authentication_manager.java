@@ -1,8 +1,15 @@
-class AuthenticationManager {
+package com.neil.javaleetcode.q1700_1799.q1797_design_authentication_manager;
+
+
+import java.util.*;
+
+
+
+class design_authentication_manager {
     private int timeToLive;
     private Map<String, Integer> tokens;
 
-    public AuthenticationManager(int timeToLive) {
+    public design_authentication_manager(int timeToLive) {
         this.timeToLive = timeToLive;
         tokens = new HashMap<>();
     }

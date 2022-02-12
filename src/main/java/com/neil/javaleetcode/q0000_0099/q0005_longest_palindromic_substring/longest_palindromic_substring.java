@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0005_longest_palindromic_substring;
 class longest_palindromic_substring {
     public String longestPalindrome(String s) {
         int n = s.length();

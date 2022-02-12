@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1118_number_of_days_in_a_month;
 class number_of_days_in_a_month {
     public int numberOfDays(int year, int month) {
         boolean leap = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);

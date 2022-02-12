@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1171_remove_zero_sum_consecutive_nodes_from_linked_list;
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -6,7 +7,32 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+
+
+import java.util.*;
+
+
+
 class remove_zero_sum_consecutive_nodes_from_linked_list {
+
+    public class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
+
+
     public ListNode removeZeroSumSublists(ListNode head) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;

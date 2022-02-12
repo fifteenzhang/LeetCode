@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0008_string_to_integer_atoi;
 class string_to_integer_atoi {
     public int myAtoi(String s) {
         if (s == null) return 0;

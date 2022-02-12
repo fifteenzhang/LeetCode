@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0300_0399.q0320_generalized_abbreviation;
+
+import java.util.*;
+
+
+
 class generalized_abbreviation {
     private List<String> ans;
 

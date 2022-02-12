@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1600_1699.q1658_minimum_operations_to_reduce_x_to_zero;
+
+
+import java.util.*;
+
+
 class minimum_operations_to_reduce_x_to_zero {
     public int minOperations(int[] nums, int x) {
         x = -x;

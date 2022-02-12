@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0820_short_encoding_of_words;
 class Trie {
     Trie[] children = new Trie[26];
 }

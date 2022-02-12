@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0700_0799.q0743_network_delay_time;
+
+
+import java.util.*;
+
+
 class network_delay_time {
     private static final int INF = 0x3f3f3f3f;
 

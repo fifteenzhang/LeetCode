@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0000_0099.q0060_permutation_sequence;
+
+
+import java.util.*;
+
+
+
 class permutation_sequence {
     public String getPermutation(int n, int k) {
         StringBuilder s = new StringBuilder();

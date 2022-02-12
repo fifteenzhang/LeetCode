@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1500_1599.q1544_make_the_string_great;
 class make_the_string_great {
     public String makeGood(String s) {
         return help(s);

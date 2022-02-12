@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1000_1099.q1005_maximize_sum_of_array_after_k_negations;
+
+
+import java.util.*;
+
+
 class maximize_sum_of_array_after_k_negations {
     public int largestSumAfterKNegations(int[] nums, int k) {
         int ans = 0;

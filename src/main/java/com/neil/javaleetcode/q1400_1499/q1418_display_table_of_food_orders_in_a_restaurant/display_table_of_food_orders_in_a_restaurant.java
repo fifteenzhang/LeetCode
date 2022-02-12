@@ -1,3 +1,8 @@
+package com.neil.javaleetcode.q1400_1499.q1418_display_table_of_food_orders_in_a_restaurant;
+
+import java.util.*;
+
+
 class display_table_of_food_orders_in_a_restaurant {
     public List<List<String>> displayTable(List<List<String>> orders) {
         Set<Integer> tables = new HashSet<>();

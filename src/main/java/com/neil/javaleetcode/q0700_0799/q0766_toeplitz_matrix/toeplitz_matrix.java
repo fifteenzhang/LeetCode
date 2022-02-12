@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0766_toeplitz_matrix;
 class toeplitz_matrix {
     public boolean isToeplitzMatrix(int[][] matrix) {
         int m = matrix.length, n = matrix[0].length;

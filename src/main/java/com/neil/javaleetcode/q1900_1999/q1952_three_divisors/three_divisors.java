@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1952_three_divisors;
 class three_divisors {
     public boolean isThree(int n) {
         int cnt = 0;

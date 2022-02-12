@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0056_merge_intervals;
 /*
  * Copyright 2021 tuhu.cn All right reserved. This software is the
  * confidential and proprietary information of tuhu.cn ("Confidential
@@ -5,7 +6,6 @@
  * use it only in accordance with the terms of the license agreement you entered
  * into with Tuhu.cn
  */
-package com.neil.javaleetcode;
 //以数组 intervals 表示若干个区间的集合，其中单个区间为 intervals[i] = [starti, endi] 。请你合并所有重叠的区间，并返
 //回一个不重叠的区间数组，该数组需恰好覆盖输入中的所有区间。
 //

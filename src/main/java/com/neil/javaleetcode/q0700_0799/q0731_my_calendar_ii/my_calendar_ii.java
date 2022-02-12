@@ -1,8 +1,15 @@
-class MyCalendarTwo {
+package com.neil.javaleetcode.q0700_0799.q0731_my_calendar_ii;
+
+
+import java.util.*;
+
+
+
+class my_calendar_ii {
     List<int[]> calendar;
     List<int[]> duplicationList;
 
-    MyCalendarTwo() {
+    my_calendar_ii() {
         calendar = new ArrayList<>();
         duplicationList = new ArrayList<>();
     }

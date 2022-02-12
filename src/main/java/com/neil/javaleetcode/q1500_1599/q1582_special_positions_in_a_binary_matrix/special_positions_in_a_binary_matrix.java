@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1500_1599.q1582_special_positions_in_a_binary_matrix;
 class special_positions_in_a_binary_matrix {
     public int numSpecial(int[][] mat) {
         int rows = mat.length;

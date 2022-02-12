@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0985_sum_of_even_numbers_after_queries;
 class sum_of_even_numbers_after_queries {
     public int[] sumEvenAfterQueries(int[] nums, int[][] queries) {
         int s = 0;

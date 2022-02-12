@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1400_1499.q1446_consecutive_characters;
 class consecutive_characters {
     public int maxPower(String s) {
         int ans = 0, t = 0;

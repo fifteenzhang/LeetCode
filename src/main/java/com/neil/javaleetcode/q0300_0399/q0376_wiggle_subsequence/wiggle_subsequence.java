@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0376_wiggle_subsequence;
 class wiggle_subsequence {
     public int wiggleMaxLength(int[] nums) {
         int up = 1, down = 1;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0747_largest_number_at_least_twice_of_others;
 class largest_number_at_least_twice_of_others {
     public int dominantIndex(int[] nums) {
         int mx = Integer.MIN_VALUE, mid = Integer.MIN_VALUE;

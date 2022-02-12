@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1300_1399.q1365_how_many_numbers_are_smaller_than_the_current_number;
 class how_many_numbers_are_smaller_than_the_current_number {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] cnt = new int[101];

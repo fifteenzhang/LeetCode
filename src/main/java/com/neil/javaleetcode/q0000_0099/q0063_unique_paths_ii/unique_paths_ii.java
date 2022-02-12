@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0063_unique_paths_ii;
 class unique_paths_ii {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length, n = obstacleGrid[0].length;

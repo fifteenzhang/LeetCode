@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0705_design_hashset;
 class MyHashSet {
 
     private boolean[] data;

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0800_0899.q0888_fair_candy_swap;
+
+
+import java.util.*;
+
+
+
 class fair_candy_swap {
     public int[] fairCandySwap(int[] aliceSizes, int[] bobSizes) {
         int s1 = 0, s2 = 0;

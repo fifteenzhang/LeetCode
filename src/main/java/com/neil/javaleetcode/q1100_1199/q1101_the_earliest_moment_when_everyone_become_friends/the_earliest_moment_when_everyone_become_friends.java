@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1100_1199.q1101_the_earliest_moment_when_everyone_become_friends;
+
+
+import java.util.*;
+
+
 class the_earliest_moment_when_everyone_become_friends {
     private int[] p;
 

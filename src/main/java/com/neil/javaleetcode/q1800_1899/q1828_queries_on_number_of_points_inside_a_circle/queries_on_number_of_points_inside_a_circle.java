@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1828_queries_on_number_of_points_inside_a_circle;
 class queries_on_number_of_points_inside_a_circle {
     public int[] countPoints(int[][] points, int[][] queries) {
         int[] ans = new int[queries.length];

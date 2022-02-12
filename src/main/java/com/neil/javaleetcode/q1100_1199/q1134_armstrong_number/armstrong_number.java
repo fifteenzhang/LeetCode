@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1134_armstrong_number;
 class armstrong_number {
     public boolean isArmstrong(int n) {
         int k = String.valueOf(n).length();

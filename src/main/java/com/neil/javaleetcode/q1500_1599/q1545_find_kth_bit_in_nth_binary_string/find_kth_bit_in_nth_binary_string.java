@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1500_1599.q1545_find_kth_bit_in_nth_binary_string;
+
+import java.util.*;
+
+
+
 class find_kth_bit_in_nth_binary_string {
       public char findKthBit(int n, int k) {
         if (k == 1 || n == 1) {

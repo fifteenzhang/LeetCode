@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1700_1799.q1704_determine_if_string_halves_are_alike;
+
+
+import java.util.*;
+
+
 class determine_if_string_halves_are_alike {
     public boolean halvesAreAlike(String s) {
         int half = s.length() >> 1;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0500_0599.q0576_out_of_boundary_paths;
 class out_of_boundary_paths {
     public int findPaths(int m, int n, int N, int i, int j) {
         final int MOD = (int) (1e9 + 7);

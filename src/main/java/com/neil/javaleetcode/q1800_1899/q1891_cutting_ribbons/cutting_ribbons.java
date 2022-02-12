@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1891_cutting_ribbons;
 class cutting_ribbons {
     public int maxLength(int[] ribbons, int k) {
         int low = 0, high = 100000;

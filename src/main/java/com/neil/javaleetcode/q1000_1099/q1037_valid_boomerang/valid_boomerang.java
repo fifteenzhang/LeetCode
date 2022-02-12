@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1000_1099.q1037_valid_boomerang;
+
+
+import java.util.*;
+
+
+
 class valid_boomerang {
     public boolean isBoomerang(int[][] points) {
         double temp1;

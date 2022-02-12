@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0200_0299.q0252_meeting_rooms;
+
+
+import java.util.*;
+
+
+
 class meeting_rooms {
     public boolean canAttendMeetings(int[][] intervals) {
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));

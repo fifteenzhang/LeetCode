@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1888_minimum_number_of_flips_to_make_the_binary_string_alternating;
 class minimum_number_of_flips_to_make_the_binary_string_alternating {
     public int minFlips(String s) {
         int n = s.length();

@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1000_1099.q1006_clumsy_factorial;
+
+
+import java.util.*;
+
+
 class clumsy_factorial {
     public int clumsy(int N) {
         Deque<Integer> s = new ArrayDeque<>();

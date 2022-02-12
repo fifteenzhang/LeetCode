@@ -1,4 +1,8 @@
-public class Solution {
+package com.neil.javaleetcode.q0200_0299.q0241_different_ways_to_add_parentheses;
+
+import java.util.*;
+
+public class different_ways_to_add_parentheses {
     public List<Integer> diffWaysToCompute(String input) {
 
 		List<Integer> rt = new LinkedList<Integer>();

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0400_0499.q0498_diagonal_traverse;
+
+
+import java.util.*;
+
+
+
 class diagonal_traverse {
     public int[] findDiagonalOrder(int[][] mat) {
         int m = mat.length, n = mat[0].length;

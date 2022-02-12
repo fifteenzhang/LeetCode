@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0072_edit_distance;
 class edit_distance {
     public int minDistance(String word1, String word2) {
         int m = word1.length(), n = word2.length();

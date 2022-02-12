@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0007_reverse_integer;
 class reverse_integer {
     public int reverse(int x) {
         long res = 0;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0280_wiggle_sort;
 class wiggle_sort {
     public void wiggleSort(int[] nums) {
         for (int i = 1; i < nums.length; ++i) {

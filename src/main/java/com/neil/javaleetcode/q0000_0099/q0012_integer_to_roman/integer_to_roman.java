@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0012_integer_to_roman;
 class integer_to_roman {
     public String intToRoman(int num) {
         int[] nums = new int[]{1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};

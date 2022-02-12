@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1400_1499.q1436_destination_city;
+
+
+import java.util.*;
+
+
+
 class destination_city {
     public String destCity(List<List<String>> paths) {
         Map<String, String> mp = new HashMap<>();

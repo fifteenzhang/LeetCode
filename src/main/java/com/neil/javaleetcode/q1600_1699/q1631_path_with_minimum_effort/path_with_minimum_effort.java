@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1600_1699.q1631_path_with_minimum_effort;
+
+
+import java.util.*;
+
+
+
 class path_with_minimum_effort {
     private int[] p;
 

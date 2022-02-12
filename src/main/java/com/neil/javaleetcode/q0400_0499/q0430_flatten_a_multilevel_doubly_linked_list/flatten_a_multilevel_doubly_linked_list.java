@@ -1,14 +1,16 @@
-/*
-// Definition for a Node.
-class Node {
-    public int val;
-    public Node prev;
-    public Node next;
-    public Node child;
-};
-*/
+package com.neil.javaleetcode.q0400_0499.q0430_flatten_a_multilevel_doubly_linked_list;
+
 
 class flatten_a_multilevel_doubly_linked_list {
+
+
+    class Node {
+        public int val;
+        public Node prev;
+        public Node next;
+        public Node child;
+    };
+
     public Node flatten(Node head) {
         if (head == null) {
             return null;

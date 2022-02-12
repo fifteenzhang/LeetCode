@@ -1,8 +1,12 @@
+package com.neil.javaleetcode.q0500_0599.q0528_random_pick_with_weight;
+
+import java.util.Random;
+
 class random_pick_with_weight {
     private int[] s;
     private Random random = new Random();
 
-    public Solution(int[] w) {
+    public random_pick_with_weight(int[] w) {
         int n = w.length;
         s = new int[n + 1];
         for (int i = 0; i < n; ++i) {

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2100_2199.q2105_watering_plants_ii;
 class watering_plants_ii {
     public int minimumRefill(int[] plants, int capacityA, int capacityB) {
         int i = 0, j = plants.length - 1;

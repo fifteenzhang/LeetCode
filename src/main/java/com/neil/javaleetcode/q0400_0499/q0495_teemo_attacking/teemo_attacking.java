@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0495_teemo_attacking;
 class teemo_attacking {
     public int findPoisonedDuration(int[] timeSeries, int duration) {
         int n = timeSeries.length, res = duration;

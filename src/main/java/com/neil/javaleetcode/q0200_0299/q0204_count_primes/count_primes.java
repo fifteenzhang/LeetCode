@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0200_0299.q0204_count_primes;
+
+
+import java.util.*;
+
+
+
 class count_primes {
     public int countPrimes(int n) {
         if (n < 2) return 0;

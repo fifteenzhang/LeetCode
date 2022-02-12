@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0800_0899.q0851_loud_and_rich;
+
+
+import java.util.*;
+
+
 class loud_and_rich {
     private Map<Integer, List<Integer>> g;
     private int[] quiet;

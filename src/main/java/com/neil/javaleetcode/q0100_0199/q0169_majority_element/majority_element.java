@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0169_majority_element;
 class majority_element {
     public int majorityElement(int[] nums) {
         int cnt = 0, major = 0;

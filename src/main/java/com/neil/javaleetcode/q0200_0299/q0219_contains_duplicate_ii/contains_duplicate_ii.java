@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0200_0299.q0219_contains_duplicate_ii;
+
+
+import java.util.*;
+
+
+
 class contains_duplicate_ii {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Map<Integer, Integer> mp = new HashMap<>();

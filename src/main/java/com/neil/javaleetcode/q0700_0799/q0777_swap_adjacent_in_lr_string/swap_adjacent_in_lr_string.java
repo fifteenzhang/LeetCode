@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0777_swap_adjacent_in_lr_string;
 class swap_adjacent_in_lr_string {
     public boolean canTransform(String start, String end) {
         if (start.length() != end.length()) {

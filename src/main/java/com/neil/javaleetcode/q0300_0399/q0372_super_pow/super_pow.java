@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0372_super_pow;
 class super_pow {
     private static final int MOD = 1337;
 

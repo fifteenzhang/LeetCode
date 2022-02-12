@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0896_monotonic_array;
 class monotonic_array {
     public boolean isMonotonic(int[] A) {
         boolean increase = true, decrease = true;

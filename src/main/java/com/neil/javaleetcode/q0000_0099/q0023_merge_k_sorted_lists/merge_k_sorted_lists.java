@@ -1,14 +1,29 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
+package com.neil.javaleetcode.q0000_0099.q0023_merge_k_sorted_lists;
+
+
+
 class merge_k_sorted_lists {
+
+
+    // Definition for singly-linked list.
+    public class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
+
+
     public ListNode mergeKLists(ListNode[] lists) {
         int n = lists.length;
         if (n == 0) {

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0026_remove_duplicates_from_sorted_array;
 /*
  * Copyright 2021 tuhu.cn All right reserved. This software is the
  * confidential and proprietary information of tuhu.cn ("Confidential
@@ -5,7 +6,6 @@
  * use it only in accordance with the terms of the license agreement you entered
  * into with Tuhu.cn
  */
-package com.neil.javaleetcode;
 
 /**
  * @author 张璘

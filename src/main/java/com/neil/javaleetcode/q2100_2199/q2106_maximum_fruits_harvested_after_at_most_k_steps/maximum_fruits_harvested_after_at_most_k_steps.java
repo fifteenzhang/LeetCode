@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q2100_2199.q2106_maximum_fruits_harvested_after_at_most_k_steps;
+
+
+import java.util.*;
+
+
 class maximum_fruits_harvested_after_at_most_k_steps {
     public int maxTotalFruits(int[][] fruits, int startPos, int k) {
         Deque<int[]> q = new ArrayDeque<>();

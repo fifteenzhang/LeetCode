@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0085_maximal_rectangle;
 class maximal_rectangle {
     public int maximalRectangle(char[][] matrix) {
         if(matrix==null || matrix.length==0) return 0;

@@ -1,9 +1,14 @@
-class UndergroundSystem {
+package com.neil.javaleetcode.q1300_1399.q1396_design_underground_system;
+
+import java.util.*;
+
+
+class design_underground_system {
     private Map<Integer, String> checkInStation;
     private Map<Integer, Integer> checkInTime;
     private Map<String, int[]> totalTime;
 
-    public UndergroundSystem() {
+    public design_underground_system() {
         checkInStation = new HashMap<>();
         checkInTime = new HashMap<>();
         totalTime = new HashMap<>();

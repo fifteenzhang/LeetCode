@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q2000_2099.q2032_two_out_of_three;
+
+
+import java.util.*;
+
+
+
 class two_out_of_three {
     public List<Integer> twoOutOfThree(int[] nums1, int[] nums2, int[] nums3) {
         int[] s1 = get(nums1), s2 = get(nums2), s3 = get(nums3);

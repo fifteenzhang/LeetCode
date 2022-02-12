@@ -1,7 +1,12 @@
-class FizzBuzz {
+package com.neil.javaleetcode.q1100_1199.q1195_fizz_buzz_multithreaded;
+
+import java.util.concurrent.Semaphore;
+import java.util.function.IntConsumer;
+
+class fizz_buzz_multithreaded {
     private int n;
 
-    public FizzBuzz(int n) {
+    public fizz_buzz_multithreaded(int n) {
         this.n = n;
     }
 

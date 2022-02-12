@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1122_relative_sort_array;
 class relative_sort_array {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
         int[] mp = new int[1001];

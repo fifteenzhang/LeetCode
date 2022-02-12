@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1154_day_of_the_year;
 class day_of_the_year {
     public int dayOfYear(String date) {
         int year = Integer.parseInt(date.substring(0, 4));

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0700_0799.q0760_find_anagram_mappings;
+
+
+import java.util.*;
+
+
+
 class find_anagram_mappings {
     public int[] anagramMappings(int[] nums1, int[] nums2) {
         Map<Integer, Set<Integer>> map = new HashMap<>();

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0645_set_mismatch;
 class set_mismatch {
     public int[] findErrorNums(int[] nums) {
         int eor = 0;

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0500_0599.q0533_lonely_pixel_ii;
+
+
+import java.util.*;
+
+
+
 class lonely_pixel_ii {
     public int findBlackPixel(char[][] picture, int target) {
         int m = picture.length, n = picture[0].length;

@@ -1,9 +1,16 @@
-class FindSumPairs {
+package com.neil.javaleetcode.q1800_1899.q1865_finding_pairs_with_a_certain_sum;
+
+
+import java.util.*;
+
+
+
+class finding_pairs_with_a_certain_sum {
     private int[] nums1;
     private int[] nums2;
     private Map<Integer, Integer> counter;
 
-    public FindSumPairs(int[] nums1, int[] nums2) {
+    public finding_pairs_with_a_certain_sum(int[] nums1, int[] nums2) {
         this.nums1 = nums1;
         this.nums2 = nums2;
         counter = new HashMap<>();

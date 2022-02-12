@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2012_sum_of_beauty_in_the_array;
 class sum_of_beauty_in_the_array {
     public int sumOfBeauties(int[] nums) {
         int n = nums.length;

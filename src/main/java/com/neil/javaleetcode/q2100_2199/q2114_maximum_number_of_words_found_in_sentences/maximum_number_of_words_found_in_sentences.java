@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2100_2199.q2114_maximum_number_of_words_found_in_sentences;
 class maximum_number_of_words_found_in_sentences {
     public int mostWordsFound(String[] sentences) {
         int ans = 0;

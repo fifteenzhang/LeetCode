@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0058_length_of_last_word;
 class length_of_last_word {
     public int lengthOfLastWord(String s) {
         int n = s.length();

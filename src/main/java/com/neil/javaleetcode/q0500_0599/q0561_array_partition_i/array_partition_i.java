@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0500_0599.q0561_array_partition_i;
+
+
+import java.util.*;
+
+
 class array_partition_i {
     public int arrayPairSum(int[] nums) {
         Arrays.sort(nums);

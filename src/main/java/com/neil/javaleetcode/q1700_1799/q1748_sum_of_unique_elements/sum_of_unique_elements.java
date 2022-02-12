@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1700_1799.q1748_sum_of_unique_elements;
 class sum_of_unique_elements {
     public int sumOfUnique(int[] nums) {
         int[] counter = new int[101];

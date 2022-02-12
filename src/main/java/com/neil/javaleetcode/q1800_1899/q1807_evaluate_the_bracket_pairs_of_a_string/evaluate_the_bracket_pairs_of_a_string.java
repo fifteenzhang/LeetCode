@@ -1,3 +1,8 @@
+package com.neil.javaleetcode.q1800_1899.q1807_evaluate_the_bracket_pairs_of_a_string;
+
+import java.util.*;
+
+
 class evaluate_the_bracket_pairs_of_a_string {
     public String evaluate(String s, List<List<String>> knowledge) {
         Map<String, String> knowledgeDict = new HashMap<>();

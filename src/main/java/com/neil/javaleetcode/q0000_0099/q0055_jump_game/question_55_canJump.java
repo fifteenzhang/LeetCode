@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0055_jump_game;
 /*
  * Copyright 2021 tuhu.cn All right reserved. This software is the
  * confidential and proprietary information of tuhu.cn ("Confidential
@@ -5,7 +6,6 @@
  * use it only in accordance with the terms of the license agreement you entered
  * into with Tuhu.cn
  */
-package com.neil.javaleetcode;
 
 import org.springframework.boot.SpringApplication;
 //给定一个非负整数数组 nums ，你最初位于数组的 第一个下标 。
@@ -51,7 +51,6 @@ import org.springframework.boot.SpringApplication;
 public class question_55_canJump {
     public static void main(String[] args) {
         boolean result = canJump(new int[]{2, 0, 0});
-        SpringApplication.run(JavaleetcodeApplication.class, args);
     }
 
     /**

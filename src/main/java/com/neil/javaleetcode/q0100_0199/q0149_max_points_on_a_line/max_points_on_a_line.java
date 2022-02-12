@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0100_0199.q0149_max_points_on_a_line;
+
+
+import java.util.*;
+
+
 class max_points_on_a_line {
     public int maxPoints(int[][] points) {
         int n = points.length;

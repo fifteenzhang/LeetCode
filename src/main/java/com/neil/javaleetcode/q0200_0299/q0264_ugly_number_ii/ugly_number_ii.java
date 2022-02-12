@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0264_ugly_number_ii;
 class ugly_number_ii {
     public int nthUglyNumber(int n) {
         int[] dp = new int[n];

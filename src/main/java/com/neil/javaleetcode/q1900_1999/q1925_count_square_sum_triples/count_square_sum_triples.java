@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1925_count_square_sum_triples;
 class count_square_sum_triples {
     public int countTriples(int n) {
         int res = 0;

@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0700_0799.q0781_rabbits_in_forest;
+
+
+import java.util.*;
+
+
 class rabbits_in_forest {
     public int numRabbits(int[] answers) {
         Map<Integer, Integer> counter = new HashMap<>();

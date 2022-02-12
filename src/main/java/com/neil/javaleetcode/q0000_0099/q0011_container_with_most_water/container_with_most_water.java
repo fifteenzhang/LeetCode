@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0011_container_with_most_water;
 class container_with_most_water {
     public int maxArea(int[] height) {
         int i = 0, j = height.length - 1;

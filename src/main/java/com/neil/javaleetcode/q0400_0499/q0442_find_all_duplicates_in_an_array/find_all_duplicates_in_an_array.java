@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0400_0499.q0442_find_all_duplicates_in_an_array;
+
+
+import java.util.*;
+
+
+
 class find_all_duplicates_in_an_array {
     public List<Integer> findDuplicates(int[] nums) {
         List<Integer> ans = new ArrayList<>();

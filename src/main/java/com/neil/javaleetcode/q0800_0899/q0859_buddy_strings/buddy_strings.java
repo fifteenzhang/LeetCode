@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0859_buddy_strings;
 class buddy_strings {
     public boolean buddyStrings(String s, String goal) {
         int m = s.length(), n = goal.length();

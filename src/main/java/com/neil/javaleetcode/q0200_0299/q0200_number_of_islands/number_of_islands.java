@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0200_number_of_islands;
 class number_of_islands {
     private int[][] dirs = new int[][]{{0, -1}, {0, 1}, {1, 0}, {-1, 0}};
 

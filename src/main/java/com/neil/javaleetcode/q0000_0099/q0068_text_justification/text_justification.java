@@ -1,3 +1,7 @@
+package com.neil.javaleetcode.q0000_0099.q0068_text_justification;
+
+import java.util.*;
+
 class text_justification {
     public List<String> fullJustify(String[] words, int maxWidth) {
         ArrayList<String> res = new ArrayList<>();

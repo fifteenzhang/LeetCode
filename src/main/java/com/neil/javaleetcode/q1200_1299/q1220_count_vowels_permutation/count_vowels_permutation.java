@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1200_1299.q1220_count_vowels_permutation;
+
+
+import java.util.*;
+
+
 class count_vowels_permutation {
     private static final long MOD = (long) 1e9 + 7;
 

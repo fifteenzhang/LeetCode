@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1871_jump_game_vii;
 class jump_game_vii {
     public boolean canReach(String s, int minJump, int maxJump) {
         int n = s.length();

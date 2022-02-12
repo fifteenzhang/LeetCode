@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0383_ransom_note;
 class ransom_note {
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] counter = new int[26];

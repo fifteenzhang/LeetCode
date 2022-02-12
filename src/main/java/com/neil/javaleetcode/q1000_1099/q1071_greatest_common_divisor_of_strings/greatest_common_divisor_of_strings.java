@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1071_greatest_common_divisor_of_strings;
 class greatest_common_divisor_of_strings {
     public String gcdOfStrings(String str1, String str2) {
         if (!(str1 + str2).equals(str2 + str1)) {

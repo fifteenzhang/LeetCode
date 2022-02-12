@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0477_total_hamming_distance;
 class total_hamming_distance {
     public int totalHammingDistance(int[] nums) {
         

@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0500_0599.q0523_continuous_subarray_sum;
+
+
+import java.util.*;
+
+
 class continuous_subarray_sum {
     public boolean checkSubarraySum(int[] nums, int k) {
         Map<Integer, Integer> mp = new HashMap<>();

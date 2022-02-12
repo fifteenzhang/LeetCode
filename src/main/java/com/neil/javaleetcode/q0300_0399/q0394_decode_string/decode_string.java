@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0300_0399.q0394_decode_string;
+
+
+import java.util.*;
+
+
+
 class decode_string {
     public String decodeString(String s) {
         Deque<Integer> s1 = new ArrayDeque<>();

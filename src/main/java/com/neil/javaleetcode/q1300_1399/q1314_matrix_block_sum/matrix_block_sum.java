@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1300_1399.q1314_matrix_block_sum;
 class matrix_block_sum {
     private int[][] pre;
     private int m;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0306_additive_number;
 class additive_number {
     public boolean isAdditiveNumber(String num) {
         int n = num.length();

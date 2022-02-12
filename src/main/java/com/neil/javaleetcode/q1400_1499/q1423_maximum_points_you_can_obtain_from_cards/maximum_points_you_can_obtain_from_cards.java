@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1400_1499.q1423_maximum_points_you_can_obtain_from_cards;
 class maximum_points_you_can_obtain_from_cards {
     public int maxScore(int[] cardPoints, int k) {
         int n = cardPoints.length;

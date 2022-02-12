@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0348_design_tic_tac_toe;
 class TicTacToe {
     private int n;
     private int[][] counter;

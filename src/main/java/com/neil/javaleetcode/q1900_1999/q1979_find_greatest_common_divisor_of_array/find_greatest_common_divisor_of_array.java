@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1979_find_greatest_common_divisor_of_array;
 class find_greatest_common_divisor_of_array {
     public int findGCD(int[] nums) {
         int a = 1, b = 1000;

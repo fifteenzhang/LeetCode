@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2029_stone_game_ix;
 class stone_game_ix {
     public boolean stoneGameIX(int[] stones) {
         int[] c = new int[3];

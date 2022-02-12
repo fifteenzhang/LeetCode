@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0200_0299.q0205_isomorphic_strings;
+
+
+import java.util.*;
+
+
+
 class isomorphic_strings {
     public boolean isIsomorphic(String s, String t) {
         int n = s.length();

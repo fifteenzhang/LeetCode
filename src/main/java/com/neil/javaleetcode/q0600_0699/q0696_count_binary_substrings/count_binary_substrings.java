@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0600_0699.q0696_count_binary_substrings;
+
+
+import java.util.*;
+
+
+
 class count_binary_substrings {
     public int countBinarySubstrings(String s) {
         int i = 0, n = s.length();

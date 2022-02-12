@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0709_to_lower_case;
 class to_lower_case {
     public String toLowerCase(String s) {
         char[] chars = s.toCharArray();

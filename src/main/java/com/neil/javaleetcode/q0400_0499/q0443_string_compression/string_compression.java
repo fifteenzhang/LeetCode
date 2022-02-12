@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0443_string_compression;
 class string_compression {
     public int compress(char[] chars) {
         int k = 0, n = chars.length;

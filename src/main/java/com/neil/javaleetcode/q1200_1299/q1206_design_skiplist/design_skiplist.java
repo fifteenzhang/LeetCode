@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1200_1299.q1206_design_skiplist;
 class Skiplist {
 
 	private static final int DEFAULT_MAX_LEVEL = 16;

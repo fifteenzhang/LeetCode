@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0200_0299.q0220_contains_duplicate_iii;
+
+
+import java.util.*;
+
+
+
 class contains_duplicate_iii {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         TreeSet<Long> ts = new TreeSet<>();

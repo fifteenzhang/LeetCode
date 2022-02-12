@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0331_verify_preorder_serialization_of_a_binary_tree;
 class verify_preorder_serialization_of_a_binary_tree {
     public boolean isValidSerialization(String preorder) {
         String[] strs = preorder.split(",");

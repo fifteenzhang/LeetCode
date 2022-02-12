@@ -1,3 +1,11 @@
+package com.neil.javaleetcode.q0500_0599.q0554_brick_wall;
+
+
+
+import java.util.*;
+
+
+
 class brick_wall {
     public int leastBricks(List<List<Integer>> wall) {
         Map<Integer, Integer> cnt = new HashMap<>();

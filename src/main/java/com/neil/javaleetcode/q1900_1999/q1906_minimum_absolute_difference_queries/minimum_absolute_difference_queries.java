@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1906_minimum_absolute_difference_queries;
 class minimum_absolute_difference_queries {
     public int[] minDifference(int[] nums, int[][] queries) {
         int m = nums.length, n = queries.length;

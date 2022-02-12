@@ -1,9 +1,14 @@
+package com.neil.javaleetcode.q0300_0399.q0384_shuffle_an_array;
+
+import java.util.Arrays;
+import java.util.Random;
+
 class shuffle_an_array {
     private int[] nums;
     private int[] original;
     private Random rand;
 
-    public Solution(int[] nums) {
+    public shuffle_an_array(int[] nums) {
         this.nums = nums;
         this.original = Arrays.copyOf(nums, nums.length);
         this.rand = new Random();

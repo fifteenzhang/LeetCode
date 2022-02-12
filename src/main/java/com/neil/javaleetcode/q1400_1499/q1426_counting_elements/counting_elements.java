@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1400_1499.q1426_counting_elements;
+
+
+import java.util.*;
+
+
 class counting_elements {
     public int countElements(int[] arr) {
         Set<Integer> s = new HashSet<>();

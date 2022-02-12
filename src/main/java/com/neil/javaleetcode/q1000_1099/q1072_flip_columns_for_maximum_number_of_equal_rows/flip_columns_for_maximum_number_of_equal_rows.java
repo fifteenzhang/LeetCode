@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1000_1099.q1072_flip_columns_for_maximum_number_of_equal_rows;
+
+
+import java.util.*;
+
+
 class flip_columns_for_maximum_number_of_equal_rows {
     public int maxEqualRowsAfterFlips(int[][] matrix) {
         Map<String, Integer> map = new HashMap<>();

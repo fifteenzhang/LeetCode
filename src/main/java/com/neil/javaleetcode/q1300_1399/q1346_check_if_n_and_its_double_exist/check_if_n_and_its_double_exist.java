@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1300_1399.q1346_check_if_n_and_its_double_exist;
+
+
+import java.util.*;
+
+
 class check_if_n_and_its_double_exist {
     public boolean checkIfExist(int[] arr) {
         Map<Integer, Integer> map = new HashMap<>();

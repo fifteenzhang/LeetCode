@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0370_range_addition;
 class range_addition {
     public int[] getModifiedArray(int length, int[][] updates) {
         int[] delta = new int[length];

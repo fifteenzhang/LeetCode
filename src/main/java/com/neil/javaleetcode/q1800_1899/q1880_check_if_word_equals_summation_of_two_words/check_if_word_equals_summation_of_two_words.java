@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1880_check_if_word_equals_summation_of_two_words;
 class check_if_word_equals_summation_of_two_words {
     public boolean isSumEqual(String firstWord, String secondWord, String targetWord) {
         return convert(firstWord) + convert(secondWord) == convert(targetWord);

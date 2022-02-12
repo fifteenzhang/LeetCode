@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0662_maximum_width_of_binary_tree;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +14,33 @@
  *     }
  * }
  */
+
+
+import javafx.util.Pair;
+
+import java.util.*;
+
+
+
 class maximum_width_of_binary_tree {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
+
+
+
     public int widthOfBinaryTree(TreeNode root) {
         Deque<Pair<TreeNode, Integer>> q = new ArrayDeque<>();
         q.offerLast(new Pair<>(root, 1));

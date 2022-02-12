@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2100_2199.q2151_maximum_good_people_based_on_statements;
 class maximum_good_people_based_on_statements {
     private int n;
     private int[][] statements;

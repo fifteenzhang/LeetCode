@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0100_0199.q0166_fraction_to_recurring_decimal;
+
+
+import java.util.*;
+
+
 class fraction_to_recurring_decimal {
     public String fractionToDecimal(int numerator, int denominator) {
         if (numerator == 0) {

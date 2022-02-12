@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1400_1499.q1441_build_an_array_with_stack_operations;
+
+
+import java.util.*;
+
+
+
 class build_an_array_with_stack_operations {
     public List<String> buildArray(int[] target, int n) {
         List<String> ans = new ArrayList<>();

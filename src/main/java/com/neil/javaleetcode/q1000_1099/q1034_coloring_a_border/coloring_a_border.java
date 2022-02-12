@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1034_coloring_a_border;
 class coloring_a_border {
     private int[] dirs = new int[]{-1, 0, 1, 0, -1};
 

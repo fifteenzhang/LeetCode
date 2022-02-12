@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1100_1199.q1168_optimize_water_distribution_in_a_village;
+
+
+import java.util.*;
+
+
 class optimize_water_distribution_in_a_village {
     private int[] p;
 

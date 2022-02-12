@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0978_longest_turbulent_subarray;
 class longest_turbulent_subarray {
     public int maxTurbulenceSize(int[] A) {
         int res = 1;

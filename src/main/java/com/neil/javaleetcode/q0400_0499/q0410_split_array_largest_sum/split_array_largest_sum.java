@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0410_split_array_largest_sum;
 class split_array_largest_sum {
     public int splitArray(int[] nums, int m) {
         int mx = -1;

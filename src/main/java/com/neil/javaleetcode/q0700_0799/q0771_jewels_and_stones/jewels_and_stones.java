@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0700_0799.q0771_jewels_and_stones;
+
+
+import java.util.*;
+
+
+
 class jewels_and_stones {
     public int numJewelsInStones(String jewels, String stones) {
         Set<Character> s = new HashSet<>();

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q2100_2199.q2122_recover_the_original_array;
+
+
+import java.util.*;
+
+
+
 class recover_the_original_array {
     public int[] recoverArray(int[] nums) {
         Arrays.sort(nums);

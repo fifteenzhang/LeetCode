@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0622_design_circular_queue;
 class MyCircularQueue {
     private int[] q;
     private int front;

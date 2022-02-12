@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1600_1699.q1609_even_odd_tree;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +14,27 @@
  *     }
  * }
  */
+
+import java.util.*;
+
+
+
 class even_odd_tree {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
     public boolean isEvenOddTree(TreeNode root) {
         boolean even = true;
         Deque<TreeNode> q = new ArrayDeque<>();

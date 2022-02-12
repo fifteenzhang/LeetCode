@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1079_letter_tile_possibilities;
 class letter_tile_possibilities {
     public int numTilePossibilities(String tiles) {
         int[] cnt = new int[26];

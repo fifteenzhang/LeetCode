@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q2000_2099.q2035_partition_array_into_two_arrays_to_minimize_sum_difference;
+
+
+
+import java.util.*;
+
+
 class partition_array_into_two_arrays_to_minimize_sum_difference {
     public int minimumDifference(int[] nums) {
         int n = nums.length >> 1;

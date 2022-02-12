@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0856_score_of_parentheses;
 class score_of_parentheses {
     public int scoreOfParentheses(String S) {
         int res = 0;

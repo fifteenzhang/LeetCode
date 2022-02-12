@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1600_1699.q1619_mean_of_array_after_removing_some_elements;
+
+
+import java.util.*;
+
+
 class mean_of_array_after_removing_some_elements {
     public double trimMean(int[] arr) {
         Arrays.sort(arr);

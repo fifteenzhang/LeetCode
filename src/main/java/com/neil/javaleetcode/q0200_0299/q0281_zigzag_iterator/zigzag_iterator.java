@@ -1,10 +1,14 @@
-public class ZigzagIterator {
+package com.neil.javaleetcode.q0200_0299.q0281_zigzag_iterator;
+
+import java.util.*;
+
+public class zigzag_iterator {
     private int cur;
     private int size;
     private List<Integer> indexes = new ArrayList<>();
     private List<List<Integer>> vectors = new ArrayList<>();
     
-    public ZigzagIterator(List<Integer> v1, List<Integer> v2) {
+    public zigzag_iterator(List<Integer> v1, List<Integer> v2) {
         cur = 0;
         size = 2;
         indexes.add(0);

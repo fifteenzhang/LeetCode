@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0500_0599.q0502_ipo;
+
+
+import java.util.*;
+
+
+
 class ipo {
     /**
      * 贪心算法

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0800_0899.q0891_sum_of_subsequence_widths;
+
+
+import java.util.*;
+
+
+
 class sum_of_subsequence_widths {
     public int sumSubseqWidths(int[] A) {
         final int MOD = (int) (1e9 + 7);

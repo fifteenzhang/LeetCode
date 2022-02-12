@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0134_gas_station;
 class gas_station {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         if(gas.length!=cost.length) return -1;

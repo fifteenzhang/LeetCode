@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0829_consecutive_numbers_sum;
 class consecutive_numbers_sum {
     public int consecutiveNumbersSum(int N) {
         int res = 0;

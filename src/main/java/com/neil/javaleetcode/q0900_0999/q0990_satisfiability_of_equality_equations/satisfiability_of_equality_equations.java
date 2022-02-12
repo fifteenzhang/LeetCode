@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0990_satisfiability_of_equality_equations;
 class satisfiability_of_equality_equations {
     private int[] p;
 

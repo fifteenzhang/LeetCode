@@ -1,11 +1,17 @@
-class Twitter {
+package com.neil.javaleetcode.q0300_0399.q0355_design_twitter;
+
+
+import java.util.*;
+
+
+class design_twitter {
     private Map<Integer, List<Integer>> userTweets;
     private Map<Integer, Set<Integer>> userFollowing;
     private Map<Integer, Integer> tweets;
     private int time;
 
     /** Initialize your data structure here. */
-    public Twitter() {
+    public design_twitter() {
         userTweets = new HashMap<>();
         userFollowing = new HashMap<>();
         tweets = new HashMap<>();

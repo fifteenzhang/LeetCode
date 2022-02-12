@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0000_0099.q0017_letter_combinations_of_a_phone_number;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 class letter_combinations_of_a_phone_number {
     public List<String> letterCombinations(String digits) {
         int n;

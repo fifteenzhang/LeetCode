@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1700_1799.q1722_minimize_hamming_distance_after_swap_operations;
+
+
+import java.util.*;
+
+
+
 class minimize_hamming_distance_after_swap_operations {
     private int[] p;
 

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1123_lowest_common_ancestor_of_deepest_leaves;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +14,31 @@
  *     }
  * }
  */
+
+
+import javafx.util.Pair;
+
+import java.util.*;
+
+
+
 class lowest_common_ancestor_of_deepest_leaves {
+
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
     public TreeNode lcaDeepestLeaves(TreeNode root) {
         return dfs(root).getKey();
     }

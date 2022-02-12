@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0955_delete_columns_to_make_sorted_ii;
 class delete_columns_to_make_sorted_ii {
     public int minDeletionSize(String[] A) {
         if (A == null || A.length <= 1) {

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0988_smallest_string_starting_from_leaf;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -14,6 +15,21 @@
  * }
  */
 class smallest_string_starting_from_leaf {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
     private StringBuilder path;
     private String ans;
 

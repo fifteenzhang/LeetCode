@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0493_reverse_pairs;
 class reverse_pairs {
     private static int[] tmp = new int[50010];
 

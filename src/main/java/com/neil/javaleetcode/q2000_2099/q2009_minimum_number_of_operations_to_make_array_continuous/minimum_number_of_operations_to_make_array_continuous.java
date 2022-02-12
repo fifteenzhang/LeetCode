@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q2000_2099.q2009_minimum_number_of_operations_to_make_array_continuous;
+
+
+import java.util.*;
+
+
 class minimum_number_of_operations_to_make_array_continuous {
     public int minOperations(int[] nums) {
         int N = nums.length;

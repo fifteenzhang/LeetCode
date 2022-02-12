@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0800_0899.q0857_minimum_cost_to_hire_k_workers;
+
+
+import java.util.*;
+
+
 class minimum_cost_to_hire_k_workers {
     public double mincostToHireWorkers(int[] quality, int[] wage, int K) {
         Worker[] workers = new Worker[quality.length];

@@ -1,4 +1,11 @@
-class LRUCache {
+package com.neil.javaleetcode.q0100_0199.q0146_lru_cache;
+
+
+import java.util.*;
+
+
+
+class lru_cache {
     class Node {
         int key;
         int value;
@@ -19,7 +26,7 @@ class LRUCache {
     private int capacity;
     private int size;
 
-    public LRUCache(int capacity) {
+    public lru_cache(int capacity) {
         cache = new HashMap<>();
         this.capacity = capacity;
         head = new Node();

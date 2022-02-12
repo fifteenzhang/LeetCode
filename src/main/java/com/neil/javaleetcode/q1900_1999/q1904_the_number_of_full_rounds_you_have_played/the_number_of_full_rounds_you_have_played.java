@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1904_the_number_of_full_rounds_you_have_played;
 class the_number_of_full_rounds_you_have_played {
     public int numberOfRounds(String startTime, String finishTime) {
         int start = get(startTime), finish = get(finishTime);

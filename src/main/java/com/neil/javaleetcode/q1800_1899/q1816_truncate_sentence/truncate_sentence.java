@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1816_truncate_sentence;
 class truncate_sentence {
     public String truncateSentence(String s, int k) {
         for (int i = 0; i < s.length(); ++i) {

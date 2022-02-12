@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0629_k_inverse_pairs_array;
 class k_inverse_pairs_array {
 
     private static final int MOD = 1000000007;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0419_battleships_in_a_board;
 class battleships_in_a_board {
     public int countBattleships(char[][] board) {
         int m = board.length, n = board[0].length;

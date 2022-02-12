@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1700_1799.q1765_map_of_highest_peak;
+
+
+import java.util.*;
+
+
+
 class map_of_highest_peak {
     private int[][] dirs = new int[][]{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 

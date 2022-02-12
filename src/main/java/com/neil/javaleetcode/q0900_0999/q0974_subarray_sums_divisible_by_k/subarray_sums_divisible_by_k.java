@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0900_0999.q0974_subarray_sums_divisible_by_k;
+
+
+import java.util.*;
+
+
+
 class subarray_sums_divisible_by_k {
     public int subarraysDivByK(int[] nums, int k) {
         Map<Integer, Integer> counter = new HashMap<>();

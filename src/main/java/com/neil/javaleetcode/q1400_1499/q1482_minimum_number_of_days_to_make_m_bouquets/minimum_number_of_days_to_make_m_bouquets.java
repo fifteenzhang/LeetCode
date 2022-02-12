@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1400_1499.q1482_minimum_number_of_days_to_make_m_bouquets;
 class minimum_number_of_days_to_make_m_bouquets {
     public int minDays(int[] bloomDay, int m, int k) {
         if (m * k > bloomDay.length) {

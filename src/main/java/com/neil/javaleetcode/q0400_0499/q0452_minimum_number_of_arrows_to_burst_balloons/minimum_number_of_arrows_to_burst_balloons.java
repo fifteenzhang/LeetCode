@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0400_0499.q0452_minimum_number_of_arrows_to_burst_balloons;
+
+
+import java.util.*;
+
+
 class minimum_number_of_arrows_to_burst_balloons {
     public int findMinArrowShots(int[][] points) {
         if (points == null || points.length == 0) {

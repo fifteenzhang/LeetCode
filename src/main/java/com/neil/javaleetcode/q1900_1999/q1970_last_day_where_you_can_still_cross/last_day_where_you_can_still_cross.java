@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1970_last_day_where_you_can_still_cross;
 class last_day_where_you_can_still_cross {
     private int[] p;
     private int row;

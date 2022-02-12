@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1038_binary_search_tree_to_greater_sum_tree;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -14,6 +15,22 @@
  * }
  */
 class binary_search_tree_to_greater_sum_tree {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
+
     public TreeNode bstToGst(TreeNode root) {
         int s = 0;
         TreeNode node = root;

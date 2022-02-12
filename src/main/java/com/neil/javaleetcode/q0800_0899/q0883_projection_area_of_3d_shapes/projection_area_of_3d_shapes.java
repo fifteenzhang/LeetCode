@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0883_projection_area_of_3d_shapes;
 class projection_area_of_3d_shapes {
     public int projectionArea(int[][] grid) {
         int n = grid.length;

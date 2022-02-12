@@ -1,7 +1,14 @@
-class RangeFreqQuery {
+package com.neil.javaleetcode.q2000_2099.q2080_range_frequency_queries;
+
+
+import java.util.*;
+
+
+
+class range_frequency_queries {
     private Map<Integer, List<Integer>> mp = new HashMap<>();
 
-    public RangeFreqQuery(int[] arr) {
+    public range_frequency_queries(int[] arr) {
         for (int i = 0; i < arr.length; ++i) {
             mp.computeIfAbsent(arr[i], k -> new ArrayList<>()).add(i);
         }

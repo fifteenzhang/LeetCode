@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0403_frog_jump;
 class frog_jump {
     public boolean canCross(int[] stones) {
         int n = stones.length;

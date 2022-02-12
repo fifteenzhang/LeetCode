@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1300_1399.q1385_find_the_distance_value_between_two_arrays;
 class find_the_distance_value_between_two_arrays {
     public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
         int res = 0;

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0400_0499.q0436_find_right_interval;
+
+
+import java.util.*;
+
+
+
 class find_right_interval {
     public int[] findRightInterval(int[][] intervals) {
         int n = intervals.length;

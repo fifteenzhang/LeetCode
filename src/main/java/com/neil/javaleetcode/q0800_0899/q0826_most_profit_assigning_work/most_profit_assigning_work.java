@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0800_0899.q0826_most_profit_assigning_work;
+
+
+import java.util.*;
+
+
+
 class most_profit_assigning_work {
     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
         int n = difficulty.length;

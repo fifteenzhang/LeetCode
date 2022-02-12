@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0256_paint_house;
 class paint_house {
     public int minCost(int[][] costs) {
         int r = 0, g = 0, b = 0;

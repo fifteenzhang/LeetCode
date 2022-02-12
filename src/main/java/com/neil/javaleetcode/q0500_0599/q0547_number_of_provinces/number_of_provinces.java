@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0500_0599.q0547_number_of_provinces;
 class number_of_provinces {
     public int findCircleNum(int[][] isConnected) {
         int n = isConnected.length;

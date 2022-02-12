@@ -1,8 +1,12 @@
+package com.neil.javaleetcode.q0300_0399.q0398_random_pick_index;
+
+import java.util.Random;
+
 class random_pick_index {
     private int[] nums;
     private Random random = new Random();
 
-    public Solution(int[] nums) {
+    public random_pick_index(int[] nums) {
         this.nums = nums;
     }
     

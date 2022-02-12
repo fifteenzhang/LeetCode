@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1400_1499.q1455_check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence;
 class check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence {
     public int isPrefixOfWord(String sentence, String searchWord) {
         String[] words = sentence.split(" ");

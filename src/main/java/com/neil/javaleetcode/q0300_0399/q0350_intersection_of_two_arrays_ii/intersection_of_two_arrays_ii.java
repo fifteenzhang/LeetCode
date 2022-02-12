@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0300_0399.q0350_intersection_of_two_arrays_ii;
+
+
+import java.util.*;
+
+
+
 class intersection_of_two_arrays_ii {
     public int[] intersect(int[] nums1, int[] nums2) {
         Map<Integer, Integer> counter = new HashMap<>();

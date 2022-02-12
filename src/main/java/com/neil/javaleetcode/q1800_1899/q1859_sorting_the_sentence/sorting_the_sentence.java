@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1859_sorting_the_sentence;
 class sorting_the_sentence {
     public String sortSentence(String s) {
         String[] words = s.split(" ");

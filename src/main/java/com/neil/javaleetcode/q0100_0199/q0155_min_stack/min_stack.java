@@ -1,9 +1,13 @@
-class MinStack {
+package com.neil.javaleetcode.q0100_0199.q0155_min_stack;
+
+import java.util.*;
+
+class min_stack {
     private Deque<Integer> s;
     private Deque<Integer> mins;
 
     /** initialize your data structure here. */
-    public MinStack() {
+    public min_stack() {
         s = new ArrayDeque<>();
         mins = new ArrayDeque<>();
         mins.push(Integer.MAX_VALUE);

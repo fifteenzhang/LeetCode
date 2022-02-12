@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1400_1499.q1442_count_triplets_that_can_form_two_arrays_of_equal_xor;
 class count_triplets_that_can_form_two_arrays_of_equal_xor {
     public int countTriplets(int[] arr) {
         int n = arr.length;

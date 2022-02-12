@@ -1,3 +1,14 @@
+package com.neil.javaleetcode.q0000_0099.q0095_unique_binary_search_trees_ii;
+
+
+
+
+import java.util.*;
+
+
+
+
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -14,6 +25,26 @@
  * }
  */
 class unique_binary_search_trees_ii {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
     public List<TreeNode> generateTrees(int n) {
         return generateTrees(1, n);
     }

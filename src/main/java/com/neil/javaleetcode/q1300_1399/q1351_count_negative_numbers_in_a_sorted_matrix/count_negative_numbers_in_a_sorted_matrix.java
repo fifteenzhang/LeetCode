@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1300_1399.q1351_count_negative_numbers_in_a_sorted_matrix;
 class count_negative_numbers_in_a_sorted_matrix {
     public int countNegatives(int[][] grid) {
         int m = grid.length, n = grid[0].length;

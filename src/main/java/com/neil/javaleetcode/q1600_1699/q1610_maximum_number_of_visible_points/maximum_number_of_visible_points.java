@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1600_1699.q1610_maximum_number_of_visible_points;
+
+import java.util.*;
+
+
+
 class maximum_number_of_visible_points {
     public int visiblePoints(List<List<Integer>> points, int angle, List<Integer> location) {
         List<Double> v = new ArrayList<>();

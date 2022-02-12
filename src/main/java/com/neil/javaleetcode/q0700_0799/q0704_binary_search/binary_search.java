@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0704_binary_search;
 class binary_search {
     public int search(int[] nums, int target) {
         int left = 0, right = nums.length - 1;

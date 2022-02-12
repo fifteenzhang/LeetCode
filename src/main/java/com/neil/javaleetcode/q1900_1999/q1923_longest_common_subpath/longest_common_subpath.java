@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1900_1999.q1923_longest_common_subpath;
+
+
+import java.util.*;
+
+
+
 class longest_common_subpath {
     int N = 100010;
     long[] h = new long[N];

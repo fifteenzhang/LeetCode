@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0066_plus_one;
 class plus_one {
     public int[] plusOne(int[] digits) {
         int n = digits.length;

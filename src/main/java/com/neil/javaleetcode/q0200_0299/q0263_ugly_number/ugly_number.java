@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0263_ugly_number;
 class ugly_number {
     public boolean isUgly(int n) {
         if (n < 1) return false;

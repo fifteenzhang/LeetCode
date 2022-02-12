@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0104_maximum_depth_of_binary_tree;
 /*
  * Copyright 2021 tuhu.cn All right reserved. This software is the
  * confidential and proprietary information of tuhu.cn ("Confidential
@@ -5,7 +6,6 @@
  * use it only in accordance with the terms of the license agreement you entered
  * into with Tuhu.cn
  */
-package com.neil.javaleetcode;
 //给定一个二叉树，找出其最大深度。
 //
 // 二叉树的深度为根节点到最远叶子节点的最长路径上的节点数。

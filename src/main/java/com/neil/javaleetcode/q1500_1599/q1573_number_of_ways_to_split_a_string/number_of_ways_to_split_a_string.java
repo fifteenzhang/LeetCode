@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1500_1599.q1573_number_of_ways_to_split_a_string;
+
+
+import java.util.*;
+
+
+
 class number_of_ways_to_split_a_string {
     public int numWays(String s) {
         char[] chars = s.toCharArray();

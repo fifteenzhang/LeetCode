@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q2100_2199.q2150_find_all_lonely_numbers_in_the_array;
+
+
+
+import java.util.*;
+
+
 class find_all_lonely_numbers_in_the_array {
     public List<Integer> findLonely(int[] nums) {
         Map<Integer, Integer> counter = new HashMap<>();

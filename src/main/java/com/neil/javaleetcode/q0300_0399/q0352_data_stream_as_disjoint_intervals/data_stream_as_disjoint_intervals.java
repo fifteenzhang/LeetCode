@@ -1,7 +1,13 @@
-class SummaryRanges {
+package com.neil.javaleetcode.q0300_0399.q0352_data_stream_as_disjoint_intervals;
+
+
+import java.util.*;
+
+
+class data_stream_as_disjoint_intervals {
     private TreeMap<Integer, int[]> mp;
 
-    public SummaryRanges() {
+    public data_stream_as_disjoint_intervals() {
         mp = new TreeMap<>();
     }
 

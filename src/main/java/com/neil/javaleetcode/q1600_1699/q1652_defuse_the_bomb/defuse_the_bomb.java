@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1600_1699.q1652_defuse_the_bomb;
 class defuse_the_bomb {
     public int[] decrypt(int[] code, int k) {
         int n = code.length;

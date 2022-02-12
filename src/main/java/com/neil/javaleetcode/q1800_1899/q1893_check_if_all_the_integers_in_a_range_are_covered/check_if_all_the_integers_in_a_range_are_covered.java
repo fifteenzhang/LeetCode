@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1893_check_if_all_the_integers_in_a_range_are_covered;
 class check_if_all_the_integers_in_a_range_are_covered {
     public boolean isCovered(int[][] ranges, int left, int right) {
         int[] diff = new int[52];

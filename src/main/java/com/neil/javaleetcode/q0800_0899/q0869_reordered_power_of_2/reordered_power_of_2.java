@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0869_reordered_power_of_2;
 class reordered_power_of_2 {
     public boolean reorderedPowerOf2(int n) {
         String s = convert(n);

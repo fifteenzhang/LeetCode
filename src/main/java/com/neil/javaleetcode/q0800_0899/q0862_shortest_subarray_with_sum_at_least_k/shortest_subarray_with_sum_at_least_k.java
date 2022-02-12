@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0800_0899.q0862_shortest_subarray_with_sum_at_least_k;
+
+
+import java.util.*;
+
+
+
 class shortest_subarray_with_sum_at_least_k {
     public int shortestSubarray(int[] A, int K) {
         int n = A.length;

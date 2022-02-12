@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1500_1599.q1535_find_the_winner_of_an_array_game;
 class find_the_winner_of_an_array_game {
     public int getWinner(int[] arr, int k) {
         int time = 0, max = arr[0];

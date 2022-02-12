@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0188_best_time_to_buy_and_sell_stock_iv;
 class best_time_to_buy_and_sell_stock_iv {
     public int maxProfit(int k, int[] prices) {
         int n = prices.length;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0287_find_the_duplicate_number;
 class find_the_duplicate_number {
     public int findDuplicate(int[] nums) {
         int l = 1, r = nums.length - 1;

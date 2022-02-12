@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0309_best_time_to_buy_and_sell_stock_with_cooldown;
 class best_time_to_buy_and_sell_stock_with_cooldown {
     public int maxProfit(int[] prices) {
         int f1 = -prices[0], f2 = 0, f3 = 0;

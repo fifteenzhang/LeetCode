@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1700_1799.q1743_restore_the_array_from_adjacent_pairs;
+
+
+import java.util.*;
+
+
+
 class restore_the_array_from_adjacent_pairs {
     public int[] restoreArray(int[][] adjacentPairs) {
         Map<Integer, List<Integer>> graph = new HashMap<>();

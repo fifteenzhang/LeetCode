@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1138_alphabet_board_path;
 class alphabet_board_path {
     public String alphabetBoardPath(String target) {
         StringBuilder sb = new StringBuilder();

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0413_arithmetic_slices;
 class arithmetic_slices {
     public int numberOfArithmeticSlices(int[] nums) {
         int n = nums.length;

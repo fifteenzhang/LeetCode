@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1922_count_good_numbers;
 class count_good_numbers {
     private int mod = 1000000007;
 

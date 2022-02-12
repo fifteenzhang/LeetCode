@@ -1,7 +1,13 @@
-class ValidWordAbbr {
+package com.neil.javaleetcode.q0200_0299.q0288_unique_word_abbreviation;
+
+import java.util.*;
+
+
+
+class unique_word_abbreviation {
     private Map<String, Set<String>> words;
 
-    public ValidWordAbbr(String[] dictionary) {
+    public unique_word_abbreviation(String[] dictionary) {
         words = new HashMap<>();
         for (String word : dictionary) {
             String abbr = abbr(word);

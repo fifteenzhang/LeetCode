@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1800_maximum_ascending_subarray_sum;
 class maximum_ascending_subarray_sum {
     public int maxAscendingSum(int[] nums) {
         int cur = nums[0];

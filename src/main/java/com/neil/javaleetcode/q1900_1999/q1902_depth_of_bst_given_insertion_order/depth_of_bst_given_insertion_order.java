@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1900_1999.q1902_depth_of_bst_given_insertion_order;
+
+
+import java.util.*;
+
+
+
 class depth_of_bst_given_insertion_order {
     public int maxDepthBST(int[] order) {
         TreeMap<Integer, Integer> tm = new TreeMap<>();

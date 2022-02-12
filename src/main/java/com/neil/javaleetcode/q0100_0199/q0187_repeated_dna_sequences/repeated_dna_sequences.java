@@ -1,3 +1,8 @@
+package com.neil.javaleetcode.q0100_0199.q0187_repeated_dna_sequences;
+
+import java.util.*;
+
+
 class repeated_dna_sequences {
     public List<String> findRepeatedDnaSequences(String s) {
         int n = s.length() - 10;

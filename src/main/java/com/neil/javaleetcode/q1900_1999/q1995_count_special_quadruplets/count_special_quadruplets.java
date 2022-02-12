@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1995_count_special_quadruplets;
 class count_special_quadruplets {
     public int countQuadruplets(int[] nums) {
         int ans = 0, n = nums.length;

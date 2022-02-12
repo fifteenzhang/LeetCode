@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1300_1399.q1310_xor_queries_of_a_subarray;
 class xor_queries_of_a_subarray {
     public int[] xorQueries(int[] arr, int[][] queries) {
         int[] preXor = new int[arr.length + 1];

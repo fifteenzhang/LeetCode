@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1000_1099.q1010_pairs_of_songs_with_total_durations_divisible_by_60;
+
+
+
+import java.util.*;
+
+
 class pairs_of_songs_with_total_durations_divisible_by_60 {
     public int numPairsDivisibleBy60(int[] time) {
         Arrays.sort(time);

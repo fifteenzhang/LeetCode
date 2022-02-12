@@ -1,3 +1,8 @@
+package com.neil.javaleetcode.q0000_0099.q0077_combinations;
+
+import java.util.*;
+
+
 class combinations {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> res = new ArrayList<>();

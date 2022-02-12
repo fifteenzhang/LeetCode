@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0800_0899.q0863_all_nodes_distance_k_in_binary_tree;
+
+
+import java.util.*;
+
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -8,6 +14,22 @@
  * }
  */
 class all_nodes_distance_k_in_binary_tree {
+
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
     private Map<TreeNode, TreeNode> p;
     private Set<Integer> vis;
     private List<Integer> ans;

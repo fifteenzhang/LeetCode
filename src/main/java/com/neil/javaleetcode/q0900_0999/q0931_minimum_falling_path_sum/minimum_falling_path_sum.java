@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0931_minimum_falling_path_sum;
 class minimum_falling_path_sum {
     public int minFallingPathSum(int[][] matrix) {
         int n = matrix.length;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0852_peak_index_in_a_mountain_array;
 class peak_index_in_a_mountain_array {
     public int peakIndexInMountainArray(int[] arr) {
         int left = 1, right = arr.length - 2;

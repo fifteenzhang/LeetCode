@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1143_longest_common_subsequence;
 class longest_common_subsequence {
     public int longestCommonSubsequence(String text1, String text2) {
         int m = text1.length(), n = text2.length();

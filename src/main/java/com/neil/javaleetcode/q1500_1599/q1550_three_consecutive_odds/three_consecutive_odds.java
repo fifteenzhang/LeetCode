@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1500_1599.q1550_three_consecutive_odds;
 class three_consecutive_odds {
     public boolean threeConsecutiveOdds(int[] arr) {
         int count = 0;

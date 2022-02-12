@@ -1,7 +1,12 @@
-class SeatManager {
+package com.neil.javaleetcode.q1800_1899.q1845_seat_reservation_manager;
+
+import java.util.*;
+
+
+class seat_reservation_manager {
     private PriorityQueue<Integer> q;
 
-    public SeatManager(int n) {
+    public seat_reservation_manager(int n) {
         q = new PriorityQueue<>(n);
         for (int i = 1; i <= n; ++i) {
             q.offer(i);

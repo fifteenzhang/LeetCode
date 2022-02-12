@@ -1,12 +1,15 @@
+package com.neil.javaleetcode.q0200_0299.q0284_peeking_iterator;
 // Java Iterator interface reference:
 // https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html
 
-class PeekingIterator implements Iterator<Integer> {
+import java.util.*;
+
+class peeking_iterator implements Iterator<Integer> {
     private Iterator<Integer> iterator;
     private boolean hasPeeked;
     private Integer peekedElement;
 
-	public PeekingIterator(Iterator<Integer> iterator) {
+	public peeking_iterator(Iterator<Integer> iterator) {
 	    // initialize any member here.
 	    this.iterator = iterator;
 	}

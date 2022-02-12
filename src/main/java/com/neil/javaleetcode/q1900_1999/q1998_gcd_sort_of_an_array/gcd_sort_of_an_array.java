@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1900_1999.q1998_gcd_sort_of_an_array;
+
+
+import java.util.*;
+
+
+
 class gcd_sort_of_an_array {
     private int[] p;
 

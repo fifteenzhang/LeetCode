@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0832_flipping_an_image;
 class flipping_an_image {
     public int[][] flipAndInvertImage(int[][] A) {
         int m = A.length, n = A[0].length;

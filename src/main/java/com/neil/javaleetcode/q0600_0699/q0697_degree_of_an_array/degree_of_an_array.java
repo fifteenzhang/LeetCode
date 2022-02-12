@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0600_0699.q0697_degree_of_an_array;
+
+
+import java.util.*;
+
+
 class degree_of_an_array {
     public int findShortestSubArray(int[] nums) {
         Map<Integer, int[]> mapper = new HashMap<>();

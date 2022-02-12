@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0006_zigzag_conversion;
 class zigzag_conversion {
     public String convert(String s, int numRows) {
         if (numRows == 1) return s;

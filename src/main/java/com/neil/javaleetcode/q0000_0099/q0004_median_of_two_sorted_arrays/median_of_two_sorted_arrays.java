@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0004_median_of_two_sorted_arrays;
 class median_of_two_sorted_arrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int len1 = nums1.length;

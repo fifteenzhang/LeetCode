@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0800_0899.q0873_length_of_longest_fibonacci_subsequence;
+
+
+import java.util.*;
+
+
+
 class length_of_longest_fibonacci_subsequence {
     public int lenLongestFibSubseq(int[] arr) {
         int n = arr.length;

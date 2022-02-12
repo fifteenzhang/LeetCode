@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1000_1099.q1046_last_stone_weight;
+
+
+import java.util.*;
+
+
 class last_stone_weight {
     public int lastStoneWeight(int[] stones) {
         Queue<Integer> queue = new PriorityQueue<>(Comparator.reverseOrder());

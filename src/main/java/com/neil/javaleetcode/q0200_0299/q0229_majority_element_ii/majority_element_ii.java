@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0200_0299.q0229_majority_element_ii;
+
+import java.util.*;
+
+
+
 class majority_element_ii {
     public List<Integer> majorityElement(int[] nums) {
         int n1 = 0, n2 = 0;

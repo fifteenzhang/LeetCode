@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0695_max_area_of_island;
 class max_area_of_island {
     private int[][] directions = {{0, 1}, {0, - 1}, {1, 0}, {-1, 0}};
 

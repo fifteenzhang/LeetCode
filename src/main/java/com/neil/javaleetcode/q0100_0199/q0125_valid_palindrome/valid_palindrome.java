@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0125_valid_palindrome;
 class valid_palindrome {
     public boolean isPalindrome(String s) {
         int i = 0, j = s.length() - 1;

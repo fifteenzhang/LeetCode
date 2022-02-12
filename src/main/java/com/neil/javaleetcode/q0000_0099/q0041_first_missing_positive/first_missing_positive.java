@@ -1,4 +1,6 @@
-public class Solution {
+package com.neil.javaleetcode.q0000_0099.q0041_first_missing_positive;
+public class first_missing_positive {
+
     public int firstMissingPositive(int[] num) {
         for (int i = 0; i < num.length; i++) {
             if (num[i] > 0 && num[i] < num.length && num[num[i] - 1] != num[i]) {

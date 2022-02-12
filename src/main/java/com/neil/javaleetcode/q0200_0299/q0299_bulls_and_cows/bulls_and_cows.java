@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0299_bulls_and_cows;
 class bulls_and_cows {
     public String getHint(String secret, String guess) {
         int x = 0, y = 0;

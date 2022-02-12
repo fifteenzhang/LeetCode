@@ -1,3 +1,8 @@
+package com.neil.javaleetcode.q0400_0499.q0472_concatenated_words;
+
+import java.util.*;
+
+
 class concatenated_words {
     private Trie trie;
 

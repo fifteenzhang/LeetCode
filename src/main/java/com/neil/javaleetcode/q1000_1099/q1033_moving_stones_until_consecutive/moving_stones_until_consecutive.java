@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1033_moving_stones_until_consecutive;
 class moving_stones_until_consecutive {
     public int[] numMovesStones(int a, int b, int c) {
         int x = Math.min(a, Math.min(b, c));

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0233_number_of_digit_one;
 class number_of_digit_one {
     public int countDigitOne(int n) {
         int index = 1;

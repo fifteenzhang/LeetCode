@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0639_decode_ways_ii;
 class decode_ways_ii {
 
     private static final int MOD = 1000000007;

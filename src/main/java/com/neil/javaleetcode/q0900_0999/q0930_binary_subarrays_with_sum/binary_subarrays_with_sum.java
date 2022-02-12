@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0930_binary_subarrays_with_sum;
 class binary_subarrays_with_sum {
     public int numSubarraysWithSum(int[] nums, int goal) {
         int i1 = 0, i2 = 0, s1 = 0, s2 = 0, j = 0, ans = 0;

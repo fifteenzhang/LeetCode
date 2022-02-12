@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1700_1799.q1706_where_will_the_ball_fall;
 class where_will_the_ball_fall {
     private int m;
     private int n;

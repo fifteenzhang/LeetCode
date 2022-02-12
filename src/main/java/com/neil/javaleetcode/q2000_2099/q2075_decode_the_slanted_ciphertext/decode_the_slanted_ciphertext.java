@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2075_decode_the_slanted_ciphertext;
 class decode_the_slanted_ciphertext {
     public String decodeCiphertext(String encodedText, int rows) {
         StringBuilder ans = new StringBuilder();

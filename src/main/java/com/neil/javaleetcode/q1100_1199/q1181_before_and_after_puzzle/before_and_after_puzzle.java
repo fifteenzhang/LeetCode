@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1100_1199.q1181_before_and_after_puzzle;
+
+
+import java.util.*;
+
+
+
 class before_and_after_puzzle {
     public List<String> beforeAndAfterPuzzles(String[] phrases) {
         Map<String, Set<Integer>> sameFirstWord = new HashMap<>();

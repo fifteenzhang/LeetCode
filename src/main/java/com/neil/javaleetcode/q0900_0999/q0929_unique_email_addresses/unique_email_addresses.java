@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0900_0999.q0929_unique_email_addresses;
+
+
+import java.util.*;
+
+
 class unique_email_addresses {
     public int numUniqueEmails(String[] emails) {
         Set<String> s = new HashSet<>();

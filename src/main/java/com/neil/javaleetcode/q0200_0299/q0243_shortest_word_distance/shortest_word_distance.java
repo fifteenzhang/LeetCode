@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0243_shortest_word_distance;
 class shortest_word_distance {
     public int shortestDistance(String[] wordsDict, String word1, String word2) {
         int i1 = -1, i2 = -1;

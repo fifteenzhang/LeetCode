@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0600_0699.q0628_maximum_product_of_three_numbers;
+
+
+import java.util.*;
+
+
 class maximum_product_of_three_numbers {
     public int maximumProduct(int[] nums) {
         Arrays.sort(nums);

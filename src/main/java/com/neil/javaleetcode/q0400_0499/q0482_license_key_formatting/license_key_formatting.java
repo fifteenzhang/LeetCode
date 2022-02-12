@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0482_license_key_formatting;
 class license_key_formatting {
     public String licenseKeyFormatting(String s, int k) {
         s = s.replace("-", "").toUpperCase();

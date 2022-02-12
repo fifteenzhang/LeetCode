@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1300_1399.q1324_print_words_vertically;
+
+
+import java.util.*;
+
+
+
 class print_words_vertically {
     public List<String> printVertically(String s) {
         String[] words = s.split(" ");

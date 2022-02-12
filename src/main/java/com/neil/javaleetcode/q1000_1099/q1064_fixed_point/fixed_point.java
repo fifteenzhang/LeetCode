@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1064_fixed_point;
 class fixed_point {
     public int fixedPoint(int[] arr) {
         int left = 0, right = arr.length - 1;

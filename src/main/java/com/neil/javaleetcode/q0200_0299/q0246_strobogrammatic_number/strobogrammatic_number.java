@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0246_strobogrammatic_number;
 class strobogrammatic_number {
     public boolean isStrobogrammatic(String num) {
         int n = num.length();

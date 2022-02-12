@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1700_1799.q1705_maximum_number_of_eaten_apples;
+
+
+import java.util.*;
+
+
+
 class maximum_number_of_eaten_apples {
     public int eatenApples(int[] apples, int[] days) {
         PriorityQueue<int[]> q = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));

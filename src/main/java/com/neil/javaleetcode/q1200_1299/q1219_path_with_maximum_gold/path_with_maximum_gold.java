@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1200_1299.q1219_path_with_maximum_gold;
 class path_with_maximum_gold {
     private int[][] grid;
     private boolean[][] vis;

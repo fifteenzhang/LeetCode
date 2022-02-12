@@ -1,3 +1,8 @@
+package com.neil.javaleetcode.q0000_0099.q0022_generate_parentheses;
+
+import java.util.ArrayList;
+import java.util.List;
+
 class generate_parentheses {
     public List<String> generateParenthesis(int n) {
         List<String> ans = new ArrayList<>();

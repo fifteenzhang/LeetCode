@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1800_1899.q1889_minimum_space_wasted_from_packaging;
+
+
+import java.util.*;
+
+
+
 class minimum_space_wasted_from_packaging {
     public int minWastedSpace(int[] packages, int[][] boxes) {
         int n = packages.length;

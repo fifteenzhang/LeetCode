@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1500_1599.q1589_maximum_sum_obtained_of_any_permutation;
+
+
+import java.util.*;
+
+
 class maximum_sum_obtained_of_any_permutation {
     public int maxSumRangeQuery(int[] nums, int[][] requests) {
         int n = 100010;

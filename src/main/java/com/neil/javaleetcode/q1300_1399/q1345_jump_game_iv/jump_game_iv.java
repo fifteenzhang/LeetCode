@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1300_1399.q1345_jump_game_iv;
+
+
+import java.util.*;
+
+
+
 class jump_game_iv {
     public int minJumps(int[] arr) {
         Map<Integer, List<Integer>> idx = new HashMap<>();

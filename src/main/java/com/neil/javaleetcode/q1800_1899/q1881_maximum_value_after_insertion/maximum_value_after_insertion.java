@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1881_maximum_value_after_insertion;
 class maximum_value_after_insertion {
     public String maxValue(String n, int x) {
         boolean negative = n.charAt(0) == '-';

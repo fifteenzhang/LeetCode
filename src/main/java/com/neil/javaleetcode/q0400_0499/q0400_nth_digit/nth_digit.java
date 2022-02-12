@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0400_nth_digit;
 class nth_digit {
     public int findNthDigit(int n) {
         int bits = 1, t = 9;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1109_corporate_flight_bookings;
 class corporate_flight_bookings {
     public int[] corpFlightBookings(int[][] bookings, int n) {
         int[] delta = new int[n];

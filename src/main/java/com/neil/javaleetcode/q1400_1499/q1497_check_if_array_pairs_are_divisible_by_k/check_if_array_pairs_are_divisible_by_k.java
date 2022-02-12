@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1400_1499.q1497_check_if_array_pairs_are_divisible_by_k;
+
+
+import java.util.*;
+
+
+
 class check_if_array_pairs_are_divisible_by_k {
     public boolean isPathCrossing(String path) {
         Set<String> visited = new HashSet<>();

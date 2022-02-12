@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1600_1699.q1662_check_if_two_string_arrays_are_equivalent;
+
+
+import java.util.*;
+
+
+
 class check_if_two_string_arrays_are_equivalent {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
         StringBuilder s1 = new StringBuilder();

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0803_bricks_falling_when_hit;
 class bricks_falling_when_hit {
     private int[] p;
     private int[] size;

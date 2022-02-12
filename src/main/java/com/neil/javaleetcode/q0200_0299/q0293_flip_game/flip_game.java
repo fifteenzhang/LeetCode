@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0200_0299.q0293_flip_game;
+
+import java.util.*;
+
+
+
 class flip_game {
     public List<String> generatePossibleNextMoves(String s) {
         int n;

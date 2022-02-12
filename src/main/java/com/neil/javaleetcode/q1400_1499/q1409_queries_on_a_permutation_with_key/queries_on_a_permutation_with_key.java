@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1400_1499.q1409_queries_on_a_permutation_with_key;
+
+
+import java.util.*;
+
+
+
 class queries_on_a_permutation_with_key {
     public int[] processQueries(int[] queries, int m) {
         List<Integer> nums = new LinkedList<>();

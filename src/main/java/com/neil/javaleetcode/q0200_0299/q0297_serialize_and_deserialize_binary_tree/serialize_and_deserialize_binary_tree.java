@@ -1,13 +1,21 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-public class Codec {
+package com.neil.javaleetcode.q0200_0299.q0297_serialize_and_deserialize_binary_tree;
+
+import java.util.*;
+
+public class serialize_and_deserialize_binary_tree {
+
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
+
+
     private static final String NULL = "#";
     private static final String SEP = ",";
 

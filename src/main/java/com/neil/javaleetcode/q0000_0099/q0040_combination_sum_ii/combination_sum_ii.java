@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0000_0099.q0040_combination_sum_ii;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 class combination_sum_ii {
     private List<List<Integer>> ans;
     private int[] candidates;

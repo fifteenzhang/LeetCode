@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1000_1099.q1002_find_common_characters;
+
+import java.util.*;
+
+
+
 class find_common_characters {
     public List<String> commonChars(String[] words) {
         int[] freq = new int[26];

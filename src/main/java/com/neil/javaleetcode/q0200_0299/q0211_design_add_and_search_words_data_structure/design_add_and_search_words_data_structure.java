@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0211_design_add_and_search_words_data_structure;
 class Trie {
     Trie[] children = new Trie[26];
     boolean isEnd;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0785_is_graph_bipartite;
 class is_graph_bipartite {
     private int[] p;
 

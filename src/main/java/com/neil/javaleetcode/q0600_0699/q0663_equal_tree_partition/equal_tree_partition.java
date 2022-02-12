@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0663_equal_tree_partition;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +14,29 @@
  *     }
  * }
  */
+import java.util.*;
+
+
+
 class equal_tree_partition {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
+
+
+
     private List<Integer> seen;
 
     public boolean checkEqualTree(TreeNode root) {

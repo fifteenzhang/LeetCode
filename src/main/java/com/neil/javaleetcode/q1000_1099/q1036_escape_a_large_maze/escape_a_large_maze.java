@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1000_1099.q1036_escape_a_large_maze;
+
+
+import java.util.*;
+
+
 class escape_a_large_maze {
     private int[][] dirs = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
     private static final int N = (int) 1e6;

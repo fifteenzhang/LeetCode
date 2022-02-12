@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0000_0099.q0056_merge_intervals;
+
+
+import java.util.*;
+
+
+
 class merge_intervals {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1400_1499.q1464_maximum_product_of_two_elements_in_an_array;
 class maximum_product_of_two_elements_in_an_array {
     public int maxProduct(int[] nums) {
         int i = nums[0] > nums[1] ? 0 : 1;

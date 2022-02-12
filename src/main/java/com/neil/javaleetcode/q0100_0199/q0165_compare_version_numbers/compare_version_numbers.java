@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0165_compare_version_numbers;
 class compare_version_numbers {
     public int compareVersion(String version1, String version2) {
         for (int i = 0, j = 0; i < version1.length() || j < version2.length(); ++i, ++j) {

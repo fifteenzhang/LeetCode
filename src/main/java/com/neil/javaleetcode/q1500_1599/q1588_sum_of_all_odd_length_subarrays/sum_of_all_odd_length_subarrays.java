@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1500_1599.q1588_sum_of_all_odd_length_subarrays;
 class sum_of_all_odd_length_subarrays {
     public int sumOddLengthSubarrays(int[] arr) {
         int n = arr.length;

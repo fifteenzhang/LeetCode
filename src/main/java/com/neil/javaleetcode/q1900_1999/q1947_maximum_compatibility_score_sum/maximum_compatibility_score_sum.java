@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1900_1999.q1947_maximum_compatibility_score_sum;
+
+
+import java.util.*;
+
+
+
 class maximum_compatibility_score_sum {
     public int maxCompatibilitySum(int[][] students, int[][] mentors) {
         int m = students.length, n = students[0].length;

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1400_1499.q1462_course_schedule_iv;
+
+
+import java.util.*;
+
+
+
 class course_schedule_iv {
     public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
         int[][] g = new int[numCourses][numCourses];

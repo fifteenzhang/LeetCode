@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2100_2199.q2145_count_the_hidden_sequences;
 class count_the_hidden_sequences {
     public int numberOfArrays(int[] differences, int lower, int upper) {
         long num = 0, mi = 0, mx = 0;

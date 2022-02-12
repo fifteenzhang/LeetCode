@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1008_construct_binary_search_tree_from_preorder_traversal;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -14,6 +15,23 @@
  * }
  */
 class construct_binary_search_tree_from_preorder_traversal {
+
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
+
     public TreeNode bstFromPreorder(int[] preorder) {
         return dfs(preorder, 0, preorder.length - 1);
     }

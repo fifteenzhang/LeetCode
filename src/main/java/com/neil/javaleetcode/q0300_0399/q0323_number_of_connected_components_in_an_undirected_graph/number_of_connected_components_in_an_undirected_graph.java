@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0323_number_of_connected_components_in_an_undirected_graph;
 class number_of_connected_components_in_an_undirected_graph {
     private int[] p;
     

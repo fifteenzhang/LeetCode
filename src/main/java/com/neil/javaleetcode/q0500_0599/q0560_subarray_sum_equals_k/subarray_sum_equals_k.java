@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0500_0599.q0560_subarray_sum_equals_k;
+
+
+import java.util.*;
+
+
+
 class subarray_sum_equals_k {
     public int subarraySum(int[] nums, int k) {
         Map<Integer, Integer> counter = new HashMap<>();

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0375_guess_number_higher_or_lower_ii;
 class guess_number_higher_or_lower_ii {
     public int getMoneyAmount(int n) {
         int[][] dp = new int[n + 10][n + 10];

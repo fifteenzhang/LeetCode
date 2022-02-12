@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0800_0899.q0886_possible_bipartition;
+
+
+import java.util.*;
+
+
+
 class possible_bipartition {
     private int[] p;
 

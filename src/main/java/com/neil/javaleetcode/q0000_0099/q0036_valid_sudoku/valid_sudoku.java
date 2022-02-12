@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0036_valid_sudoku;
 class valid_sudoku {
     public boolean isValidSudoku(char[][] board) {
         boolean[][] row = new boolean[9][9];

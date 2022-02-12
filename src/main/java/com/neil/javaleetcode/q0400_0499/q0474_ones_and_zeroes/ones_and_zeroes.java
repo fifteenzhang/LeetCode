@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0474_ones_and_zeroes;
 class ones_and_zeroes {
     public int findMaxForm(String[] strs, int m, int n) {
         int[][] dp = new int[m + 1][n + 1];

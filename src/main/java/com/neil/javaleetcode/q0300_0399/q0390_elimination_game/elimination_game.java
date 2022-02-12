@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0390_elimination_game;
 class elimination_game {
     public int lastRemaining(int n) {
         int a1 = 1, an = n, step = 1;

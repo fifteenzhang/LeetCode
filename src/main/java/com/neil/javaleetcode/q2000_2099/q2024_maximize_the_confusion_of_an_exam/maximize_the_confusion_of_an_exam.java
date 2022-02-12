@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2024_maximize_the_confusion_of_an_exam;
 class maximize_the_confusion_of_an_exam {
     public int maxConsecutiveAnswers(String answerKey, int k) {
         return Math.max(get('T', k, answerKey), get('F', k, answerKey));

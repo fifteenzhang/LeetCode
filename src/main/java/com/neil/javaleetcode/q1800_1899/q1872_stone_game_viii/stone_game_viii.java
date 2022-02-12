@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1872_stone_game_viii;
 class stone_game_viii {
     public int stoneGameVIII(int[] stones) {
         int n = stones.length;

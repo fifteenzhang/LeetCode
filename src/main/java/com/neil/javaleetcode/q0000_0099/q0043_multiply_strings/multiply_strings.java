@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0000_0099.q0043_multiply_strings;
+
+
+import java.util.*;
+
+
+
 class multiply_strings {
     public String multiply(String num1, String num2) {
         if (Objects.equals(num1, "0") || Objects.equals(num2, "0")) {

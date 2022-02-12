@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0900_0999.q0952_largest_component_size_by_common_factor;
+
+import java.util.*;
+
+
+
 class largest_component_size_by_common_factor {
     public int largestComponentSize(int[] A) {
         int n = A.length, num = 100000 + 1, max = 0;

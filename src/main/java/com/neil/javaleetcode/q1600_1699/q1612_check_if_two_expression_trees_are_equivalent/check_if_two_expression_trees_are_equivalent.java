@@ -1,19 +1,27 @@
-/**
- * Definition for a binary tree node.
- * class Node {
- *     char val;
- *     Node left;
- *     Node right;
- *     Node() {this.val = ' ';}
- *     Node(char val) { this.val = val; }
- *     Node(char val, Node left, Node right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
+package com.neil.javaleetcode.q1600_1699.q1612_check_if_two_expression_trees_are_equivalent;
+
 class check_if_two_expression_trees_are_equivalent {
+
+    class Node {
+        char val;
+        Node left;
+        Node right;
+
+        Node() {
+            this.val = ' ';
+        }
+
+        Node(char val) {
+            this.val = val;
+        }
+
+        Node(char val, Node left, Node right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
     public boolean checkEquivalence(Node root1, Node root2) {
         int[] ans1 = dfs(root1);
         int[] ans2 = dfs(root2);

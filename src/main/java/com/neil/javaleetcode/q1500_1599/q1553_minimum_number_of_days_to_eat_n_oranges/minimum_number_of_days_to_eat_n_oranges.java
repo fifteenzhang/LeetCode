@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1500_1599.q1553_minimum_number_of_days_to_eat_n_oranges;
+
+import java.util.*;
+
+
+
 class minimum_number_of_days_to_eat_n_oranges {
     private Map<Integer, Integer> map = new HashMap<>();
 

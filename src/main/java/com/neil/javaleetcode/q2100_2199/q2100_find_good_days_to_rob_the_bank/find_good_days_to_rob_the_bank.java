@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q2100_2199.q2100_find_good_days_to_rob_the_bank;
+
+
+
+import java.util.*;
+
+
 class find_good_days_to_rob_the_bank {
     public List<Integer> goodDaysToRobBank(int[] security, int time) {
         int n = security.length;

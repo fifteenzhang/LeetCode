@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1089_duplicate_zeros;
 class duplicate_zeros {
     public void duplicateZeros(int[] arr) {
         int n = arr.length;

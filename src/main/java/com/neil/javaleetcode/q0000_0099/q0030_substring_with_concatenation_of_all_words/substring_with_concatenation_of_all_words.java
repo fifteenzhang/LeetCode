@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0000_0099.q0030_substring_with_concatenation_of_all_words;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 class substring_with_concatenation_of_all_words {
     public List<Integer> findSubstring(String s, String[] words) {
 		

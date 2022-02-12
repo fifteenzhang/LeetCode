@@ -1,7 +1,14 @@
-class WordDistance {
+package com.neil.javaleetcode.q0200_0299.q0244_shortest_word_distance_ii;
+
+
+import java.util.*;
+
+
+
+class word_distance_ii {
     private Map<String, List<Integer>> words;
 
-    public WordDistance(String[] wordsDict) {
+    public word_distance_ii(String[] wordsDict) {
         words = new HashMap<>();
         for (int i = 0; i < wordsDict.length; ++i) {
             words.computeIfAbsent(wordsDict[i], k -> new ArrayList<>()).add(i);

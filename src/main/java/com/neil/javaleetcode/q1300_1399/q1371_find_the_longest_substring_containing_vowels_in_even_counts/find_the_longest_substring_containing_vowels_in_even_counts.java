@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1300_1399.q1371_find_the_longest_substring_containing_vowels_in_even_counts;
+
+
+import java.util.*;
+
+
 class find_the_longest_substring_containing_vowels_in_even_counts {
     public int findTheLongestSubstring(String s) {
         int[] pos = new int[32];

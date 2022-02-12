@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0673_number_of_longest_increasing_subsequence;
 class number_of_longest_increasing_subsequence {
     public int findNumberOfLIS(int[] nums) {
         int maxLen = 0, ans = 0, n = nums.length;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0778_swim_in_rising_water;
 class swim_in_rising_water {
     private int[] p;
     private int n;

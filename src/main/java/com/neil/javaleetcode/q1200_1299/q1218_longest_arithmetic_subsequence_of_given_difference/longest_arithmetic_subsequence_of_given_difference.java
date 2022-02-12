@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1200_1299.q1218_longest_arithmetic_subsequence_of_given_difference;
+
+
+import java.util.*;
+
+
+
 class longest_arithmetic_subsequence_of_given_difference {
     public int longestSubsequence(int[] arr, int difference) {
         Map<Integer, Integer> dp = new HashMap<>();

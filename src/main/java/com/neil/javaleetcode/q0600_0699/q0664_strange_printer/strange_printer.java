@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0664_strange_printer;
 class strange_printer {
     public int strangePrinter(String s) {
         if (s.isEmpty()) {

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0483_smallest_good_base;
 class smallest_good_base {
     public String smallestGoodBase(String n) {
         long num = Long.parseLong(n);

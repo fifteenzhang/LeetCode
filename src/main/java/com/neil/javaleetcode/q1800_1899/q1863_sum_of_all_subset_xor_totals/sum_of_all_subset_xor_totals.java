@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1863_sum_of_all_subset_xor_totals;
 class sum_of_all_subset_xor_totals {
     private int res;
 

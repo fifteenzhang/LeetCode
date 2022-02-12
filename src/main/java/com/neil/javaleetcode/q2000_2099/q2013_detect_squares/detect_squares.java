@@ -1,7 +1,14 @@
-class DetectSquares {
+package com.neil.javaleetcode.q2000_2099.q2013_detect_squares;
+
+
+import java.util.*;
+
+
+
+class detect_squares {
     private Map<Integer, Map<Integer, Integer>> mp = new HashMap<>();
 
-    public DetectSquares() {
+    public detect_squares() {
 
     }
     

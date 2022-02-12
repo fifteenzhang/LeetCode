@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1184_distance_between_bus_stops;
 class distance_between_bus_stops {
     public static int distanceBetweenBusStops(int[] distance, int start, int destination) {
         int length = 0;

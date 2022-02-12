@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0343_integer_break;
 class integer_break {
     public int integerBreak(int n) {
         int[] dp = new int[n + 1];

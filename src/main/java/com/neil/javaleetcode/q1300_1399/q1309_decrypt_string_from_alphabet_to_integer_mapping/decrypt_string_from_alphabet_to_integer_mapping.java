@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1300_1399.q1309_decrypt_string_from_alphabet_to_integer_mapping;
 class decrypt_string_from_alphabet_to_integer_mapping {
     public String freqAlphabets(String s) {
         int i = 0, n = s.length();

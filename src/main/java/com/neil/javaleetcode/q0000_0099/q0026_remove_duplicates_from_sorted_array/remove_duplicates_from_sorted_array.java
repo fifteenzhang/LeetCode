@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0026_remove_duplicates_from_sorted_array;
 class remove_duplicates_from_sorted_array {
     public int removeDuplicates(int[] nums) {
         int i = 0;

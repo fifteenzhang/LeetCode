@@ -1,9 +1,15 @@
-class MapSum {
+package com.neil.javaleetcode.q0600_0699.q0677_map_sum_pairs;
+
+
+import java.util.*;
+
+
+class map_sum_pairs {
     private Map<String, Integer> data;
     private Map<String, Integer> t;
 
     /** Initialize your data structure here. */
-    public MapSum() {
+    public map_sum_pairs() {
         data = new HashMap<>();
         t = new HashMap<>();
     }

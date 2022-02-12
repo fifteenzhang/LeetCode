@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0911_online_election;
 class TopVotedCandidate {
     private int[] times;
     private int[] wins;

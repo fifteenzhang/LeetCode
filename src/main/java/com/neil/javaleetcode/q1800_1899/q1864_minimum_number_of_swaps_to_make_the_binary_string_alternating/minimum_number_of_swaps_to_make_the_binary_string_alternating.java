@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1864_minimum_number_of_swaps_to_make_the_binary_string_alternating;
 class minimum_number_of_swaps_to_make_the_binary_string_alternating {
     public int minSwaps(String s) {
         int s0n0 = 0, s0n1 = 0;

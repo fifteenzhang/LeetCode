@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1043_partition_array_for_maximum_sum;
 class partition_array_for_maximum_sum {
     public int maxSumAfterPartitioning(int[] A, int K) {
         int[] dp = new int[A.length];

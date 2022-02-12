@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1800_1899.q1805_number_of_different_integers_in_a_string;
+
+
+import java.util.*;
+
+
+
 class number_of_different_integers_in_a_string {
     public int numDifferentIntegers(String word) {
         String[] nums = word.split("[a-z]+");

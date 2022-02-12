@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0115_distinct_subsequences;
 class distinct_subsequences {
     public int numDistinct(String s, String t) {
         int[][] hash = new int[256][t.length() + 1];

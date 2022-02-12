@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1500_1599.q1512_number_of_good_pairs;
+
+
+import java.util.*;
+
+
 class number_of_good_pairs {
     public int numIdenticalPairs(int[] nums) {
         Map<Integer, Integer> counter = new HashMap<>();

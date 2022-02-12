@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1200_1299.q1243_array_transformation;
+
+import java.util.*;
+
+
+
 class array_transformation {
     public List<Integer> transformArray(int[] arr) {
         int n = arr.length;

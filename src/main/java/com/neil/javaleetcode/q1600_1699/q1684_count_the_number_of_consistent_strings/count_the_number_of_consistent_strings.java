@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1600_1699.q1684_count_the_number_of_consistent_strings;
 class count_the_number_of_consistent_strings {
     public int countConsistentStrings(String allowed, String[] words) {
         boolean[] chars = new boolean[26];

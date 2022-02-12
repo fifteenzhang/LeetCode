@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0059_spiral_matrix_ii;
 class spiral_matrix_ii {
     public int[][] generateMatrix(int n) {
         int[][] res = new int[n][n];

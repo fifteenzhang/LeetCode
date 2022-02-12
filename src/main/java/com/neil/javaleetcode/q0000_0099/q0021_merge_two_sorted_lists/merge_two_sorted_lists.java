@@ -1,3 +1,7 @@
+package com.neil.javaleetcode.q0000_0099.q0021_merge_two_sorted_lists;
+
+import com.neil.javaleetcode.question_21_mergeTwoLists;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -24,5 +28,22 @@ class merge_two_sorted_lists {
         }
         cur.next = l1 == null ? l2 : l1;
         return dummy.next;
+    }
+
+    public static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
 }

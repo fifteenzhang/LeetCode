@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0684_redundant_connection;
 class redundant_connection {
     private int[] p;
 

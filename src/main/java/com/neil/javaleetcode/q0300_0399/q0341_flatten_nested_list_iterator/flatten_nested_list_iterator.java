@@ -1,27 +1,15 @@
-/**
- * // This is the interface that allows for creating nested lists.
- * // You should not implement it, or speculate about its implementation
- * public interface NestedInteger {
- *
- *     // @return true if this NestedInteger holds a single integer, rather than a nested list.
- *     public boolean isInteger();
- *
- *     // @return the single integer that this NestedInteger holds, if it holds a single integer
- *     // Return null if this NestedInteger holds a nested list
- *     public Integer getInteger();
- *
- *     // @return the nested list that this NestedInteger holds, if it holds a nested list
- *     // Return null if this NestedInteger holds a single integer
- *     public List<NestedInteger> getList();
- * }
- */
-public class NestedIterator implements Iterator<Integer> {
+package com.neil.javaleetcode.q0300_0399.q0341_flatten_nested_list_iterator;
+
+import java.util.*;
+
+
+public class flatten_nested_list_iterator implements Iterator<Integer> {
 
     private List<Integer> vals;
 
     private Iterator<Integer> cur;
 
-    public NestedIterator(List<NestedInteger> nestedList) {
+    public flatten_nested_list_iterator(List<NestedInteger> nestedList) {
         vals = new ArrayList<>();
         dfs(nestedList);
         cur = vals.iterator();

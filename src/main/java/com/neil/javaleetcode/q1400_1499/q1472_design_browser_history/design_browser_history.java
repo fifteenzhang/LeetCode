@@ -1,9 +1,15 @@
-class BrowserHistory {
+package com.neil.javaleetcode.q1400_1499.q1472_design_browser_history;
+
+
+import java.util.*;
+
+
+class design_browser_history {
     private List<String> urls;
     private int cur = -1;
     private int tail = -1;
 
-    public BrowserHistory(String homepage) {
+    public design_browser_history(String homepage) {
         urls = new ArrayList<>();
         visit(homepage);
     }

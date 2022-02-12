@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1035_uncrossed_lines;
 class uncrossed_lines {
     public int maxUncrossedLines(int[] nums1, int[] nums2) {
         int m = nums1.length;

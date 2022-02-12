@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0014_longest_common_prefix;
 class longest_common_prefix {
     public String longestCommonPrefix(String[] strs) {
         int n;

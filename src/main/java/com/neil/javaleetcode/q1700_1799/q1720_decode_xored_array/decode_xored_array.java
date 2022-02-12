@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1700_1799.q1720_decode_xored_array;
 class decode_xored_array {
     public int[] decode(int[] encoded, int first) {
         int[] res = new int[encoded.length + 1];

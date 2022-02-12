@@ -1,3 +1,13 @@
+package com.neil.javaleetcode.q0100_0199.q0120_triangle;
+
+
+
+
+import java.util.*;
+
+
+
+
 class triangle {
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();

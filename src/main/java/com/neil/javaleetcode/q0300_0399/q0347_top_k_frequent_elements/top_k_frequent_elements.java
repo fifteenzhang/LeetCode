@@ -1,3 +1,11 @@
+package com.neil.javaleetcode.q0300_0399.q0347_top_k_frequent_elements;
+
+
+import java.util.*;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+
 class top_k_frequent_elements {
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Long> frequency = Arrays.stream(nums).boxed()

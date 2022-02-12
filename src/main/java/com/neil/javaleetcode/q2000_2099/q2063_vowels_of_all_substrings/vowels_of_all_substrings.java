@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2063_vowels_of_all_substrings;
 class vowels_of_all_substrings {
     public long countVowels(String word) {
         long ans = 0;

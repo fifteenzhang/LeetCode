@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1600_1699.q1697_checking_existence_of_edge_length_limited_paths;
+
+
+import java.util.*;
+
+
 class checking_existence_of_edge_length_limited_paths {
     private int[] p;
 

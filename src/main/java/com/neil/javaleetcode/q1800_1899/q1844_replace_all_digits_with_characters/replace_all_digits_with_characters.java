@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1844_replace_all_digits_with_characters;
 class replace_all_digits_with_characters {
     public String replaceDigits(String s) {
         char[] chars = s.toCharArray();

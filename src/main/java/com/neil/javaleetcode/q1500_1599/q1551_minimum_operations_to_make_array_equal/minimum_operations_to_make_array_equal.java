@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1500_1599.q1551_minimum_operations_to_make_array_equal;
 class minimum_operations_to_make_array_equal {
     public int minOperations(int n) {
         int ans = 0;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0919_complete_binary_tree_inserter;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,10 +14,32 @@
  *     }
  * }
  */
-class CBTInserter {
+
+
+import java.util.*;
+
+
+
+class complete_binary_tree_inserter {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
+
     private List<TreeNode> tree;
 
-    public CBTInserter(TreeNode root) {
+    public complete_binary_tree_inserter(TreeNode root) {
         tree = new ArrayList<>();
         Deque<TreeNode> q = new ArrayDeque<>();
         q.offerLast(root);

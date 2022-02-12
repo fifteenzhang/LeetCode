@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2091_removing_minimum_and_maximum_from_array;
 class removing_minimum_and_maximum_from_array {
     public int minimumDeletions(int[] nums) {
         int mi = 0, mx = 0, n = nums.length;

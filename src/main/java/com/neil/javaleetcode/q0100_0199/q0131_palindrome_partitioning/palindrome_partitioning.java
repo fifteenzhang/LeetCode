@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0100_0199.q0131_palindrome_partitioning;
+
+import java.util.*;
+
+
+
 class palindrome_partitioning {
     private boolean[][] dp;
     private List<List<String>> ans;

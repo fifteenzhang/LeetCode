@@ -1,3 +1,8 @@
+package com.neil.javaleetcode.q0700_0799.q0752_open_the_lock;
+
+import java.util.*;
+
+
 class open_the_lock {
     public int openLock(String[] deadends, String target) {
         Set<String> s = new HashSet<>(Arrays.asList(deadends));

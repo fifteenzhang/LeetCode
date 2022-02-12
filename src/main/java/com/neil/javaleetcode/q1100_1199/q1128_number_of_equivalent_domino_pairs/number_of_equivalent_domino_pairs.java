@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1100_1199.q1128_number_of_equivalent_domino_pairs;
+
+
+import java.util.*;
+
+
+
 class number_of_equivalent_domino_pairs {
     public int numEquivDominoPairs(int[][] dominoes) {
         Map<Integer, Integer> map = new HashMap<>();

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1160_find_words_that_can_be_formed_by_characters;
 class find_words_that_can_be_formed_by_characters {
     public int countCharacters(String[] words, String chars) {
         int[] counter = count(chars);

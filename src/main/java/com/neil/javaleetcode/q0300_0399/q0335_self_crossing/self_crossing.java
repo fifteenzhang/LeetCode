@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0335_self_crossing;
 class self_crossing {
     public boolean isSelfCrossing(int[] distance) {
         int[] d = distance;

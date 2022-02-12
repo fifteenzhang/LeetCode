@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0746_min_cost_climbing_stairs;
 class min_cost_climbing_stairs {
     public int minCostClimbingStairs(int[] cost) {
         int a = 0, b = 0;

@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1100_1199.q1104_path_in_zigzag_labelled_binary_tree;
+
+
+import java.util.*;
+
+
 class path_in_zigzag_labelled_binary_tree {
     public List<Integer> pathInZigZagTree(int label) {
         List<Integer> res = new ArrayList<>();

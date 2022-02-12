@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1500_1599.q1562_find_latest_group_of_size_m;
+
+
+import java.util.*;
+
+
+
 class find_latest_group_of_size_m {
     public int findLatestStep(int[] arr, int m) {
         // 倒序遍历 arr，转换为第一次出现 m 个的步骤

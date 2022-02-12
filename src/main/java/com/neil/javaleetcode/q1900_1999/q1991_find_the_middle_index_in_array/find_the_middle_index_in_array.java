@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1991_find_the_middle_index_in_array;
 class find_the_middle_index_in_array {
     public int findMiddleIndex(int[] nums) {
         int s = 0;

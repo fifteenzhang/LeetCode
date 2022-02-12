@@ -1,13 +1,14 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-public class Codec {
+package com.neil.javaleetcode.q0400_0499.q0449_serialize_and_deserialize_bst;
+
+
+public class serialize_and_deserialize_bst {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
+    }
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {

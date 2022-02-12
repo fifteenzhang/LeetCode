@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0765_couples_holding_hands;
 class couples_holding_hands {
     private int[] p;
 

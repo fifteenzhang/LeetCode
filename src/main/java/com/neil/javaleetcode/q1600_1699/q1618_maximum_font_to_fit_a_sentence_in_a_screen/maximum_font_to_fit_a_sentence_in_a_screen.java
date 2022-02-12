@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1600_1699.q1618_maximum_font_to_fit_a_sentence_in_a_screen;
 /**
  * // This is the FontInfo's API interface.
  * // You should not implement it, or speculate about its implementation

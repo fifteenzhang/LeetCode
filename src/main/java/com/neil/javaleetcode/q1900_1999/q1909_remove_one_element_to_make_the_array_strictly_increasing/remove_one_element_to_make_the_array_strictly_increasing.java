@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1909_remove_one_element_to_make_the_array_strictly_increasing;
 class remove_one_element_to_make_the_array_strictly_increasing {
     public boolean canBeIncreasing(int[] nums) {
         int i = 1, n = nums.length;

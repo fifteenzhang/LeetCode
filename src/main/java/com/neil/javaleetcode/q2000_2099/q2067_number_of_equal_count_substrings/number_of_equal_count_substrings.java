@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2067_number_of_equal_count_substrings;
 class number_of_equal_count_substrings {
     public int equalCountSubstrings(String s, int count) {
         int n = s.length();

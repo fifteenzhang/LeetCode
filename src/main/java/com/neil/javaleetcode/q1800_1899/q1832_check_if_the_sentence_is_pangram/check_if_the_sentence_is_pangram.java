@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1832_check_if_the_sentence_is_pangram;
 class check_if_the_sentence_is_pangram {
     public boolean checkIfPangram(String sentence) {
         int res = 0;

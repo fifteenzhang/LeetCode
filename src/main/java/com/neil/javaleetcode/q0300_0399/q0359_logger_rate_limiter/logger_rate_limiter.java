@@ -1,9 +1,16 @@
-class Logger {
+package com.neil.javaleetcode.q0300_0399.q0359_logger_rate_limiter;
+
+
+import java.util.*;
+
+
+
+class logger_rate_limiter {
 
     private Map<String, Integer> limiter;
 
     /** Initialize your data structure here. */
-    public Logger() {
+    public logger_rate_limiter() {
         limiter = new HashMap<>();
     }
     

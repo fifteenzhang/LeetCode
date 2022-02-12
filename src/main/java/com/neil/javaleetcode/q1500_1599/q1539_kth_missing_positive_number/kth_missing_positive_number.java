@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1500_1599.q1539_kth_missing_positive_number;
 class kth_missing_positive_number {
     public int findKthPositive(int[] arr, int k) {
         if (arr[0] > k) {

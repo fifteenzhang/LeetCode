@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0647_palindromic_substrings;
 class palindromic_substrings {
     public int countSubstrings(String s) {
         StringBuilder sb = new StringBuilder("^#");

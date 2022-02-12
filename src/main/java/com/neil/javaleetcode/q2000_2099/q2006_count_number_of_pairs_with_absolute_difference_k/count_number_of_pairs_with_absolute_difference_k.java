@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2006_count_number_of_pairs_with_absolute_difference_k;
 class count_number_of_pairs_with_absolute_difference_k {
     public int countKDifference(int[] nums, int k) {
         int n = nums.length;

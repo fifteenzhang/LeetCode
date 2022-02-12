@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1600_1699.q1626_best_team_with_no_conflicts;
+
+
+import java.util.*;
+
+
 class best_team_with_no_conflicts {
     public int bestTeamScore(int[] scores, int[] ages) {
         int n = ages.length;

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q2000_2099.q2045_second_minimum_time_to_reach_destination;
+
+
+import java.util.*;
+
+
+
 class second_minimum_time_to_reach_destination {
     public int secondMinimum(int n, int[][] edges, int time, int change) {
         List<Integer>[] g = new List[n + 1];

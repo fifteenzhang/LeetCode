@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0200_0299.q0207_course_schedule;
+
+
+import java.util.*;
+
+
 class course_schedule {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<Integer>[] edges = new List[numCourses];

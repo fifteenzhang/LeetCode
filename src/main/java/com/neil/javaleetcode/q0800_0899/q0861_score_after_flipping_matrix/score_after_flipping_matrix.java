@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0861_score_after_flipping_matrix;
 class score_after_flipping_matrix {
     public int matrixScore(int[][] grid) {
         int m = grid.length, n = grid[0].length;

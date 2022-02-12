@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1185_day_of_the_week;
 import java.util.Calendar;
 class day_of_the_week {
     private static final String[] WEEK = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};

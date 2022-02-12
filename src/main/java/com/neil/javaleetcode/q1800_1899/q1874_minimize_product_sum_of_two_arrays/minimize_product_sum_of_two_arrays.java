@@ -1,3 +1,7 @@
+package com.neil.javaleetcode.q1800_1899.q1874_minimize_product_sum_of_two_arrays;
+
+import java.util.Arrays;
+
 class minimize_product_sum_of_two_arrays {
     public int minProductSum(int[] nums1, int[] nums2) {
         Arrays.sort(nums1);

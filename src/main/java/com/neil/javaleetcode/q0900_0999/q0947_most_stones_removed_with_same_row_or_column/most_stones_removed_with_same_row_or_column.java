@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0900_0999.q0947_most_stones_removed_with_same_row_or_column;
+
+
+import java.util.*;
+
+
+
 class most_stones_removed_with_same_row_or_column {
     private int[] p;
 

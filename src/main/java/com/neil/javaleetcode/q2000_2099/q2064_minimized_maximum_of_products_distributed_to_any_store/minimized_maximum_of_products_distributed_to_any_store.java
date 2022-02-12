@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2064_minimized_maximum_of_products_distributed_to_any_store;
 class minimized_maximum_of_products_distributed_to_any_store {
     public int minimizedMaximum(int n, int[] quantities) {
         int left = 1, right = (int) 1e5;

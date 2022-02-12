@@ -1,3 +1,12 @@
+package com.neil.javaleetcode.q0400_0499.q0433_minimum_genetic_mutation;
+
+
+import javafx.util.Pair;
+
+import java.util.*;
+
+
+
 class minimum_genetic_mutation {
     public int minMutation(String start, String end, String[] bank) {
         Set<String> s = new HashSet<>();

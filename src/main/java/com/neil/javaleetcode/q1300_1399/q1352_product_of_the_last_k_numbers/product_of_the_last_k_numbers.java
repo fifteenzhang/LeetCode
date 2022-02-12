@@ -1,7 +1,11 @@
-class ProductOfNumbers {
+package com.neil.javaleetcode.q1300_1399.q1352_product_of_the_last_k_numbers;
+import java.util.*;
+
+
+class product_of_the_last_k_numbers {
     private List<Integer> preProduct;
 
-    public ProductOfNumbers() {
+    public product_of_the_last_k_numbers() {
         preProduct = new ArrayList<>();
     }
     

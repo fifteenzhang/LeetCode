@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0643_maximum_average_subarray_i;
 class maximum_average_subarray_i {
     public double findMaxAverage(int[] nums, int k) {
         int s = 0;

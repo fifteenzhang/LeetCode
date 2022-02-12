@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1500_1599.q1584_min_cost_to_connect_all_points;
+
+
+import java.util.*;
+
+
 class min_cost_to_connect_all_points {
     private int[] p;
     public int minCostConnectPoints(int[][] points) {

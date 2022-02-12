@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1300_1399.q1347_minimum_number_of_steps_to_make_two_strings_anagram;
 class minimum_number_of_steps_to_make_two_strings_anagram {
     public int minSteps(String s, String t) {
         int[] counter = new int[26];

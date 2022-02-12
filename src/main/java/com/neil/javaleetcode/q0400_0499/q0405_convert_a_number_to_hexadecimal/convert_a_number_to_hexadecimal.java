@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0405_convert_a_number_to_hexadecimal;
 class convert_a_number_to_hexadecimal {
     public String toHex(int num) {
         if (num == 0) {

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1400_1499.q1431_kids_with_the_greatest_number_of_candies;
 import java.util.ArrayList;
 import java.util.List;
 

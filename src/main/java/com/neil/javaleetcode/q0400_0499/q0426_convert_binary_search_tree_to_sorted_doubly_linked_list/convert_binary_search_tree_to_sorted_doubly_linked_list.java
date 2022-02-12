@@ -1,25 +1,31 @@
-/*
-// Definition for a Node.
-class Node {
-    public int val;
-    public Node left;
-    public Node right;
+package com.neil.javaleetcode.q0400_0499.q0426_convert_binary_search_tree_to_sorted_doubly_linked_list;
 
-    public Node() {}
 
-    public Node(int _val) {
-        val = _val;
-    }
-
-    public Node(int _val,Node _left,Node _right) {
-        val = _val;
-        left = _left;
-        right = _right;
-    }
-};
-*/
 
 class convert_binary_search_tree_to_sorted_doubly_linked_list {
+
+
+    class Node {
+        public int val;
+        public Node left;
+        public Node right;
+        public Node next;
+
+        public Node() {}
+
+        public Node(int _val) {
+            val = _val;
+        }
+
+        public Node(int _val, Node _left, Node _right, Node _next) {
+            val = _val;
+            left = _left;
+            right = _right;
+            next = _next;
+        }
+    };
+
+
     private Node prev;
     private Node head;
 

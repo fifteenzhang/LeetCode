@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0423_reconstruct_original_digits_from_english;
 class reconstruct_original_digits_from_english {
     public String originalDigits(String s) {
         int[] counter = new int[26];

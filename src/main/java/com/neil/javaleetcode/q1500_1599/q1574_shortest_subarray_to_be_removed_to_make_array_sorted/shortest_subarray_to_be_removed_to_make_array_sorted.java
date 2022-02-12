@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1500_1599.q1574_shortest_subarray_to_be_removed_to_make_array_sorted;
 class shortest_subarray_to_be_removed_to_make_array_sorted {
     public int findLengthOfShortestSubarray(int[] arr) {
         int n = arr.length;

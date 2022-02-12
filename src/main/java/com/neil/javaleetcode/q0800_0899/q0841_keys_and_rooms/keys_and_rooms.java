@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0800_0899.q0841_keys_and_rooms;
+
+
+import java.util.*;
+
+
 class keys_and_rooms {
     private List<List<Integer>> rooms;
     private Set<Integer> vis;

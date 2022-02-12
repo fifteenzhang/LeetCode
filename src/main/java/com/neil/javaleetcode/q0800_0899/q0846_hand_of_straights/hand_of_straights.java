@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0800_0899.q0846_hand_of_straights;
+
+
+import java.util.*;
+
+
 class hand_of_straights {
     public boolean isNStraightHand(int[] hand, int groupSize) {
         if (hand.length % groupSize != 0) {

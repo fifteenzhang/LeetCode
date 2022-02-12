@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1600_1699.q1630_arithmetic_subarrays;
+
+import java.util.*;
+
+
+
 class arithmetic_subarrays {
     public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
         List<Boolean> res = new ArrayList<>();

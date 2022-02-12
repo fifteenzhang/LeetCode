@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0073_set_matrix_zeroes;
 class set_matrix_zeroes {
     public void setZeroes(int[][] matrix) {
         int m = matrix.length, n = matrix[0].length;

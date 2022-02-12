@@ -1,4 +1,8 @@
-public class Codec {
+package com.neil.javaleetcode.q0500_0599.q0535_encode_and_decode_tinyurl;
+
+import java.util.*;
+
+public class encode_and_decode_tinyurl {
     private Map<String, String> code2Url = new HashMap<>();
     private int count = 0;
     private static final String prefixUrl = "http://tinyurl.com/";

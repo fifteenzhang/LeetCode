@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0900_0999.q0986_interval_list_intersections;
+
+
+import java.util.*;
+
+
+
 class interval_list_intersections {
     public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
         List<int[]> res = new ArrayList<>();

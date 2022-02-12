@@ -1,4 +1,5 @@
-public class Solution {
+package com.neil.javaleetcode.q0100_0199.q0190_reverse_bits;
+public class reverse_bits {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
         int res = 0;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0487_max_consecutive_ones_ii;
 class max_consecutive_ones_ii {
     public int findMaxConsecutiveOnes(int[] nums) {
         int n = nums.length;

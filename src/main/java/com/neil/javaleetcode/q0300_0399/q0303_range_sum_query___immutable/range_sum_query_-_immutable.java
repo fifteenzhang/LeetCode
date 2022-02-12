@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0303_range_sum_query___immutable;
 class NumArray {
 
     private int[] sums;

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0800_0899.q0887_super_egg_drop;
+
+
+
+import java.util.*;
+
+
 class super_egg_drop {
     public int superEggDrop(int K, int N) {
         int[] res = new int[K];

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1941_check_if_all_characters_have_equal_number_of_occurrences;
 class check_if_all_characters_have_equal_number_of_occurrences {
     public boolean areOccurrencesEqual(String s) {
         int[] counter = new int[26];

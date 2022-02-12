@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0000_0099.q0057_insert_interval;
+
+
+import java.util.*;
+
+
+
 class insert_interval {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> list = new LinkedList<>();

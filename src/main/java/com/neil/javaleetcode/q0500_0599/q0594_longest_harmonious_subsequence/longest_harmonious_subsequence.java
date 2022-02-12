@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0500_0599.q0594_longest_harmonious_subsequence;
+
+
+import java.util.*;
+
+
 class longest_harmonious_subsequence {
     public int findLHS(int[] nums) {
         Map<Integer, Integer> counter = new HashMap<>();

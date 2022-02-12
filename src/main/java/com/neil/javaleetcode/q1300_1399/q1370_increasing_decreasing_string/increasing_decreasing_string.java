@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1300_1399.q1370_increasing_decreasing_string;
 class increasing_decreasing_string {
     public String sortString(String s) {
         int[] counter = new int[26];

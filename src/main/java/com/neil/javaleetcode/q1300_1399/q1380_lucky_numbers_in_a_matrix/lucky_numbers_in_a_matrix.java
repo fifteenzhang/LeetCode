@@ -1,3 +1,8 @@
+package com.neil.javaleetcode.q1300_1399.q1380_lucky_numbers_in_a_matrix;
+
+import java.util.*;
+
+
 class lucky_numbers_in_a_matrix {
     public List<Integer> luckyNumbers (int[][] matrix) {
         int m = matrix.length, n = matrix[0].length;

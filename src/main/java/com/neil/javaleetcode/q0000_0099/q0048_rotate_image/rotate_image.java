@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0048_rotate_image;
 class rotate_image {
     public void rotate(int[][] matrix) {
         int s = 0, n = matrix.length;

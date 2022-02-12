@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0600_0699.q0648_replace_words;
+
+
+import java.util.*;
+
+
 class Trie {
     Trie[] children = new Trie[26];
     String root;

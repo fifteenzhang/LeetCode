@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0300_0399.q0386_lexicographical_numbers;
+
+import java.util.*;
+
+
+
 class lexicographical_numbers {
     public List<Integer> lexicalOrder(int n) {
         List<Integer> res = new ArrayList<>();

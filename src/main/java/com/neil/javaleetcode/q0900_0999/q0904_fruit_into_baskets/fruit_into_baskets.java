@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0900_0999.q0904_fruit_into_baskets;
+
+
+import java.util.*;
+
+
 class fruit_into_baskets {
     public int totalFruit(int[] tree) {
         Map<Integer, Integer> counter = new HashMap<>();

@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1000_1099.q1073_adding_two_negabinary_numbers;
+
+
+import java.util.*;
+
+
 class adding_two_negabinary_numbers {
     public int[] addNegabinary(int[] arr1, int[] arr2) {
         List<Integer> list = new ArrayList<>();

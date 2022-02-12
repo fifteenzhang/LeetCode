@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0400_0499.q0421_maximum_xor_of_two_numbers_in_an_array;
+
+
+import java.util.*;
+
+
+
 class maximum_xor_of_two_numbers_in_an_array {
 
     public int findMaximumXOR(int[] numbers) {

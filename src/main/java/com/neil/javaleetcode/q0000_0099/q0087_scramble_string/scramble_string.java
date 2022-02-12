@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0087_scramble_string;
 class scramble_string {
     public boolean isScramble(String s1, String s2) {
         int n = s1.length();

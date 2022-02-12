@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0400_0499.q0473_matchsticks_to_square;
+
+
+import java.util.*;
+
+
+
 class matchsticks_to_square {
     public boolean makesquare(int[] nums) {
         if (nums == null || nums.length == 0) {

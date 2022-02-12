@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1200_1299.q1283_find_the_smallest_divisor_given_a_threshold;
 class find_the_smallest_divisor_given_a_threshold {
     public int smallestDivisor(int[] nums, int threshold) {
         int left = 1, right = 1000000;

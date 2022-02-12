@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1049_last_stone_weight_ii;
 class last_stone_weight_ii {
     public int lastStoneWeightII(int[] stones) {
         int sum = 0;

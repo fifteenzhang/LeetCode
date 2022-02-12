@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1500_1599.q1569_number_of_ways_to_reorder_array_to_get_same_bst;
+
+import java.util.*;
+import java.util.stream.Collectors;
+
+
 class number_of_ways_to_reorder_array_to_get_same_bst {
      int mod = (int) 1e9 + 7;
 

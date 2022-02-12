@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q2000_2099.q2059_minimum_operations_to_convert_number;
+
+
+import java.util.*;
+import java.util.function.IntBinaryOperator;
+
+
 class minimum_operations_to_convert_number {
     public int minimumOperations(int[] nums, int start, int goal) {
         IntBinaryOperator op1 = (x, y) -> x + y;

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0300_0399.q0362_design_hit_counter;
+
+
+import java.util.*;
+
+
+
 class HitCounter {
 
     private Map<Integer, Integer> counter;

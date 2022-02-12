@@ -1,8 +1,14 @@
-class FrontMiddleBackQueue {
+package com.neil.javaleetcode.q1600_1699.q1670_design_front_middle_back_queue;
+
+import java.util.*;
+
+
+
+class design_front_middle_back_queue {
     private Deque<Integer> left;
     private Deque<Integer> right;
 
-    public FrontMiddleBackQueue() {
+    public design_front_middle_back_queue() {
         left = new LinkedList<>();
         right = new LinkedList<>();
     }

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1300_1399.q1329_sort_the_matrix_diagonally;
 class sort_the_matrix_diagonally {
     public int[][] diagonalSort(int[][] mat) {
         for (int i = 0; i < mat.length; i++) {

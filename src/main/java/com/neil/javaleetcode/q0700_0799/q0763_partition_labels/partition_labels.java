@@ -1,3 +1,8 @@
+package com.neil.javaleetcode.q0700_0799.q0763_partition_labels;
+
+import java.util.*;
+
+
 class partition_labels {
     public List<Integer> partitionLabels(String s) {
         int[] last = new int[128];

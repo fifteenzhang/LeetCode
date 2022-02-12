@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0500_0599.q0507_perfect_number;
 class perfect_number {
     public boolean checkPerfectNumber(int num) {
         if (num == 1) {

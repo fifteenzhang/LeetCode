@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2058_find_the_minimum_and_maximum_number_of_nodes_between_critical_points;
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -9,6 +10,25 @@
  * }
  */
 class find_the_minimum_and_maximum_number_of_nodes_between_critical_points {
+
+    public class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
+
+
     public int[] nodesBetweenCriticalPoints(ListNode head) {
         ListNode prev = head;
         ListNode curr = head.next;

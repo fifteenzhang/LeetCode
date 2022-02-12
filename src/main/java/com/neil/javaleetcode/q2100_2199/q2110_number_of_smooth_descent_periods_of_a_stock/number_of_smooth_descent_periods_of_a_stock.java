@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2100_2199.q2110_number_of_smooth_descent_periods_of_a_stock;
 class number_of_smooth_descent_periods_of_a_stock {
     public long getDescentPeriods(int[] prices) {
         long ans = 0;

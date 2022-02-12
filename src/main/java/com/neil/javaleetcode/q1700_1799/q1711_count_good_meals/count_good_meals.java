@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1700_1799.q1711_count_good_meals;
+
+
+import java.util.*;
+
+
 class count_good_meals {
 
     private static final int MOD = 1000000007;

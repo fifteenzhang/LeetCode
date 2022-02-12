@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0839_similar_string_groups;
 class similar_string_groups {
     private int[] p;
 

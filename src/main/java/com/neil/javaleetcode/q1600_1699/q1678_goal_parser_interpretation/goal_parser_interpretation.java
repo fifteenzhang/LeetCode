@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1600_1699.q1678_goal_parser_interpretation;
 class goal_parser_interpretation {
     public String interpret(String command) {
         StringBuilder sb = new StringBuilder();

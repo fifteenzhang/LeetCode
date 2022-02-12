@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0000_0099.q0084_largest_rectangle_in_histogram;
+
+
+import java.util.*;
+
+
 class largest_rectangle_in_histogram {
     public int largestRectangleArea(int[] heights) {
         int res = 0, n = heights.length;

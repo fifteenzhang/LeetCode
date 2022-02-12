@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0674_longest_continuous_increasing_subsequence;
 class longest_continuous_increasing_subsequence {
     public int findLengthOfLCIS(int[] nums) {
         int res = 1;

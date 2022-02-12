@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1147_longest_chunked_palindrome_decomposition;
 class longest_chunked_palindrome_decomposition {
     public int longestDecomposition(String text) {
         char[] cs = text.toCharArray();

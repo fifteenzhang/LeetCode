@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0600_0699.q0638_shopping_offers;
+
+
+import java.util.*;
+
+
 class shopping_offers {
     public int shoppingOffers(List<Integer> price, List<List<Integer>> special, List<Integer> needs) {
         int ans = total(price, needs);

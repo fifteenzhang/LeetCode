@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q2100_2199.q2121_intervals_between_identical_elements;
+
+
+import java.util.*;
+
+
 class intervals_between_identical_elements {
     public long[] getDistances(int[] arr) {
         Map<Integer, List<Integer>> d = new HashMap<>();

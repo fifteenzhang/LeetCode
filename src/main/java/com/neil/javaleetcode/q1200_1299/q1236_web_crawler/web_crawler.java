@@ -1,10 +1,10 @@
-/**
- * // This is the HtmlParser's API interface.
- * // You should not implement it, or speculate about its implementation
- * interface HtmlParser {
- *     public List<String> getUrls(String url) {}
- * }
- */
+package com.neil.javaleetcode.q1200_1299.q1236_web_crawler;
+
+import java.util.*;
+
+
+
+
 
 class web_crawler {
     private Set<String> ans;

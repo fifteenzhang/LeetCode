@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2073_time_needed_to_buy_tickets;
 class time_needed_to_buy_tickets {
     public int timeRequiredToBuy(int[] tickets, int k) {
         int ans = 0;

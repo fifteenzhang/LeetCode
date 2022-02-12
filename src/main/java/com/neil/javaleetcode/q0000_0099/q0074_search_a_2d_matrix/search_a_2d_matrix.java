@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0074_search_a_2d_matrix;
 class search_a_2d_matrix {
     public boolean searchMatrix(int[][] matrix, int target) {
         int m = matrix.length, n = matrix[0].length;

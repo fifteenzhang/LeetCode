@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1000_1099.q1029_two_city_scheduling;
+
+
+import java.util.*;
+
+
+
 class two_city_scheduling {
         public int twoCitySchedCost(int[][] costs) {
         Arrays.sort(costs, (a, b) -> {

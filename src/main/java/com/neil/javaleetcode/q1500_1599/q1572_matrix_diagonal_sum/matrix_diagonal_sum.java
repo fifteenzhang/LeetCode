@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1500_1599.q1572_matrix_diagonal_sum;
 class matrix_diagonal_sum {
     public int diagonalSum(int[][] mat) {
         int n = mat.length;

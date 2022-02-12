@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0500_0599.q0581_shortest_unsorted_continuous_subarray;
+
+
+import java.util.*;
+
+
+
 class shortest_unsorted_continuous_subarray {
     public int findUnsortedSubarray(int[] nums) {
         int n = nums.length;

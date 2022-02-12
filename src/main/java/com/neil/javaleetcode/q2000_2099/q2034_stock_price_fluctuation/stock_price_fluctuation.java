@@ -1,9 +1,16 @@
-class StockPrice {
+package com.neil.javaleetcode.q2000_2099.q2034_stock_price_fluctuation;
+
+
+import java.util.*;
+
+
+
+class stock_price_fluctuation {
     private int lastTs;
     private Map<Integer, Integer> mp = new HashMap<>();
     private TreeMap<Integer, Integer> counter = new TreeMap<>();
 
-    public StockPrice() {
+    public stock_price_fluctuation() {
 
     }
     

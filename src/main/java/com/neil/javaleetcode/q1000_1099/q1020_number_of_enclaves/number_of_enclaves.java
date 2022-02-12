@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1020_number_of_enclaves;
 class number_of_enclaves {
     private int[] p;
     private int[][] dirs = new int[][]{{0, -1}, {0, 1}, {1, 0}, {-1, 0}};

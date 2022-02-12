@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1600_1699.q1603_design_parking_system;
 class ParkingSystem {
 
     private int[] spaces = new int[3];

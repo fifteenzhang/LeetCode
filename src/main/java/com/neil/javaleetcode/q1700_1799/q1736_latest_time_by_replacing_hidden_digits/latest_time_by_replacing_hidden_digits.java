@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1700_1799.q1736_latest_time_by_replacing_hidden_digits;
 class latest_time_by_replacing_hidden_digits {
     public String maximumTime(String time) {
         char[] t = time.toCharArray();

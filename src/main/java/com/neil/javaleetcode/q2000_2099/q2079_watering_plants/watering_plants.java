@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2079_watering_plants;
 class watering_plants {
     public int wateringPlants(int[] plants, int capacity) {
         int ans = 0, cap = capacity;

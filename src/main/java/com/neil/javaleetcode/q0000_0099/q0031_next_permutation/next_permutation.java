@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0000_0099.q0031_next_permutation;
+
+
+import java.util.*;
+
+
+
 class next_permutation {
     public void nextPermutation(int[] nums) {
         boolean flag = false;

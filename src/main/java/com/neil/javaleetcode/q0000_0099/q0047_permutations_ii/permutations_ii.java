@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0000_0099.q0047_permutations_ii;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 class permutations_ii {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();

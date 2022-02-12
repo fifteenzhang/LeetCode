@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0209_minimum_size_subarray_sum;
 class minimum_size_subarray_sum {
     public int minSubArrayLen(int target, int[] nums) {
         int n = nums.length;

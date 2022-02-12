@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2076_process_restricted_friend_requests;
 class process_restricted_friend_requests {
     private int[] p;
 

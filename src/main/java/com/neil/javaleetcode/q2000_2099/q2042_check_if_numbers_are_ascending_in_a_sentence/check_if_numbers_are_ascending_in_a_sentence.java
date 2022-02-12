@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2042_check_if_numbers_are_ascending_in_a_sentence;
 class check_if_numbers_are_ascending_in_a_sentence {
     public boolean areNumbersAscending(String s) {
         int curr = 0;

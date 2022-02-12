@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1700_1799.q1773_count_items_matching_a_rule;
+
+
+import java.util.*;
+
+
+
 class count_items_matching_a_rule {
     public int countMatches(List<List<String>> items, String ruleKey, String ruleValue) {
         int count = 0;

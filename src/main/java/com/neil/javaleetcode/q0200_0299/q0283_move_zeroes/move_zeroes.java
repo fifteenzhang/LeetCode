@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0283_move_zeroes;
 class move_zeroes {
     public void moveZeroes(int[] nums) {
         int left = 0, n = nums.length;

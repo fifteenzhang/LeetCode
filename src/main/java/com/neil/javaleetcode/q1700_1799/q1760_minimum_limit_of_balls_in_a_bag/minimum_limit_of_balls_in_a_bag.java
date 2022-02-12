@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1700_1799.q1760_minimum_limit_of_balls_in_a_bag;
 class minimum_limit_of_balls_in_a_bag {
     public int minimumSize(int[] nums, int maxOperations) {
         int left = 1, right = 1000000000;

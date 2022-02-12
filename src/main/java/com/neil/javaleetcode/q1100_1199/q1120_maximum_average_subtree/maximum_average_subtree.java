@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1120_maximum_average_subtree;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -14,6 +15,22 @@
  * }
  */
 class maximum_average_subtree {
+
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
     private double ans;
 
     public double maximumAverageSubtree(TreeNode root) {

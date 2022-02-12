@@ -1,10 +1,15 @@
-class MyQueue {
+package com.neil.javaleetcode.q0200_0299.q0232_implement_queue_using_stacks;
+
+import java.util.*;
+
+
+class implement_queue_using_stacks {
 
     private Deque<Integer> s1 = new ArrayDeque<>();
     private Deque<Integer> s2 = new ArrayDeque<>();
 
     /** Initialize your data structure here. */
-    public MyQueue() {
+    public implement_queue_using_stacks() {
 
     }
     

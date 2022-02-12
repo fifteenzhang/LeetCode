@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1600_1699.q1629_slowest_key;
 class slowest_key {
     public char slowestKey(int[] releaseTimes, String keysPressed) {
         char ans = keysPressed.charAt(0);

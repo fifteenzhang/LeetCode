@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1200_1299.q1266_minimum_time_visiting_all_points;
 class minimum_time_visiting_all_points {
     public int minTimeToVisitAllPoints(int[][] points) {
         int res = 0;

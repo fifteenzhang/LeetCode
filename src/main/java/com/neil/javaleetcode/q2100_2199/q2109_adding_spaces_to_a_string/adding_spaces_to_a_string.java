@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2100_2199.q2109_adding_spaces_to_a_string;
 class adding_spaces_to_a_string {
     public String addSpaces(String s, int[] spaces) {
         StringBuilder ans = new StringBuilder();

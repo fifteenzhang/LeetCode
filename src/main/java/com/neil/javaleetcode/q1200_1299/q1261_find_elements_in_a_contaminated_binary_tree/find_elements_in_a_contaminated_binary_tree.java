@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1200_1299.q1261_find_elements_in_a_contaminated_binary_tree;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,10 +14,32 @@
  *     }
  * }
  */
-class FindElements {
+
+import java.util.*;
+
+
+
+
+class find_elements_in_a_contaminated_binary_tree {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
+
     private Set<Integer> nodes;
 
-    public FindElements(TreeNode root) {
+    public find_elements_in_a_contaminated_binary_tree(TreeNode root) {
         nodes = new HashSet<>();
         root.val = 0;
         nodes.add(0);

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2000_2099.q2047_number_of_valid_words_in_a_sentence;
 class number_of_valid_words_in_a_sentence {
     public int countValidWords(String sentence) {
         int ans = 0;

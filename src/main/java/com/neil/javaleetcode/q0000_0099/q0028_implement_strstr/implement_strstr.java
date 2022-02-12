@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0028_implement_strstr;
 class implement_strstr {
     public int strStr(String haystack, String needle) {
         if ("".equals(needle)) {

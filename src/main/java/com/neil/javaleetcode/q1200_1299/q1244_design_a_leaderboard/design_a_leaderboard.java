@@ -1,7 +1,13 @@
-class Leaderboard {
+package com.neil.javaleetcode.q1200_1299.q1244_design_a_leaderboard;
+
+import java.util.*;
+
+
+
+class design_a_leaderboard {
     private Map<Integer, Integer> playerScores;
 
-    public Leaderboard() {
+    public design_a_leaderboard() {
         playerScores = new HashMap<>();
     }
     

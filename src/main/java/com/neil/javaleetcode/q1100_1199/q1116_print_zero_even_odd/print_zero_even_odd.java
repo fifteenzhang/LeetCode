@@ -1,11 +1,19 @@
-class ZeroEvenOdd {
+package com.neil.javaleetcode.q1100_1199.q1116_print_zero_even_odd;
+
+
+import java.util.*;
+import java.util.concurrent.Semaphore;
+import java.util.function.IntConsumer;
+
+
+class print_zero_even_odd {
 
     private Semaphore zero_S;
     private Semaphore odd_S;
     private Semaphore even_S;
     private int n;
 
-    public ZeroEvenOdd(int n) {
+    public print_zero_even_odd(int n) {
         this.n = n;
         this.zero_S = new Semaphore(1);
         this.odd_S = new Semaphore(0);

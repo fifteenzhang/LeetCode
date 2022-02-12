@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0033_search_in_rotated_sorted_array;
 class search_in_rotated_sorted_array {
     public int search(int[] nums, int target) {
         int l = 0, r = nums.length - 1;

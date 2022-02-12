@@ -1,10 +1,16 @@
-class FileSharing {
+package com.neil.javaleetcode.q1500_1599.q1500_design_a_file_sharing_system;
+
+import java.util.*;
+
+
+
+class design_a_file_sharing_system {
     private int chunks;
     private int cur;
     private TreeSet<Integer> reused;
     private TreeMap<Integer, Set<Integer>> userChunks;
 
-    public FileSharing(int m) {
+    public design_a_file_sharing_system(int m) {
         cur = 0;
         chunks = m;
         reused = new TreeSet<>();

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1915_number_of_wonderful_substrings;
 class number_of_wonderful_substrings {
     public long wonderfulSubstrings(String word) {
         int[] counter = new int[1 << 10];

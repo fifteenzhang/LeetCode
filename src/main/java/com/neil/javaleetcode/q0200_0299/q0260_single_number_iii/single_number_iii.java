@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0260_single_number_iii;
 class single_number_iii {
     public int[] singleNumber(int[] nums) {
         int eor = 0;

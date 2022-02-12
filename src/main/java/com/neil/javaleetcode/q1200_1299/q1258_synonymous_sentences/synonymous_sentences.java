@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1200_1299.q1258_synonymous_sentences;
+
+import java.util.*;
+
+
+
 class synonymous_sentences {
     private Map<String, String> p;
 

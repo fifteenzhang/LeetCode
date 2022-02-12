@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0064_minimum_path_sum;
 class minimum_path_sum {
     public int minPathSum(int[][] grid) {
         int m = grid.length, n = grid[0].length;

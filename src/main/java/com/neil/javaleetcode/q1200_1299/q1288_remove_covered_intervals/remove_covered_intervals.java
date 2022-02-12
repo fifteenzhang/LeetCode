@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1200_1299.q1288_remove_covered_intervals;
+
+
+import java.util.*;
+
+
 class remove_covered_intervals {
     public int removeCoveredIntervals(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> a[0] - b[0] == 0 ? b[1] - a[1] : a[0] - b[0]);

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0238_product_of_array_except_self;
 class product_of_array_except_self {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;

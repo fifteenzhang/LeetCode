@@ -1,8 +1,12 @@
-class H2O {
+package com.neil.javaleetcode.q1100_1199.q1117_building_h2o;
+
+import java.util.concurrent.Semaphore;
+
+class building_h2o {
 
     private Semaphore h = new Semaphore(2);
     private Semaphore o = new Semaphore(0);
-    public H2O() {
+    public building_h2o() {
 
     }
 

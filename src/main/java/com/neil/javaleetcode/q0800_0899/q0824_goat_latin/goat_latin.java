@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0800_0899.q0824_goat_latin;
+
+
+import java.util.*;
+
+
+
 class goat_latin {
     public String toGoatLatin(String sentence) {
         List<String> ans = new ArrayList<>();

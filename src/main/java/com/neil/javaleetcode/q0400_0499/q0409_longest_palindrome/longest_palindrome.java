@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0409_longest_palindrome;
 class longest_palindrome {
     public int longestPalindrome(String s) {
         int[] counter = new int[128];

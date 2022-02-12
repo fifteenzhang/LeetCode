@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1300_1399.q1392_longest_happy_prefix;
 class longest_happy_prefix {
     private long[] p;
     private long[] h;

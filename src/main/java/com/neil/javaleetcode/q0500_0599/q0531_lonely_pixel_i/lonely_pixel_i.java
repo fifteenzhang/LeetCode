@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0500_0599.q0531_lonely_pixel_i;
 class lonely_pixel_i {
     public int findLonelyPixel(char[][] picture) {
         int m = picture.length, n = picture[0].length;

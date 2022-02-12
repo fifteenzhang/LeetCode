@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1144_decrease_elements_to_make_array_zigzag;
 class decrease_elements_to_make_array_zigzag {
     public int movesToMakeZigzag(int[] nums) {
         int[] res = new int[2];

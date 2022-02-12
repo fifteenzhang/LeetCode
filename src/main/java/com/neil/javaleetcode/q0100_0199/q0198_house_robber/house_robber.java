@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0198_house_robber;
 class house_robber {
     public int rob(int[] nums) {
         int a = 0, b = nums[0];

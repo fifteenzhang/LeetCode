@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1198_find_smallest_common_element_in_all_rows;
 class find_smallest_common_element_in_all_rows {
     public int smallestCommonElement(int[][] mat) {
         int[] counter = new int[10001];

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0042_trapping_rain_water;
 class trapping_rain_water {
     public int trap(int[] height) {
         int n = height.length;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0152_maximum_product_subarray;
 class maximum_product_subarray {
     public int maxProduct(int[] nums) {
         int maxf = nums[0], minf = nums[0], res = nums[0];

@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1000_1099.q1048_longest_string_chain;
+
+
+import java.util.*;
+
+
 class longest_string_chain {
     public int longestStrChain(String[] words) {
         Arrays.sort(words, Comparator.comparingInt(String::length));

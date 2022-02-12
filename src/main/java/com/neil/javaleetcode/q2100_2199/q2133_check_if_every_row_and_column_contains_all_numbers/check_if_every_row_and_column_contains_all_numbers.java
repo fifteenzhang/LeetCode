@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2100_2199.q2133_check_if_every_row_and_column_contains_all_numbers;
 class check_if_every_row_and_column_contains_all_numbers {
     public boolean checkValid(int[][] matrix) {
         int n = matrix.length;

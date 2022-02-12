@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0999_available_captures_for_rook;
 class available_captures_for_rook {
     public int numRookCaptures(char[][] board) {
         int[] pos = find(board);

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1200_1299.q1214_two_sum_bsts;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +14,29 @@
  *     }
  * }
  */
+
+
+import java.util.*;
+
+
+
 class two_sum_bsts {
+
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
     public boolean twoSumBSTs(TreeNode root1, TreeNode root2, int target) {
         List<Integer> vals1 = new ArrayList<>();
         List<Integer> vals2 = new ArrayList<>();

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0500_0599.q0526_beautiful_arrangement;
 class beautiful_arrangement {
     public int countArrangement(int N) {
         int maxn = 1 << N;

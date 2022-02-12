@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0733_flood_fill;
 class flood_fill {
     private int[][] dirs = new int[][]{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 

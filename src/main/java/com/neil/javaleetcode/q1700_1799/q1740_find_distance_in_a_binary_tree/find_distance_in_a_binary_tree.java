@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1700_1799.q1740_find_distance_in_a_binary_tree;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -14,6 +15,23 @@
  * }
  */
 class find_distance_in_a_binary_tree {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+
+
+
     public int findDistance(TreeNode root, int p, int q) {
         TreeNode g = lca(root, p, q);
         return dfs(g, p) + dfs(g, q);

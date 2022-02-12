@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0714_best_time_to_buy_and_sell_stock_with_transaction_fee;
 class best_time_to_buy_and_sell_stock_with_transaction_fee {
     public int maxProfit(int[] prices, int fee) {
         int f1 = -prices[0], f2 = 0;

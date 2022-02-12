@@ -1,9 +1,15 @@
-class MagicDictionary {
+package com.neil.javaleetcode.q0600_0699.q0676_implement_magic_dictionary;
+
+
+import java.util.*;
+
+
+class implement_magic_dictionary {
     private Set<String> words;
     private Map<String, Integer> counter;
 
     /** Initialize your data structure here. */
-    public MagicDictionary() {
+    public implement_magic_dictionary() {
         words = new HashSet<>();
         counter = new HashMap<>();
     }

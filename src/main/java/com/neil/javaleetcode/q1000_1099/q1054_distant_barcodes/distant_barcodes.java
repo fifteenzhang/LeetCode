@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1000_1099.q1054_distant_barcodes;
+
+
+import java.util.*;
+
+
+
 class distant_barcodes {
     public int[] rearrangeBarcodes(int[] barcodes) {
         Map<Integer, Integer> map = new HashMap<>();

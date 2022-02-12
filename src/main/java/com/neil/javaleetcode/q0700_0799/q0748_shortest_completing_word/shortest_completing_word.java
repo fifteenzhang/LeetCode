@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0748_shortest_completing_word;
 class shortest_completing_word {
     public String shortestCompletingWord(String licensePlate, String[] words) {
         int[] counter = count(licensePlate.toLowerCase());

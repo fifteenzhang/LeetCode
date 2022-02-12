@@ -1,8 +1,14 @@
-class SubrectangleQueries {
+package com.neil.javaleetcode.q1400_1499.q1476_subrectangle_queries;
+
+import java.util.*;
+
+
+
+class subrectangle_queries {
     private int[][] rec;
     private List<int[]> history;
 
-    public SubrectangleQueries(int[][] rectangle) {
+    public subrectangle_queries(int[][] rectangle) {
         rec = rectangle;
         history = new ArrayList<>();
     }

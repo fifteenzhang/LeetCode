@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0379_design_phone_directory;
 class PhoneDirectory {
 
     private boolean[] provided;

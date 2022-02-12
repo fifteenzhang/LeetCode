@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1150_check_if_a_number_is_majority_element_in_a_sorted_array;
 class check_if_a_number_is_majority_element_in_a_sorted_array {
     public boolean isMajorityElement(int[] nums, int target) {
         int n = nums.length;

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1200_1299.q1296_divide_array_in_sets_of_k_consecutive_numbers;
+
+
+import java.util.*;
+
+
+
 class divide_array_in_sets_of_k_consecutive_numbers {
     public boolean isPossibleDivide(int[] nums, int k) {
         if (nums.length % k != 0) {

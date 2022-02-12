@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1700_1799.q1758_minimum_changes_to_make_alternating_binary_string;
 class minimum_changes_to_make_alternating_binary_string {
     public int minOperations(String s) {
         int cnt = 0, n = s.length();

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0912_sort_an_array;
 class sort_an_array {
     public int[] sortArray(int[] nums) {
         quickSort(nums, 0, nums.length - 1);

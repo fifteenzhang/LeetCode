@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1600_1699.q1646_get_maximum_in_generated_array;
+
+
+import java.util.*;
+
+
 class get_maximum_in_generated_array {
     public int getMaximumGenerated(int n) {
         if (n == 0) {

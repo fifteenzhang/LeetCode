@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0400_0499.q0447_number_of_boomerangs;
+
+
+import java.util.*;
+
+
 class number_of_boomerangs {
     public int numberOfBoomerangs(int[][] points) {
         int ans = 0;

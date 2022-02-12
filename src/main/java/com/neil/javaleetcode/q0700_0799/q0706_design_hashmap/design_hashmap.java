@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0700_0799.q0706_design_hashmap;
+
+
+import java.util.*;
+
+
+
 class MyHashMap {
 
     private int[] data;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0367_valid_perfect_square;
 class valid_perfect_square {
     public boolean isPerfectSquare(int num) {
         long left = 1, right = num;

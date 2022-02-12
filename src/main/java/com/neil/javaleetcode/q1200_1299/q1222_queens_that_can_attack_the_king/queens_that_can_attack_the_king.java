@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1200_1299.q1222_queens_that_can_attack_the_king;
+
+
+import java.util.*;
+
+
+
 class queens_that_can_attack_the_king {
     private static final int N = 8;
     private int[][] dirs = new int[][]{{0, -1}, {0, 1}, {1, 0}, {-1, 0}, {1, 1}, {1, -1}, {-1, 1}, {-1, -1}};

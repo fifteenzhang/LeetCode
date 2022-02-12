@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0135_candy;
 class candy {
     public int candy(int[] ratings) {
         if (ratings == null || ratings.length == 0) return 0;

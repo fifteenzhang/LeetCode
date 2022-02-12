@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0200_0299.q0228_summary_ranges;
+
+import java.util.*;
+
+
+
 class summary_ranges {
     public List<String> summaryRanges(int[] nums) {
         List<String> res = new ArrayList<>();

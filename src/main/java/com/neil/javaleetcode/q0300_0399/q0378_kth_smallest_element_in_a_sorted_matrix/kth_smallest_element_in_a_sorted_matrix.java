@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0378_kth_smallest_element_in_a_sorted_matrix;
 class kth_smallest_element_in_a_sorted_matrix {
     public int kthSmallest(int[][] matrix, int k) {
         int n = matrix.length;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0318_maximum_product_of_word_lengths;
 class maximum_product_of_word_lengths {
     public int maxProduct(String[] words) {
         int n = words.length;

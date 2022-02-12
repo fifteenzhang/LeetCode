@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1100_1199.q1103_distribute_candies_to_people;
 class distribute_candies_to_people {
     public int[] distributeCandies(int candies, int num_people) {
         int[] ans = new int[num_people];

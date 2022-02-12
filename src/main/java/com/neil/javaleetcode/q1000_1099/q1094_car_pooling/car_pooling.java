@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1094_car_pooling;
 class car_pooling {
     public boolean carPooling(int[][] trips, int capacity) {
         int[] delta = new int[1001];

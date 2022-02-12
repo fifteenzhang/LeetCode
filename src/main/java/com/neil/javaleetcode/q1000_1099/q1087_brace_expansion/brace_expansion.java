@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1000_1099.q1087_brace_expansion;
+
+
+import java.util.*;
+
+
 class brace_expansion {
     private List<String> ans;
     private List<String[]> items;

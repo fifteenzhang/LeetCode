@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1900_1999.q1905_count_sub_islands;
 class count_sub_islands {
     private int[][] directions = {{0, 1}, {0, - 1}, {1, 0}, {-1, 0}};
 

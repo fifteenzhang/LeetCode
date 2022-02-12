@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1300_1399.q1311_get_watched_videos_by_your_friends;
+
+
+import java.util.*;
+
+
+
 class get_watched_videos_by_your_friends {
     public List<String> watchedVideosByFriends(List<List<String>> watchedVideos, int[][] friends, int id, int level) {
         int n = friends.length;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0500_0599.q0556_next_greater_element_iii;
 class next_greater_element_iii {
     public int nextGreaterElement(int n) {
         if (n < 12) {

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1053_previous_permutation_with_one_swap;
 class previous_permutation_with_one_swap {
     public int[] prevPermOpt1(int[] A) {
         for (int i = A.length - 2; i >= 0; --i) {

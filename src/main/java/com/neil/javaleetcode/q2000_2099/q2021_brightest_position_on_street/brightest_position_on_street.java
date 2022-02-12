@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q2000_2099.q2021_brightest_position_on_street;
+
+
+import java.util.*;
+
+
+
 class brightest_position_on_street {
     public int brightestPosition(int[][] lights) {
         TreeMap<Integer, Integer> d = new TreeMap<>();

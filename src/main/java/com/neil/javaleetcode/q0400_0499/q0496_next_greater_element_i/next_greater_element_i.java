@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0400_0499.q0496_next_greater_element_i;
+
+
+import java.util.*;
+
+
+
 class next_greater_element_i {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Deque<Integer> stk = new ArrayDeque<>();

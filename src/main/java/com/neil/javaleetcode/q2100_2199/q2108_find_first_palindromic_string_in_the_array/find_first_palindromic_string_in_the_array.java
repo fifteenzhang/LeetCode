@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q2100_2199.q2108_find_first_palindromic_string_in_the_array;
 class find_first_palindromic_string_in_the_array {
     public String firstPalindrome(String[] words) {
         for (String word : words) {

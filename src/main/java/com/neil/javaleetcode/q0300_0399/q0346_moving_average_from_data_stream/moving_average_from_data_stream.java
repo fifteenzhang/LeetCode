@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0346_moving_average_from_data_stream;
 class MovingAverage {
     private int size;
     private int[] data;

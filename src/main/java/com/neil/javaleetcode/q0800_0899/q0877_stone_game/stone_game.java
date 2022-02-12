@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0800_0899.q0877_stone_game;
 class stone_game {
         public boolean stoneGame(int[] ps) {
         int n = ps.length;

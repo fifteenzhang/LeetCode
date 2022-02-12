@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0100_0199.q0159_longest_substring_with_at_most_two_distinct_characters;
+
+
+import java.util.*;
+
+
 class longest_substring_with_at_most_two_distinct_characters {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
         Map<Character, Integer> mp = new HashMap<>();

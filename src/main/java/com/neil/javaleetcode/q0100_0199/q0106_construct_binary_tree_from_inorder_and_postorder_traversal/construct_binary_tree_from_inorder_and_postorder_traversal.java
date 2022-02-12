@@ -1,19 +1,24 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
+package com.neil.javaleetcode.q0100_0199.q0106_construct_binary_tree_from_inorder_and_postorder_traversal;
+
+
+import java.util.*;
+
+
 class construct_binary_tree_from_inorder_and_postorder_traversal {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
     private Map<Integer, Integer> indexes = new HashMap<>();
 
     public TreeNode buildTree(int[] inorder, int[] postorder) {

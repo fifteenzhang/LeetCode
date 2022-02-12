@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0000_0099.q0003_longest_substring_without_repeating_characters;
+
+
+import java.util.*;
+
+
 class longest_substring_without_repeating_characters {
     public int lengthOfLongestSubstring(String s) {
         int i = 0, j = 0, ans = 0;

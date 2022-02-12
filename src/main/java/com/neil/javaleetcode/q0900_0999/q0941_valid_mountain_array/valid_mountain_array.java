@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0941_valid_mountain_array;
 class valid_mountain_array {
     public boolean validMountainArray(int[] arr) {
         int n = arr.length;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0279_perfect_squares;
 class perfect_squares {
     public int numSquares(int n) {
         int[] dp = new int[n + 1];

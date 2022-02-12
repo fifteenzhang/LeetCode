@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0200_0299.q0266_palindrome_permutation;
+
+
+import java.util.*;
+
+
 class palindrome_permutation {
     public boolean canPermutePalindrome(String s) {
         Map<Character, Integer> counter = new HashMap<>();

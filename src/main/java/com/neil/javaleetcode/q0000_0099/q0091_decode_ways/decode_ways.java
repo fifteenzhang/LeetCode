@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0091_decode_ways;
 class decode_ways {
     public int numDecodings(String s) {
         int n = s.length();

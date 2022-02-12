@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1827_minimum_operations_to_make_the_array_increasing;
 class minimum_operations_to_make_the_array_increasing {
     public int minOperations(int[] nums) {
         int n = nums.length;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0905_sort_array_by_parity;
 class sort_array_by_parity {
     public int[] sortArrayByParity(int[] A) {
         int i = 0, j = A.length - 1;

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0700_0799.q0787_cheapest_flights_within_k_stops;
+
+
+import java.util.*;
+
+
+
 class cheapest_flights_within_k_stops {
     private int[][] memo;
     private int[][] g;

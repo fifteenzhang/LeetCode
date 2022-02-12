@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0000_0099.q0067_add_binary;
 class add_binary {
     public String addBinary(String a, String b) {
         StringBuilder sb = new StringBuilder();

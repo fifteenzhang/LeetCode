@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0500_0599.q0525_contiguous_array;
+
+
+import java.util.*;
+
+
+
 class contiguous_array {
     public int findMaxLength(int[] nums) {
         Map<Integer, Integer> mp = new HashMap<>();

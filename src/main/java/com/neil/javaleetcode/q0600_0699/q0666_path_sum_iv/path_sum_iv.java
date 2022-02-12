@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0600_0699.q0666_path_sum_iv;
+
+import java.util.*;
+
+
+
 class path_sum_iv {
     private int ans;
     private Map<Integer, Integer> mp;

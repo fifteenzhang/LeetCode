@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0304_range_sum_query_2d___immutable;
 class NumMatrix {
     private int[][] pre;
 

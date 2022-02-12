@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0486_predict_the_winner;
 class predict_the_winner {
     public boolean PredictTheWinner(int[] nums) {
         int n = nums.length;

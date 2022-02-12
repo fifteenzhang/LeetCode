@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0400_0499.q0414_third_maximum_number;
 class third_maximum_number {
     public int thirdMax(int[] nums) {
         long m1 = Long.MIN_VALUE;

@@ -1,8 +1,15 @@
-class FirstUnique {
+package com.neil.javaleetcode.q1400_1499.q1429_first_unique_number;
+
+
+import java.util.*;
+
+
+
+class first_unique_number {
     private Map<Integer, Integer> counter;
     private Set<Integer> uniqueNums;
 
-    public FirstUnique(int[] nums) {
+    public first_unique_number(int[] nums) {
         counter = new LinkedHashMap<>();
         uniqueNums = new LinkedHashSet<>();
         for (int num : nums) {

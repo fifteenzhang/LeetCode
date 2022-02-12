@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1200_1299.q1267_count_servers_that_communicate;
 class count_servers_that_communicate {
     public int countServers(int[][] grid) {
         int m = grid.length, n = grid[0].length;

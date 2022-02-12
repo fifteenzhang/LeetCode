@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1883_minimum_skips_to_arrive_at_meeting_on_time;
 class minimum_skips_to_arrive_at_meeting_on_time {
     public int minSkips(int[] dist, int speed, int hoursBefore) {
         int n = dist.length;

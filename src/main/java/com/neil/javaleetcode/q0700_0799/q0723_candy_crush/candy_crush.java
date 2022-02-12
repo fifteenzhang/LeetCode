@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0723_candy_crush;
 class candy_crush {
     public int[][] candyCrush(int[][] board) {
         int m = board.length, n = board[0].length;

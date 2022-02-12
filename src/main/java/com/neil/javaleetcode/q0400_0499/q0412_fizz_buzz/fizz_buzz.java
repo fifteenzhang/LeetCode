@@ -1,3 +1,8 @@
+package com.neil.javaleetcode.q0400_0499.q0412_fizz_buzz;
+
+import java.util.*;
+
+
 class fizz_buzz {
     public List<String> fizzBuzz(int n) {
         List<String> ans = new ArrayList<>();

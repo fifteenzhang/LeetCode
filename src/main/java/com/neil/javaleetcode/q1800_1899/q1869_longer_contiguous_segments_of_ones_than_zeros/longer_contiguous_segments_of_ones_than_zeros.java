@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1800_1899.q1869_longer_contiguous_segments_of_ones_than_zeros;
 class longer_contiguous_segments_of_ones_than_zeros {
     public boolean checkZeroOnes(String s) {
         int n0 = 0, n1 = 0;

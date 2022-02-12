@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1000_1099.q1078_occurrences_after_bigram;
+
+
+import java.util.*;
+
+
+
 class occurrences_after_bigram {
     public String[] findOcurrences(String text, String first, String second) {
         String[] words = text.split(" ");

@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0300_0399.q0391_perfect_rectangle;
+
+
+import java.util.*;
+
+
 class perfect_rectangle {
     public boolean isRectangleCover(int[][] rectangles) {
         long area = 0;

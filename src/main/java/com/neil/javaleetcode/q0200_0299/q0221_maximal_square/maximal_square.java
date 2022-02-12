@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0200_0299.q0221_maximal_square;
 class maximal_square {
     public int maximalSquare(char[][] matrix) {
         int m = matrix.length, n = matrix[0].length;

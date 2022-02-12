@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q1600_1699.q1647_minimum_deletions_to_make_character_frequencies_unique;
+
+
+import java.util.*;
+
+
 class minimum_deletions_to_make_character_frequencies_unique {
     public int minDeletions(String s) {
         int[] counter = new int[26];

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0900_0999.q0997_find_the_town_judge;
 class find_the_town_judge {
     public int findJudge(int n, int[][] trust) {
         int N = 1001;

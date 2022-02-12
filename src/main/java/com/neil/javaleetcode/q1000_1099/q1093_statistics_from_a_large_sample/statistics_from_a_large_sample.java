@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1093_statistics_from_a_large_sample;
 class statistics_from_a_large_sample {
     public double[] sampleStats(int[] count) {
         int n = count.length;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0500_0599.q0522_longest_uncommon_subsequence_ii;
 class longest_uncommon_subsequence_ii {
     public int findLUSlength(String[] strs) {
         int res = -1;

@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0700_0799.q0724_find_pivot_index;
 class find_pivot_index {
     public int pivotIndex(int[] nums) {
         int n = nums.length, s = 0;

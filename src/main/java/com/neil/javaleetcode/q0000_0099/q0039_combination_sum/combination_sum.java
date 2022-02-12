@@ -1,3 +1,8 @@
+package com.neil.javaleetcode.q0000_0099.q0039_combination_sum;
+
+import java.util.ArrayList;
+import java.util.List;
+
 class combination_sum {
     private List<List<Integer>> ans;
     private int target;

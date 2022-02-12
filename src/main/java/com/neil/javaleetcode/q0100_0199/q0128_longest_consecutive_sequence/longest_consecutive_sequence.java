@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0100_0199.q0128_longest_consecutive_sequence;
+
+
+import java.util.*;
+
+
+
 class longest_consecutive_sequence {
     public int longestConsecutive(int[] nums) {
         Set<Integer> s = new HashSet<>();

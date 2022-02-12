@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1000_1099.q1041_robot_bounded_in_circle;
 class robot_bounded_in_circle {
     public boolean isRobotBounded(String instructions) {
         int[] direction = new int[4];

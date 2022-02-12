@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0100_0199.q0132_palindrome_partitioning_ii;
 class palindrome_partitioning_ii {
     public int minCut(String s) {
         int n = s.length();

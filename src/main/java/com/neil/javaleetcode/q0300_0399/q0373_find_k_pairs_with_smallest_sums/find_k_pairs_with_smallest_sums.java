@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0300_0399.q0373_find_k_pairs_with_smallest_sums;
+
+import java.util.*;
+
+
+
 class find_k_pairs_with_smallest_sums {
     public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
         PriorityQueue<int[]> q = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));

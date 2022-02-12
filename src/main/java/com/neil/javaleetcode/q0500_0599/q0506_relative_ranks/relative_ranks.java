@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0500_0599.q0506_relative_ranks;
+
+
+import java.util.*;
+
+
+
 class relative_ranks {
     public String[] findRelativeRanks(int[] score) {
         int n = score.length;

@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1300_1399.q1337_the_k_weakest_rows_in_a_matrix;
+
+
+import java.util.*;
+
+
+
 class the_k_weakest_rows_in_a_matrix {
     public int[] kWeakestRows(int[][] mat, int k) {
         int m = mat.length, n = mat[0].length;

@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0700_0799.q0735_asteroid_collision;
+
+
+import java.util.*;
+
+
 class asteroid_collision {
     public int[] asteroidCollision(int[] asteroids) {
         Deque<Integer> d = new ArrayDeque<>();

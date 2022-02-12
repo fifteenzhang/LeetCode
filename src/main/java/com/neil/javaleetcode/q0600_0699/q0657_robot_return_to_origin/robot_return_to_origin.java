@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0600_0699.q0657_robot_return_to_origin;
 class robot_return_to_origin {
     public boolean judgeCircle(String moves) {
         int x = 0, y = 0;

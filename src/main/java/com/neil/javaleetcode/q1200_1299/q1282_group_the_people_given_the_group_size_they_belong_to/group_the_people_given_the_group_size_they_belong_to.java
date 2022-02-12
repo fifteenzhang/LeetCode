@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q1200_1299.q1282_group_the_people_given_the_group_size_they_belong_to;
+
+import java.util.*;
+
+
+
+
 class group_the_people_given_the_group_size_they_belong_to {
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
         Map<Integer, List<Integer>> mp = new HashMap<>();

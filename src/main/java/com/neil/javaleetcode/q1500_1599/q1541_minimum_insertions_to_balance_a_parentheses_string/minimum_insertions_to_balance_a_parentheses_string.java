@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q1500_1599.q1541_minimum_insertions_to_balance_a_parentheses_string;
 class minimum_insertions_to_balance_a_parentheses_string {
      public int minInsertions(String s) {
         int left = 0;

@@ -1,3 +1,9 @@
+package com.neil.javaleetcode.q0300_0399.q0349_intersection_of_two_arrays;
+
+
+import java.util.*;
+
+
 class intersection_of_two_arrays {
     public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> s = new HashSet<>();

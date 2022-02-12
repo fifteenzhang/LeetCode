@@ -1,3 +1,4 @@
+package com.neil.javaleetcode.q0300_0399.q0397_integer_replacement;
 class integer_replacement {
     public int integerReplacement(int n) {
         int ans = 0;

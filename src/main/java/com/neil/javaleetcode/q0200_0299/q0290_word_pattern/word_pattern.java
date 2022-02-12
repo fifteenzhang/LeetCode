@@ -1,3 +1,10 @@
+package com.neil.javaleetcode.q0200_0299.q0290_word_pattern;
+
+
+import java.util.*;
+
+
+
 class word_pattern {
     public boolean wordPattern(String pattern, String s) {
         String[] ss = s.split(" ");
