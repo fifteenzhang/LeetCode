@@ -28,7 +28,7 @@ package com.neil.javaleetcode;
  *
  * @date 2021/1/27 18:07
  */
-public class top100_53 {
+public class question_53_maxSubArrayDynamic {
     public static void main(String[] args) {
         int[] nums = new int[]{1, 3, -5, -1, 6};
         int result = maxSubArrayDynamic(nums);
